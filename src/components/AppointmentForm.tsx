@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Appointment } from "../types";
-import { Calendar, MapPin, Clock, User, Phone, Mail, FileText, CheckCircle, ArrowRight, MessageCircle, Check, ChevronDown, ChevronUp, Layers, Send, CalendarPlus, Instagram, Facebook, Music2, Share2 } from "lucide-react";
+import { Calendar, MapPin, Clock, User, Phone, Mail, FileText, CheckCircle, ArrowRight, MessageCircle, Check, ChevronDown, ChevronUp, Layers, Send, CalendarPlus, Instagram, Music2, Share2 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import Logo from "./Logo";
 
@@ -235,7 +235,15 @@ _Notificación enviada desde la web oficial: https://kattyprivemadrid.netlify.ap
                     <Mail className="text-[#c5a880] shrink-0 mt-0.5" size={15} />
                     <div>
                       <p className="font-semibold uppercase text-[#c5a880]">Email / Correo Electrónico</p>
-                      <a href="mailto:kattyprivemadrid@gmail.com" className="text-[11px] text-[#FAF9F6]/90 hover:text-[#c5a880] transition-colors mt-0.5 block font-mono break-all">
+                      <a 
+                        href="mailto:kattyprivemadrid@gmail.com" 
+                        onClick={(e) => {
+                          e.preventDefault();
+                          window.dispatchEvent(new CustomEvent("katty_open_email_modal"));
+                        }}
+                        className="text-[11px] text-[#FAF9F6]/90 hover:text-[#c5a880] transition-colors mt-0.5 block font-mono break-all cursor-pointer"
+                        title="Escribir correo a kattyprivemadrid@gmail.com"
+                      >
                         kattyprivemadrid@gmail.com
                       </a>
                     </div>
@@ -264,16 +272,6 @@ _Notificación enviada desde la web oficial: https://kattyprivemadrid.netlify.ap
                         >
                           <Music2 size={12} className="text-[#c5a880]" />
                           <span>TikTok</span>
-                        </a>
-                        <a 
-                          href="https://www.facebook.com/profile.php?id=61594007750156" 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
-                          title="Facebook Katty Privé Madrid"
-                          className="text-[11px] text-[#FAF9F6]/85 hover:text-[#c5a880] flex items-center gap-1 transition-colors"
-                        >
-                          <Facebook size={12} className="text-[#c5a880]" />
-                          <span>Facebook</span>
                         </a>
                       </div>
                     </div>

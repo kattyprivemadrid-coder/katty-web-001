@@ -409,7 +409,11 @@ export default function Catalog({
               >
                 
                 {/* Product Image Panel */}
-                <div className="relative overflow-hidden aspect-square bg-[#FBFBFA]">
+                <div 
+                  onClick={() => handleOpenQuickView(product)}
+                  className="relative overflow-hidden aspect-square bg-[#FBFBFA] cursor-pointer group/image"
+                  title={`Tocar para ver detalles de ${product.name}`}
+                >
                   <img
                     src={product.image}
                     alt={product.name}
@@ -448,7 +452,10 @@ export default function Catalog({
 
                   {/* Wishlist Toggle Button (Floating) */}
                   <button
-                    onClick={() => toggleWishlist(product)}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      toggleWishlist(product);
+                    }}
                     className="absolute top-4 right-4 p-2.5 bg-white/90 backdrop-blur-sm rounded-full shadow-md text-[#121212] hover:text-[#8c1d27] transition-all duration-300 cursor-pointer z-20"
                     title="Añadir a lista de deseos"
                   >
@@ -460,17 +467,20 @@ export default function Catalog({
                     />
                   </button>
 
-                  {/* Quick view button overlay */}
-                  <div className="absolute inset-x-0 bottom-4 flex justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 px-4 z-20">
+                  {/* Quick view button overlay - Visible on mobile/touch, and on desktop hover */}
+                  <div className="absolute inset-x-0 bottom-3 flex justify-center opacity-95 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 px-3 z-20">
                     <button
-                      onClick={() => {
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
                         handleOpenQuickView(product);
                         setSizeAssistantOpen(false);
                       }}
-                      className="w-full bg-[#FAF9F6]/95 hover:bg-[#8c1d27] hover:text-white text-[#121212] py-2.5 text-[10px] font-light tracking-widest uppercase transition-colors shadow flex items-center justify-center gap-1.5 cursor-pointer"
+                      className="w-full bg-[#FAF9F6]/95 hover:bg-[#8c1d27] hover:text-white text-[#121212] py-2 px-3 text-[10px] font-medium tracking-widest uppercase transition-colors shadow-md flex items-center justify-center gap-1.5 cursor-pointer rounded-xs border border-[#c5a880]/30 backdrop-blur-xs"
+                      aria-label={`Vista rápida de ${product.name}`}
                     >
-                      <Eye size={13} />
-                      Vista Rápida
+                      <Eye size={13} className="text-[#8c1d27]" />
+                      <span>Vista Rápida</span>
                     </button>
                   </div>
                 </div>
@@ -675,8 +685,8 @@ export default function Catalog({
                     />
                   </button>
 
-                  {/* Direct Change / Edit Escaparate Photo button */}
-                  {onUpdateProduct && (
+                  {/* Direct Change / Edit Escaparate Photo button (Solo para la dueña en modo admin) */}
+                  {isAdmin && onUpdateProduct && (
                     <button
                       onClick={() => setEditingProduct(currentQuickViewProduct)}
                       className="absolute bottom-4 left-4 px-3 py-2 bg-black/75 hover:bg-[#8c1d27] text-white text-[11px] font-mono tracking-wider uppercase rounded-xs backdrop-blur-sm border border-white/20 shadow-lg flex items-center gap-2 transition-all cursor-pointer z-10"
@@ -743,7 +753,7 @@ export default function Catalog({
                         <h3 className="font-serif text-2xl md:text-3xl font-light text-[#120002] tracking-wider">
                           {currentQuickViewProduct.name}
                         </h3>
-                        {onUpdateProduct && (
+                        {isAdmin && onUpdateProduct && (
                           <button
                             onClick={() => {
                               setEditingProduct(currentQuickViewProduct);

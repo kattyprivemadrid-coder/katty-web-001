@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, ArrowRight, Check, Phone, MessageCircle, Globe, Share2, Clock, Instagram, Facebook, Music2, Lock } from "lucide-react";
+import { Mail, ArrowRight, Check, Phone, MessageCircle, Globe, Share2, Clock, Instagram, Music2, Lock } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import Logo from "./Logo";
 
@@ -8,9 +8,10 @@ interface FooterProps {
   onOpenAdmin?: () => void;
   isAdmin?: boolean;
   onLogoutAdmin?: () => void;
+  onOpenEmailModal?: () => void;
 }
 
-export default function Footer({ onSelectSlide, onOpenAdmin, isAdmin = false, onLogoutAdmin }: FooterProps = {}) {
+export default function Footer({ onSelectSlide, onOpenAdmin, isAdmin = false, onLogoutAdmin, onOpenEmailModal }: FooterProps = {}) {
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
@@ -76,7 +77,16 @@ export default function Footer({ onSelectSlide, onOpenAdmin, isAdmin = false, on
               {/* Email Card */}
               <a
                 href="mailto:kattyprivemadrid@gmail.com"
-                className="flex items-center gap-2.5 p-2.5 rounded bg-white/5 border border-[#c5a880]/20 hover:border-[#c5a880] hover:bg-white/10 transition-all group"
+                onClick={(e) => {
+                  e.preventDefault();
+                  if (onOpenEmailModal) {
+                    onOpenEmailModal();
+                  } else {
+                    window.dispatchEvent(new CustomEvent("katty_open_email_modal"));
+                  }
+                }}
+                className="flex items-center gap-2.5 p-2.5 rounded bg-white/5 border border-[#c5a880]/20 hover:border-[#c5a880] hover:bg-white/10 transition-all group cursor-pointer"
+                title="Escribir correo a kattyprivemadrid@gmail.com"
               >
                 <div className="w-8 h-8 rounded-full bg-[#c5a880]/20 flex items-center justify-center text-[#c5a880] group-hover:scale-110 transition-transform">
                   <Mail size={16} />
@@ -239,26 +249,6 @@ export default function Footer({ onSelectSlide, onOpenAdmin, isAdmin = false, on
                 </div>
                 <ArrowRight size={13} className="text-[#FAF9F6]/30 group-hover:text-[#c5a880] group-hover:translate-x-0.5 transition-all" />
               </a>
-
-              {/* Facebook */}
-              <a
-                href="https://www.facebook.com/profile.php?id=61594007750156"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook de Katty Privé"
-                className="group flex items-center justify-between bg-white/[0.04] hover:bg-[#c5a880]/15 border border-white/10 hover:border-[#c5a880]/40 rounded p-2 transition-all duration-200"
-              >
-                <div className="flex items-center gap-2.5">
-                  <div className="w-6 h-6 rounded-full bg-blue-900/30 flex items-center justify-center text-[#c5a880] group-hover:scale-110 transition-transform">
-                    <Facebook size={13} />
-                  </div>
-                  <div>
-                    <span className="text-[9px] uppercase tracking-wider text-[#c5a880] font-mono block">Facebook</span>
-                    <span className="text-xs text-[#FAF9F6] font-medium group-hover:text-[#c5a880] transition-colors">Katty Privé Madrid</span>
-                  </div>
-                </div>
-                <ArrowRight size={13} className="text-[#FAF9F6]/30 group-hover:text-[#c5a880] group-hover:translate-x-0.5 transition-all" />
-              </a>
             </div>
           </div>
 
@@ -312,15 +302,6 @@ export default function Footer({ onSelectSlide, onOpenAdmin, isAdmin = false, on
             className="text-[#FAF9F6]/60 hover:text-[#c5a880] transition-colors p-1"
           >
             <Music2 size={14} />
-          </a>
-          <a 
-            href="https://www.facebook.com/profile.php?id=61594007750156" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            title="Facebook Katty Privé"
-            className="text-[#FAF9F6]/60 hover:text-[#c5a880] transition-colors p-1"
-          >
-            <Facebook size={14} />
           </a>
         </div>
 

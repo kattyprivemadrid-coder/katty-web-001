@@ -7,6 +7,7 @@ import AppointmentForm from "./components/AppointmentForm";
 import Footer from "./components/Footer";
 import Logo from "./components/Logo";
 import AdminAuthModal from "./components/AdminAuthModal";
+import EmailContactModal from "./components/EmailContactModal";
 import { Product, CartItem, Appointment, ProductCategory, OrderCustomerDetails, ProductAvailability } from "./types";
 import { PRODUCTS_DATA } from "./data/products";
 import { Sparkles, MessageCircle, Lock, ShieldCheck } from "lucide-react";
@@ -20,6 +21,13 @@ export default function App() {
     }
   });
   const [showAdminAuthModal, setShowAdminAuthModal] = useState<boolean>(false);
+  const [showEmailModal, setShowEmailModal] = useState<boolean>(false);
+
+  useEffect(() => {
+    const handleOpenEmail = () => setShowEmailModal(true);
+    window.addEventListener("katty_open_email_modal", handleOpenEmail);
+    return () => window.removeEventListener("katty_open_email_modal", handleOpenEmail);
+  }, []);
 
   const handleAdminLogin = () => {
     setIsAdmin(true);
@@ -577,6 +585,7 @@ _Notificación enviada desde la web oficial: https://kattyprivemadrid.netlify.ap
         onOpenGifting={scrollToGifting}
         onScrollToCatalog={() => scrollToCatalog("all")}
         onScrollToBoutique={scrollToBoutique}
+        onOpenEmailModal={() => setShowEmailModal(true)}
       />
 
       {/* Main Content Sections */}
@@ -631,6 +640,7 @@ _Notificación enviada desde la web oficial: https://kattyprivemadrid.netlify.ap
         isAdmin={isAdmin}
         onOpenAdmin={() => setShowAdminAuthModal(true)}
         onLogoutAdmin={handleAdminLogout}
+        onOpenEmailModal={() => setShowEmailModal(true)}
       />
 
       {/* Admin Login Modal */}
@@ -638,6 +648,12 @@ _Notificación enviada desde la web oficial: https://kattyprivemadrid.netlify.ap
         isOpen={showAdminAuthModal}
         onClose={() => setShowAdminAuthModal(false)}
         onSuccess={handleAdminLogin}
+      />
+
+      {/* Email Contact Direct Modal */}
+      <EmailContactModal
+        isOpen={showEmailModal}
+        onClose={() => setShowEmailModal(false)}
       />
     </div>
   );

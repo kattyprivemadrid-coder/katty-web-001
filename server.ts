@@ -55,8 +55,13 @@ const PRODUCTS = getProducts();
 async function startServer() {
   const app = express();
 
+  const distPath = (typeof __dirname !== "undefined" && fs.existsSync(path.join(__dirname, "index.html")) && !fs.existsSync(path.join(__dirname, "src")))
+    ? __dirname
+    : path.join(process.cwd(), "dist");
+
   const isBundledServer = typeof __filename !== "undefined" && (__filename.endsWith(".cjs") || __filename.includes("dist"));
-  const isProduction = process.env.NODE_ENV === "production" || isBundledServer;
+  const hasDist = fs.existsSync(path.join(distPath, "index.html"));
+  const isProduction = process.env.NODE_ENV === "production" || hasDist || isBundledServer;
 
   app.use(express.json({ limit: "30mb" }));
 
@@ -198,10 +203,6 @@ Mensaje del cliente: ${message}`;
     });
     app.use(vite.middlewares);
   } else {
-    const distPath = (typeof __dirname !== "undefined" && fs.existsSync(path.join(__dirname, "index.html")))
-      ? __dirname
-      : path.join(process.cwd(), "dist");
-
     app.use(express.static(distPath));
     app.get("*", (req, res) => {
       if (req.path.startsWith("/api/")) {
@@ -217,8 +218,16 @@ Mensaje del cliente: ${message}`;
   }
 
   const PORT = 3000;
-  app.listen(PORT, "0.0.0.0", () => {
+  const server = app.listen(PORT, "0.0.0.0", () => {
     console.log(`Katty Privé server running on http://0.0.0.0:${PORT}`);
+  });
+
+  process.on("SIGTERM", () => {
+    console.log("SIGTERM received, closing HTTP server gracefully");
+    server.close(() => {
+      console.log("HTTP server closed");
+      process.exit(0);
+    });
   });
 }
 

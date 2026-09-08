@@ -6,7 +6,6 @@ import {
   Check, 
   Download, 
   Instagram, 
-  Facebook, 
   Music2, 
   MessageCircle, 
   Sparkles, 
@@ -277,7 +276,7 @@ https://kattyprivemadrid.netlify.app/
                 <div className="w-6 h-6 rounded-full bg-gradient-to-tr from-[#c5a880] to-[#8c1d27] flex items-center justify-center text-white">
                   <Instagram size={13} />
                 </div>
-                <span>Instagram / Facebook</span>
+                <span>Instagram</span>
               </button>
 
               <button
@@ -500,7 +499,7 @@ https://kattyprivemadrid.netlify.app/
               Accesos Directos a tus Cuentas Oficiales:
             </span>
 
-            <div className="grid grid-cols-1 sm:grid-cols-4 gap-2.5">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
               {/* Abrir Tienda Web Oficial */}
               <a
                 href="https://kattyprivemadrid.netlify.app/"
@@ -527,20 +526,6 @@ https://kattyprivemadrid.netlify.app/
                   <span>Abrir Instagram</span>
                 </div>
                 <ExternalLink size={14} className="text-stone-400 group-hover:text-pink-600" />
-              </a>
-
-              {/* Abrir Facebook */}
-              <a
-                href="https://www.facebook.com/profile.php?id=61594007750156"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-between p-3 bg-white hover:bg-blue-50 border border-stone-200 hover:border-blue-300 rounded-xs text-xs font-medium text-stone-800 transition-colors group"
-              >
-                <div className="flex items-center gap-2">
-                  <Facebook size={16} className="text-blue-600" />
-                  <span>Abrir Facebook</span>
-                </div>
-                <ExternalLink size={14} className="text-stone-400 group-hover:text-blue-600" />
               </a>
 
               {/* Abrir TikTok */}

@@ -18,7 +18,6 @@ import {
   Lock,
   ArrowLeft,
   Instagram,
-  Facebook,
   Music2
 } from "lucide-react";
 import { Product, CartItem, Appointment, OrderCustomerDetails } from "../types";
@@ -39,6 +38,7 @@ interface NavbarProps {
   onOpenGifting: () => void;
   onScrollToCatalog: () => void;
   onScrollToBoutique: () => void;
+  onOpenEmailModal?: () => void;
 }
 
 export default function Navbar({
@@ -54,7 +54,8 @@ export default function Navbar({
   cancelAppointment,
   onOpenGifting,
   onScrollToCatalog,
-  onScrollToBoutique
+  onScrollToBoutique,
+  onOpenEmailModal
 }: NavbarProps) {
   const [activeDrawer, setActiveDrawer] = useState<"cart" | "wishlist" | "appointments" | null>(null);
   
@@ -184,7 +185,16 @@ export default function Navbar({
             <span className="text-[#c5a880]/40">|</span>
             <a 
               href="mailto:kattyprivemadrid@gmail.com" 
-              className="flex items-center gap-1.5 text-[#FAF9F6] hover:text-[#c5a880] transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                if (onOpenEmailModal) {
+                  onOpenEmailModal();
+                } else {
+                  window.dispatchEvent(new CustomEvent("katty_open_email_modal"));
+                }
+              }}
+              title="Escribir correo a Katty Privé (kattyprivemadrid@gmail.com)"
+              className="flex items-center gap-1.5 text-[#FAF9F6] hover:text-[#c5a880] transition-colors cursor-pointer"
             >
               <Mail size={12} className="text-[#c5a880]" />
               <span className="text-[10px]">kattyprivemadrid@gmail.com</span>
@@ -212,16 +222,6 @@ export default function Navbar({
                 className="text-[#FAF9F6]/80 hover:text-[#c5a880] transition-colors p-0.5"
               >
                 <Music2 size={12} />
-              </a>
-              <a 
-                href="https://www.facebook.com/profile.php?id=61594007750156" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                title="Facebook Katty Privé Madrid"
-                aria-label="Facebook de Katty Privé"
-                className="text-[#FAF9F6]/80 hover:text-[#c5a880] transition-colors p-0.5"
-              >
-                <Facebook size={12} />
               </a>
             </div>
           </div>

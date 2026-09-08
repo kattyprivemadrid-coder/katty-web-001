@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+.dev.env.json
+.dev.pid
+.backup_restore/
+server.cjs
+server.js

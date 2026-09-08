@@ -1,0 +1,6 @@
+{
+  "name": "Katty Privé",
+  "description": "Una experiencia digital inspirada en la elegancia de Katty Privé, con catálogo interactivo de alta joyería y alta costura, asistente de regalos con inteligencia artificial y reserva de citas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

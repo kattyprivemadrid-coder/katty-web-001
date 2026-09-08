@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 640" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- 3D Gold Surface Gradient -->
+    <linearGradient id="fullGoldSurface" x1="0.15" y1="0.1" x2="0.85" y2="0.9">
+      <stop offset="0%" stop-color="#FBF4E6" />
+      <stop offset="25%" stop-color="#E5D1AC" />
+      <stop offset="50%" stop-color="#CAAF81" />
+      <stop offset="75%" stop-color="#B89764" />
+      <stop offset="100%" stop-color="#91723D" />
+    </linearGradient>
+
+    <!-- Bevel Light Highlight -->
+    <linearGradient id="fullBevelLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85" />
+      <stop offset="40%" stop-color="#DFCCAA" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#80622F" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Shadow Rim Gradient -->
+    <linearGradient id="fullBevelDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="60%" stop-color="#6E5020" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#4A3412" stop-opacity="0.75" />
+    </linearGradient>
+
+    <!-- Outer Ring Gradient -->
+    <linearGradient id="fullRingGrad" x1="0.2" y1="0.1" x2="0.8" y2="0.9">
+      <stop offset="0%" stop-color="#F8EFE0" />
+      <stop offset="30%" stop-color="#DDC8A0" />
+      <stop offset="70%" stop-color="#BEA06E" />
+      <stop offset="100%" stop-color="#8E6E3B" />
+    </linearGradient>
+
+    <!-- Realistic 3D Soft Drop Shadow for Transparent Background -->
+    <filter id="fullLuxuryShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="3" stdDeviation="2.5" flood-color="#3A2810" flood-opacity="0.32" />
+      <feDropShadow dx="0.5" dy="1" stdDeviation="0.8" flood-color="#231707" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <g filter="url(#fullLuxuryShadow)">
+    <!-- ============================================== -->
+    <!-- TOP: KP EMBLEM (Center cx=350, cy=220, r=165) -->
+    <!-- ============================================== -->
+    <circle cx="350" cy="220" r="160" stroke="url(#fullRingGrad)" stroke-width="11" fill="none" />
+    <circle cx="350" cy="220" r="164.5" stroke="url(#fullBevelLight)" stroke-width="1.5" fill="none" opacity="0.6" />
+    <circle cx="350" cy="220" r="154.5" stroke="url(#fullBevelDark)" stroke-width="1.5" fill="none" opacity="0.5" />
+
+    <!-- KP Monogram Inside -->
+    <g fill="url(#fullGoldSurface)">
+      <!-- K Left Vertical Pillar (288 to 308, y: 138 to 302) -->
+      <path d="M 288 138 L 308 138 L 308 302 L 288 302 Z" />
+
+      <!-- Top Triangle / Serif of K -->
+      <polygon points="288,138 308,138 308,156 288,138" fill="url(#fullBevelLight)" opacity="0.5" />
+
+      <!-- Central Vertical Stem of P (x: 338..356, y: 138..264) -->
+      <path d="M 338 138 L 356 138 L 356 264 L 338 264 Z" />
+
+      <!-- Upper Diagonal Arm of K -->
+      <path d="M 308 204 L 368 138 L 386 138 L 308 224 Z" />
+      <polygon points="368,138 386,138 364,164 346,164" />
+      <polygon points="346,164 364,164 329,204 311,204" fill="url(#fullBevelDark)" opacity="0.25" />
+
+      <!-- Lower Diagonal Leg of K -->
+      <path d="M 338 217 L 387 302 L 407 302 L 356 217 Z" />
+      <!-- Base Foot -->
+      <path d="M 366 292 L 407 292 L 407 302 L 366 302 Z" />
+      <polygon points="366,292 407,292 381,255 366,255" fill="url(#fullBevelLight)" opacity="0.35" />
+
+      <!-- 'P' Loop Bowl -->
+      <path d="
+        M 356 138 
+        L 386 138 
+        C 420 138, 440 158, 440 186 
+        C 440 214, 420 234, 386 234 
+        L 356 234 
+        L 356 215 
+        L 386 215 
+        C 408 215, 420 204, 420 186 
+        C 420 168, 408 157, 386 157 
+        L 356 157 
+        Z
+      " />
+    </g>
+
+    <!-- Bevel highlight lines on Emblem -->
+    <path d="M 356 138 L 386 138 C 418 138, 438 156, 440 182" stroke="url(#fullBevelLight)" stroke-width="1.8" fill="none" opacity="0.8" />
+    <line x1="288" y1="138" x2="288" y2="302" stroke="url(#fullBevelLight)" stroke-width="1.8" opacity="0.75" />
+    <line x1="308" y1="138" x2="308" y2="302" stroke="url(#fullBevelDark)" stroke-width="1.4" opacity="0.6" />
+    <line x1="308" y1="204" x2="368" y2="138" stroke="url(#fullBevelLight)" stroke-width="1.8" opacity="0.85" />
+    <line x1="356" y1="217" x2="407" y2="302" stroke="url(#fullBevelDark)" stroke-width="1.8" opacity="0.7" />
+
+    <!-- ============================================== -->
+    <!-- BOTTOM: KATTY PRIVÉ (Scaled & Centered below)   -->
+    <!-- ============================================== -->
+    <g transform="translate(42, 455) scale(0.67)" fill="url(#fullGoldSurface)">
+      <!-- K -->
+      <path d="M 14 26 L 33 26 L 33 118 L 14 118 Z" />
+      <path d="M 33 76 L 73 26 L 96 26 L 50 76 Z" />
+      <path d="M 44 70 L 85 118 L 108 118 L 61 70 Z" />
+
+      <!-- A -->
+      <path d="M 152 26 L 172 26 L 208 118 L 187 118 L 178 92 L 146 92 L 137 118 L 116 118 Z M 162 52 L 152 77 L 172 77 Z" />
+
+      <!-- T -->
+      <path d="M 218 26 L 288 26 L 288 43 L 263 43 L 263 118 L 243 118 L 243 43 L 218 43 Z" />
+
+      <!-- T -->
+      <path d="M 298 26 L 368 26 L 368 43 L 343 43 L 343 118 L 323 118 L 323 43 L 298 43 Z" />
+
+      <!-- Y -->
+      <path d="M 378 26 L 400 26 L 413 67 L 426 26 L 448 26 L 423 80 L 423 118 L 403 118 L 403 80 Z" />
+
+      <!-- P -->
+      <path d="M 486 26 L 530 26 C 548 26, 560 37, 560 56 C 560 75, 548 86, 530 86 L 506 86 L 506 118 L 486 118 Z M 506 43 L 506 69 L 527 69 C 536 69, 541 64, 541 56 C 541 48, 536 43, 527 43 Z" />
+
+      <!-- R -->
+      <path d="M 570 26 L 614 26 C 632 26, 642 36, 642 54 C 642 68, 634 78, 619 82 L 646 118 L 623 118 L 600 84 L 590 84 L 590 118 L 570 118 Z M 590 42 L 590 68 L 611 68 C 620 68, 624 63, 624 55 C 624 47, 620 42, 611 42 Z" />
+
+      <!-- I -->
+      <path d="M 660 26 L 680 26 L 680 118 L 660 118 Z" />
+
+      <!-- V -->
+      <path d="M 698 26 L 719 26 L 734 93 L 749 26 L 770 26 L 745 118 L 723 118 Z" />
+
+      <!-- É with Acute Accent -->
+      <polygon points="814,10 829,10 820,21 807,21" fill="url(#fullGoldSurface)" />
+      <path d="M 786 26 L 842 26 L 842 43 L 806 43 L 806 63 L 837 63 L 837 80 L 806 80 L 806 101 L 844 101 L 844 118 L 786 118 Z" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- 3D Gold Surface Gradient -->
+    <linearGradient id="goldSurface" x1="0.15" y1="0.1" x2="0.85" y2="0.9">
+      <stop offset="0%" stop-color="#FBF4E6" />
+      <stop offset="25%" stop-color="#E5D1AC" />
+      <stop offset="50%" stop-color="#CAAF81" />
+      <stop offset="75%" stop-color="#B89764" />
+      <stop offset="100%" stop-color="#91723D" />
+    </linearGradient>
+
+    <!-- Bevel Light Highlight -->
+    <linearGradient id="bevelLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85" />
+      <stop offset="40%" stop-color="#DFCCAA" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#80622F" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Shadow Rim Gradient -->
+    <linearGradient id="bevelDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="60%" stop-color="#6E5020" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#4A3412" stop-opacity="0.75" />
+    </linearGradient>
+
+    <!-- Outer Ring Gradient -->
+    <linearGradient id="ringGrad" x1="0.2" y1="0.1" x2="0.8" y2="0.9">
+      <stop offset="0%" stop-color="#F8EFE0" />
+      <stop offset="30%" stop-color="#DDC8A0" />
+      <stop offset="70%" stop-color="#BEA06E" />
+      <stop offset="100%" stop-color="#8E6E3B" />
+    </linearGradient>
+
+    <!-- Realistic 3D Soft Drop Shadow for Transparent Background -->
+    <filter id="luxuryShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="3" stdDeviation="2.5" flood-color="#3A2810" flood-opacity="0.32" />
+      <feDropShadow dx="0.5" dy="1" stdDeviation="0.8" flood-color="#231707" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <g filter="url(#luxuryShadow)">
+    <!-- Outer Circular Ring (Exact 1:1 circular ring) -->
+    <circle cx="250" cy="250" r="190" stroke="url(#ringGrad)" stroke-width="12" fill="none" />
+    <circle cx="250" cy="250" r="195" stroke="url(#bevelLight)" stroke-width="1.5" fill="none" opacity="0.6" />
+    <circle cx="250" cy="250" r="184" stroke="url(#bevelDark)" stroke-width="1.5" fill="none" opacity="0.5" />
+
+    <!-- KP Monogram Structure -->
+    <g fill="url(#goldSurface)">
+      <!-- K Left Vertical Pillar (180 to 200, y: 155 to 345) -->
+      <path d="M 178 155 L 200 155 L 200 345 L 178 345 Z" />
+
+      <!-- Top Triangle / Serif of K (x: 178..200, y: 155) -->
+      <polygon points="178,155 200,155 200,175 178,155" fill="url(#bevelLight)" opacity="0.5" />
+
+      <!-- Central Vertical Stem of P (x: 236..256, y: 155..300) -->
+      <path d="M 236 155 L 256 155 L 256 300 L 236 300 Z" />
+
+      <!-- Upper Diagonal Arm of K (geometric ribbon connecting to top-right) -->
+      <!-- Ribbon 1: from stem (200, 220) up-right to (280, 155) -->
+      <path d="M 200 230 L 270 155 L 290 155 L 200 252 Z" />
+
+      <!-- Upper Ribbon Top Facet (Origami fold) -->
+      <polygon points="270,155 290,155 265,185 245,185" />
+      <polygon points="245,185 265,185 225,230 205,230" fill="url(#bevelDark)" opacity="0.25" />
+
+      <!-- Lower Diagonal Leg of K (from 236,250 down-right to 305, 345) -->
+      <path d="M 236 245 L 292 345 L 316 345 L 256 245 Z" />
+
+      <!-- Bottom Horizontal Base Foot of K (x: 268..316, y: 333..345) -->
+      <path d="M 268 333 L 316 333 L 316 345 L 268 345 Z" />
+
+      <!-- Lower Ribbon Triangle Facet -->
+      <polygon points="268,333 316,333 286,290 268,290" fill="url(#bevelLight)" opacity="0.35" />
+
+      <!-- 'P' Loop Bowl -->
+      <!-- Smooth outer curve from (256, 155) around to (256, 265), with inner counter -->
+      <path d="
+        M 256 155 
+        L 290 155 
+        C 330 155, 354 178, 354 210 
+        C 354 242, 330 265, 290 265 
+        L 256 265 
+        L 256 243 
+        L 290 243 
+        C 316 243, 331 230, 331 210 
+        C 331 190, 316 177, 290 177 
+        L 256 177 
+        Z
+      " />
+    </g>
+
+    <!-- Bevel highlight overlays for 3D tactile finish -->
+    <!-- Highlight on top edge of P loop -->
+    <path d="M 256 155 L 290 155 C 328 155, 352 176, 354 205" stroke="url(#bevelLight)" stroke-width="2" fill="none" opacity="0.8" />
+    <!-- Highlight on Left Pillar -->
+    <line x1="178" y1="155" x2="178" y2="345" stroke="url(#bevelLight)" stroke-width="2" opacity="0.75" />
+    <!-- Shadow on Right of Left Pillar -->
+    <line x1="200" y1="155" x2="200" y2="345" stroke="url(#bevelDark)" stroke-width="1.5" opacity="0.6" />
+    <!-- Highlight on Diagonal K -->
+    <line x1="200" y1="230" x2="270" y2="155" stroke="url(#bevelLight)" stroke-width="2" opacity="0.85" />
+    <!-- Shadow on lower K leg -->
+    <line x1="256" y1="245" x2="316" y2="345" stroke="url(#bevelDark)" stroke-width="2" opacity="0.7" />
+  </g>
+</svg>

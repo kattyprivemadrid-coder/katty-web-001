@@ -217,10 +217,29 @@ Mensaje del cliente: ${message}`;
     });
   }
 
-  const PORT = 3000;
+  // Port configuration:
+  // In development, the AI Studio dev container uses DEFAULT_APP_PORT=3000 behind Nginx (on 8080).
+  // In deployed Cloud Run production, Cloud Run passes PORT (usually 8080) and expects the app to bind to it.
+  const isDevContainer = Boolean(process.env.DEFAULT_APP_PORT || process.env.CONTROL_PLANE_PORT);
+  const PORT = isDevContainer 
+    ? 3000 
+    : (process.env.PORT ? parseInt(process.env.PORT, 10) : 3000);
+
   const server = app.listen(PORT, "0.0.0.0", () => {
     console.log(`Katty Privé server running on http://0.0.0.0:${PORT}`);
   });
+
+  // In production outside dev container, if PORT is not 3000, also safely try binding 3000 as secondary listener
+  if (!isDevContainer && PORT !== 3000) {
+    try {
+      const fallbackServer = app.listen(3000, "0.0.0.0", () => {
+        console.log(`Katty Privé secondary server running on http://0.0.0.0:3000`);
+      });
+      fallbackServer.on("error", () => {
+        // Safe to ignore if port 3000 is occupied or restricted
+      });
+    } catch (_) {}
+  }
 
   process.on("SIGTERM", () => {
     console.log("SIGTERM received, closing HTTP server gracefully");

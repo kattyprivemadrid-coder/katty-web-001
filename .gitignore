@@ -11,3 +11,4 @@ coverage/
 .backup_restore/
 server.cjs
 server.js
+*.tar.gz

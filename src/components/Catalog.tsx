@@ -333,6 +333,8 @@ export default function Catalog({
                   <img
                     src={cat.bannerImage}
                     alt={cat.label}
+                    loading="lazy"
+                    decoding="async"
                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#120002] via-[#120002]/40 to-transparent group-hover:via-[#120002]/60 transition-all duration-300" />
@@ -417,6 +419,8 @@ export default function Catalog({
                   <img
                     src={product.image}
                     alt={product.name}
+                    loading="lazy"
+                    decoding="async"
                     className={`w-full h-full object-cover transition-transform duration-700 ${
                       isSoldOut
                         ? "opacity-70 grayscale-[25%] group-hover:scale-100"

@@ -10,7 +10,7 @@ import AdminAuthModal from "./components/AdminAuthModal";
 import EmailContactModal from "./components/EmailContactModal";
 import { Product, CartItem, Appointment, ProductCategory, OrderCustomerDetails, ProductAvailability } from "./types";
 import { PRODUCTS_DATA } from "./data/products";
-import { Sparkles, MessageCircle, Lock, ShieldCheck } from "lucide-react";
+import { Sparkles, MessageCircle, Lock, ShieldCheck, Download, FileText } from "lucide-react";
 
 export default function App() {
   const [isAdmin, setIsAdmin] = useState<boolean>(() => {
@@ -71,6 +71,12 @@ export default function App() {
         if (id === "bags-04" && (item.name?.includes("Yves") || item.name?.includes("Cassandre") || item.name?.includes("Carson"))) {
           continue;
         }
+        if (id.startsWith("glasses-0") || id.startsWith("glasses-1")) {
+          continue;
+        }
+        if (id.startsWith("perfume-0") || id.startsWith("perfume-1")) {
+          continue;
+        }
         if (id.startsWith("bags-") && (
           item.name?.includes("Panthère") ||
           item.name?.includes("Mochila Urbana") ||
@@ -119,7 +125,9 @@ export default function App() {
     const initialSoldOut = (() => {
       try {
         const saved = localStorage.getItem("kattyprive_sold_out_ids");
-        return saved ? JSON.parse(saved) : [];
+        if (!saved) return [];
+        const parsed: string[] = JSON.parse(saved);
+        return parsed.filter((id) => !id.startsWith("glasses-"));
       } catch {
         return [];
       }
@@ -131,6 +139,12 @@ export default function App() {
         const parsed = JSON.parse(saved);
         const valid: Record<string, Product> = {};
         for (const [id, item] of Object.entries(parsed as Record<string, Product>)) {
+          if (id.startsWith("glasses-0") || id.startsWith("glasses-1")) {
+            continue;
+          }
+          if (id.startsWith("perfume-0") || id.startsWith("perfume-1")) {
+            continue;
+          }
           if (id.startsWith("bags-") && (
             item.name?.includes("Lady Katty") ||
             item.name?.includes("Guess") ||
@@ -176,7 +190,9 @@ export default function App() {
       if (custom.image && (!custom.image.includes("unsplash.com") || p.image.includes("unsplash.com"))) {
         image = custom.image;
       }
-      const availability: ProductAvailability = custom.availability || (initialSoldOut.includes(p.id) || p.isAvailable === false ? "sold_out" : "available");
+      const availability: ProductAvailability = (p.isAvailable === false || p.availability === "sold_out" || initialSoldOut.includes(p.id))
+        ? "sold_out"
+        : (custom.availability || p.availability || "available");
       return {
         ...p,
         ...custom,
@@ -560,13 +576,34 @@ _Notificación enviada desde la web oficial: https://kattyprivemadrid.netlify.ap
               • Tienes activos los botones para publicar en redes y editar precios en cada artículo (ocultos para tus clientes)
             </span>
           </div>
-          <button
-            onClick={handleAdminLogout}
-            className="px-2.5 py-1 bg-white/10 hover:bg-rose-900/60 hover:text-white text-[#FAF9F6] border border-white/20 rounded-xs text-[10px] tracking-wider transition-colors cursor-pointer"
-            title="Ocultar herramientas privadas"
-          >
-            Cerrar Modo Privado
-          </button>
+          <div className="flex items-center gap-2">
+            <a
+              href="/descargar-factura"
+              download="Katty-Prive-Facturacion.html"
+              className="px-2.5 py-1 bg-[#c5a880] hover:bg-[#a9803f] text-[#120002] font-semibold rounded-xs text-[10px] tracking-wider transition-colors inline-flex items-center gap-1.5 shadow-sm"
+              title="Descargar la aplicación de facturación para tu teléfono o PC"
+            >
+              <Download size={12} />
+              <span>Descargar App Facturación</span>
+            </a>
+            <a
+              href="/factura.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-2.5 py-1 bg-white/10 hover:bg-white/20 text-[#FAF9F6] border border-white/20 rounded-xs text-[10px] tracking-wider transition-colors inline-flex items-center gap-1.5"
+              title="Abrir el emisor de facturas en una pestaña nueva"
+            >
+              <FileText size={12} />
+              <span className="hidden sm:inline">Abrir</span>
+            </a>
+            <button
+              onClick={handleAdminLogout}
+              className="px-2.5 py-1 bg-white/10 hover:bg-rose-900/60 hover:text-white text-[#FAF9F6] border border-white/20 rounded-xs text-[10px] tracking-wider transition-colors cursor-pointer"
+              title="Ocultar herramientas privadas"
+            >
+              Cerrar Modo Privado
+            </button>
+          </div>
         </div>
       )}
 

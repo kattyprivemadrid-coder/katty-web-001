@@ -119,11 +119,18 @@ export default function Catalog({
     return CATEGORIES_CONFIG.find(c => c.id === selectedCategory) || null;
   }, [selectedCategory]);
 
+  // Only display products that are in stock in the showcase (glasses must be in stock)
+  const availableShowcaseProducts = useMemo(() => {
+    return products.filter(
+      (p) => !(p.category === "glasses" && (p.availability === "sold_out" || p.isAvailable === false || soldOutProductIds.includes(p.id)))
+    );
+  }, [products, soldOutProductIds]);
+
   // Filtered and Sorted Products
   const filteredProducts = useMemo(() => {
     let list = selectedCategory === "all" 
-      ? [...products] 
-      : products.filter(p => p.category === selectedCategory);
+      ? [...availableShowcaseProducts] 
+      : availableShowcaseProducts.filter(p => p.category === selectedCategory);
 
     switch (sortBy) {
       case "price-asc":
@@ -136,7 +143,7 @@ export default function Catalog({
       default:
         return list;
     }
-  }, [products, selectedCategory, sortBy]);
+  }, [availableShowcaseProducts, selectedCategory, sortBy]);
 
   const isInWishlist = (id: string) => wishlist.some(p => p.id === id);
 
@@ -186,8 +193,8 @@ export default function Catalog({
         <div className="flex justify-start md:justify-center items-center space-x-1 sm:space-x-4 md:space-x-6 text-xs md:text-sm tracking-[0.18em] font-light min-w-max px-2">
           {CATEGORY_TABS.map((tab) => {
             const count = tab.id === "all" 
-              ? products.length 
-              : products.filter(p => p.category === tab.id).length;
+              ? availableShowcaseProducts.length 
+              : availableShowcaseProducts.filter(p => p.category === tab.id).length;
             const isActive = selectedCategory === tab.id;
 
             return (
@@ -432,11 +439,11 @@ export default function Catalog({
                   
                   {/* Sold Out / Coming Soon Subtle Overlay Tag */}
                   {isSoldOut ? (
-                    <div className="absolute inset-0 bg-black/35 flex items-center justify-center p-4 z-10 text-center pointer-events-none">
-                      <div className="bg-[#120002]/90 backdrop-blur-[2px] border border-rose-500/40 px-3.5 py-1.5 rounded-xs shadow-md">
-                        <span className="text-[11px] font-mono tracking-widest text-rose-200 uppercase font-semibold flex items-center gap-1.5">
-                          <span className="w-1.5 h-1.5 rounded-full bg-rose-500 animate-pulse" />
-                          agotado
+                    <div className="absolute inset-0 bg-black/45 flex items-center justify-center p-3 z-10 text-center pointer-events-none">
+                      <div className="bg-[#120002]/95 backdrop-blur-[3px] border border-rose-500/60 px-4 py-2 rounded-xs shadow-xl ring-1 ring-rose-500/20">
+                        <span className="text-[11px] font-mono tracking-widest text-rose-200 uppercase font-semibold flex items-center gap-2">
+                          <span className="w-2 h-2 rounded-full bg-rose-500 animate-pulse" />
+                          No disponible · Vendido
                         </span>
                       </div>
                     </div>
@@ -517,7 +524,7 @@ export default function Catalog({
                     {status === "sold_out" && (
                       <span className="text-[10px] font-mono font-bold text-rose-800 uppercase tracking-wider bg-rose-50 border border-rose-300/80 px-2.5 py-0.5 rounded-xs inline-flex items-center gap-1.5 shadow-2xs">
                         <span className="w-1.5 h-1.5 rounded-full bg-rose-600" />
-                        agotado
+                        No disponible · Vendido
                       </span>
                     )}
                     {status === "coming_soon" && (
@@ -593,7 +600,7 @@ export default function Catalog({
                         className="w-full bg-rose-50 text-rose-700 py-3 text-[11px] font-mono font-bold tracking-[0.15em] uppercase flex items-center justify-center gap-2 cursor-not-allowed border border-rose-300 rounded-xs"
                       >
                         <XCircle size={13} />
-                        Agotado
+                        No disponible · Vendido
                       </button>
                     ) : status === "coming_soon" ? (
                       <button
@@ -937,7 +944,7 @@ export default function Catalog({
                       ) : qvStatus === "sold_out" ? (
                         <span className="text-rose-800 font-semibold flex items-center gap-1.5 bg-rose-50 border border-rose-300 px-2.5 py-1 rounded-xs">
                           <span className="w-2 h-2 rounded-full bg-rose-600" />
-                          Artículo agotado (No disponible actualmente)
+                          Pieza no disponible · Vendida
                         </span>
                       ) : (
                         <span className="text-amber-900 font-semibold flex items-center gap-1.5 bg-amber-50 border border-amber-300 px-2.5 py-1 rounded-xs">
@@ -976,7 +983,7 @@ export default function Catalog({
                           className="flex-1 bg-rose-50 text-rose-700 py-4 text-xs font-mono font-bold tracking-[0.2em] uppercase flex items-center justify-center gap-2 cursor-not-allowed border border-rose-300 rounded-xs"
                         >
                           <XCircle size={14} />
-                          Pieza Agotada
+                          Pieza No Disponible · Vendida
                         </button>
                       ) : qvStatus === "coming_soon" ? (
                         <button

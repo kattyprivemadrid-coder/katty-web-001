@@ -1,450 +1,773 @@
 [
   {
-    "id": "perfume-01",
-    "name": "Bvlgari Man in Black Eau de Parfum Coffret",
+    "id": "perfume-vs-bombshell",
+    "name": "Victoria's Secret Bombshell Eau de Parfum",
     "category": "perfumes",
-    "description": "Cofre exclusivo de alta perfumería con acordes especiados, ron ambarino y cuero noble, presentado en estuche dorado con frasco principal y vaporizador de viaje.",
-    "price": 165,
-    "image": "/images/bvlgari-man-in-black.jpg",
-    "details": [
-      "Contenido: Eau de Parfum 100 ml + Mini Spray 15 ml",
-      "Notas: Ron ambarino, Nardo, Cuero negro, Benjuí",
-      "Presentación: Estuche de lujo grabado en oro"
-    ],
-    "history": "Un tributo a la elegancia audaz y el magnetismo atemporal de la alta perfumería."
-  },
-  {
-    "id": "perfume-02",
-    "name": "Gucci Guilty Parfum Pour Homme",
-    "category": "perfumes",
-    "description": "Fragancia amaderada aromática intensa con acordes de lavanda francesa, flor de naranjo y fondo de cedro y pachulí, presentada en frasco antracita metalizado con su estuche.",
-    "price": 145,
-    "image": "/images/gucci-guilty-pour-homme.jpg",
-    "details": [
-      "Volumen: 90 ml / 3.0 FL. OZ",
-      "Notas: Lavandín francés, Flor de naranjo, Madera de cedro, Pachulí",
-      "Concentración: Parfum Pour Homme",
-      "Presentación: Frasco antracita con logo GG entrelazado y estuche mate"
-    ],
-    "history": "Una declaración contemporánea de audacia, libertad y magnetismo masculino sin complejos."
-  },
-  {
-    "id": "perfume-03",
-    "name": "Chanel Allure Homme Sport Eau de Toilette",
-    "category": "perfumes",
-    "description": "Una fragancia fresca y sensual con un impulso chispeante de mandarina de Italia, notas limpias de cedro y la sensualidad envolvente del haba tonka de Venezuela.",
-    "price": 135,
-    "image": "/images/chanel-allure-homme-sport.jpg",
+    "description": "La fragancia icónica número uno de Victoria's Secret. Una mezcla chispeante y luminosa de maracuyá morada de Brasil, peonía paradisíaca Shangri-la de Shigatse y orquídea de vainilla de Madagascar.",
+    "price": 95,
+    "image": "/images/vs-bombshell-edp.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
       "Volumen: 100 ml / 3.4 FL. OZ",
-      "Notas: Mandarina de Italia, Cedro blanco, Haba Tonka, Almizcles blancos",
-      "Concentración: Eau de Toilette Vaporisateur Spray",
-      "Presentación: Frasco lacado en plata mate con tapón de anillo grabado Chanel y estuche blanco y negro"
+      "Familia olfativa: Floral Frutal Luminoso",
+      "Notas de salida: Maracuyá morada de Brasil, Pomelo cítrico, Piña dulce",
+      "Notas de corazón: Peonía Shangri-la del Tíbet, Lirio de los valles, Orquídea de vainilla",
+      "Notas de fondo: Almizcle blanco sedoso, Maderas rubias, Musgo de roble",
+      "Presentación: Frasco estriado en cristal rosa pastel con lazo de cinta negra de satén y placa dorada oficial"
     ],
-    "history": "La expresión de un hombre en constante movimiento, en armonía con su cuerpo y los grandes espacios abiertos."
+    "history": "Un clásico eterno de la perfumería internacional que celebra la confianza radiante, la sensualidad desenfadada y la energía cautivadora."
   },
   {
-    "id": "perfume-04",
-    "name": "Christian Dior Fahrenheit Eau de Toilette",
+    "id": "perfume-vs-bombshell-passion",
+    "name": "Victoria's Secret Bombshell Passion Eau de Parfum",
     "category": "perfumes",
-    "description": "Una firma olfativa mítica e innovadora nacida del encuentro ardiente entre notas florales de violeta, maderas nobles y un acorde exclusivo de cuero y mandarina siciliana.",
-    "price": 130,
-    "image": "/images/dior-fahrenheit.jpg",
+    "description": "Una interpretación floral audaz y envolvente de la familia Bombshell. Captura la exuberancia de la grosella negra jugosa, la peonía reina y la calidez de la rosa fucsia vibrante.",
+    "price": 95,
+    "image": "/images/vs-bombshell-passion.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
       "Volumen: 100 ml / 3.4 FL. OZ",
-      "Notas: Mandarina de Sicilia, Hoja de violeta, Cuero noble, Madera de cedro",
-      "Concentración: Eau de Toilette Vaporisateur Spray",
-      "Presentación: Frasco icónico con gradiente ardiente en tonos carmesí y ámbar con estuche a juego"
+      "Familia olfativa: Floral Cálido Exuberante",
+      "Notas de salida: Grosella negra jugosa silvestre, Néctar de ciruela",
+      "Notas de corazón: Peonía reina imperial, Rosa fucsia brillante",
+      "Notas de fondo: Maderas de cedro aterciopeladas, Almizcle cálido",
+      "Presentación: Frasco facetado en púrpura ciruela intenso con placa metálica dorada grabada en relieve"
     ],
-    "history": "Un hito de la perfumería masculina que encarna el espíritu pionero, la calidez magnética y una elegancia insumisa."
+    "history": "Una declaración de pasión vibrante diseñada para una presencia cautivadora y magnética en ocasiones inolvidables."
   },
   {
-    "id": "perfume-05",
-    "name": "Bleu de Chanel Eau de Parfum Pour Homme",
+    "id": "perfume-vs-bombshell-intense",
+    "name": "Victoria's Secret Bombshell Intense Eau de Parfum",
     "category": "perfumes",
-    "description": "Un aromático amaderado de estela cautivadora que combina la frescura chispeante de los cítricos con la nobleza del cedro seco y la sensualidad del sándalo de Nueva Caledonia.",
-    "price": 152.5,
-    "image": "/images/bleu-de-chanel.jpg",
+    "description": "Inspirada en el rojo perfecto de la alta costura. Una fragancia chipre afrutada provocativa con una explosión de cereza exuberante, peonía roja aterciopelada y vainilla sensual.",
+    "price": 95,
+    "image": "/images/vs-bombshell-intense.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
       "Volumen: 100 ml / 3.4 FL. OZ",
-      "Notas: Pomelo, Incienso, Cedro seco, Sándalo de Nueva Caledonia, Ámbar",
-      "Concentración: Eau de Parfum Vaporisateur Spray",
-      "Presentación: Frasco cuadrado azul noche magnético con estuche mate oficial"
+      "Familia olfativa: Chipre Frutal Floral Seductor",
+      "Notas de salida: Cereza roja exuberante y dulce",
+      "Notas de corazón: Peonía roja aterciopelada",
+      "Notas de fondo: Vainilla de Madagascar cremosa y sensual",
+      "Presentación: Frasco lacado en rojo carmesí brillante con placa dorada de la Maison Victoria's Secret"
     ],
-    "history": "Un tributo a la libertad masculina que desafía los códigos establecidos con elegancia y carácter inquebrantable."
+    "history": "La encarnación del magnetismo, el poder y la seducción en su estado más puro y voluptuoso."
   },
   {
-    "id": "perfume-06",
-    "name": "Christian Dior Miss Dior Eau de Parfum",
+    "id": "perfume-vs-very-sexy",
+    "name": "Victoria's Secret Very Sexy Eau de Parfum",
     "category": "perfumes",
-    "description": "Un himno floral extraordinario que desvela la frescura de las rosas centifolia de Grasse, el lirio de los valles y peonías, coronado con el icónico lazo 'poignard' de alta costura.",
-    "price": 118,
-    "image": "/images/miss-dior-eau-de-parfum.jpg",
+    "description": "Sensual, sofisticada e irresistible. Una embriagadora infusión de vainilla cálida, clementina jugosa y mora silvestre oscura con un fondo amaderado aterciopelado.",
+    "price": 98,
+    "image": "/images/vs-very-sexy-edp.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Oriental Cálido Provocativo",
+      "Notas de salida: Clementina bañada por el sol, Mora silvestre de medianoche",
+      "Notas de corazón: Orquídea de vainilla dulce, Rosa silvestre",
+      "Notas de fondo: Madera de sándalo aterciopelada, Ámbar dorado",
+      "Presentación: Frasco de silueta arquitectónica en cristal color vino borgoña profundo con letras grabadas en bajorrelieve"
+    ],
+    "history": "Una leyenda de seducción que acompaña a la mujer con una estela cálida, íntima y sumamente magnética."
+  },
+  {
+    "id": "perfume-vs-very-sexy-night",
+    "name": "Victoria's Secret Very Sexy Night Eau de Parfum",
+    "category": "perfumes",
+    "description": "El misterio de la noche hecho perfume. Notas oscuras de ciruela negra madura, maderas aterciopeladas y manzana verde crujiente para un magnetismo irresistible.",
+    "price": 98,
+    "image": "/images/vs-very-sexy-night.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Amaderado Nocturno",
+      "Notas de salida: Manzana verde crujiente, Ciruela negra madura",
+      "Notas de corazón: Maderas aterciopeladas de noche, Jazmín nocturno",
+      "Notas de fondo: Almizcle negro sensual, Ámbar oscuro",
+      "Presentación: Frasco negro lacado ultra brillante con tipografía dorada brillante y estuche de lujo"
+    ],
+    "history": "Creada para cuando se pone el sol: las luces de la ciudad, el glamour de la noche y la intriga de lo inesperado."
+  },
+  {
+    "id": "perfume-vs-tease",
+    "name": "Victoria's Secret Tease Eau de Parfum",
+    "category": "perfumes",
+    "description": "Coqueta y femenina por excelencia. Una deliciosa sinfonía gourmand floral con pera Anjou blanca congelada, gardenia en flor y praliné negro fundido.",
+    "price": 95,
+    "image": "/images/vs-tease-edp.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Gourmand Floral Dulce",
+      "Notas de salida: Pera blanca Anjou glaseada, Mandarina jugosa",
+      "Notas de corazón: Pétalos de gardenia en flor, Fresia blanca",
+      "Notas de fondo: Praliné negro fundido, Vainilla suave, Ámbar dorado",
+      "Presentación: Frasco joya biselado con motivos de encaje y estuche rosa empolvado con marco negro y oro"
+    ],
+    "history": "Inspirada en el arte del flirteo refinado: dulce, divertida, irresistible y siempre memorable."
+  },
+  {
+    "id": "perfume-vs-tease-sugar-fleur",
+    "name": "Victoria's Secret Tease Sugar Fleur Eau de Parfum",
+    "category": "perfumes",
+    "description": "Una reinterpretación luminosa y azucarada de Tease. Manzana rosa confitada cristalizada con pétalos de jazmín blanco y cálido caramelo esponjoso.",
+    "price": 95,
+    "image": "/images/vs-tease-sugar-fleur.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Gourmand Confitado",
+      "Notas de salida: Manzana rosa dulce caramelizada",
+      "Notas de corazón: Pétalos de jazmín rosa cristalizados, Chicle dulce",
+      "Notas de fondo: Caramelo esponjoso dorado, Ámbar cristalino",
+      "Presentación: Frasco de cristal fucsia alegre con ribetes dorados y estuche rosa satinado"
+    ],
+    "history": "Un ensueño dulce que evoca confiterías de lujo parisinas y la alegría despreocupada de la primavera."
+  },
+  {
+    "id": "perfume-vs-tease-creme-cloud",
+    "name": "Victoria's Secret Tease Crème Cloud Eau de Parfum",
+    "category": "perfumes",
+    "description": "Suave como una nube sobre la piel. Merengue de vainilla batido, flor de sándalo luminosa y ámbar blanco puro en una caricia etérea y reconfortante.",
+    "price": 95,
+    "image": "/images/vs-tease-creme-cloud.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Oriental Aéreo Gourmand",
+      "Notas de salida: Merengue de vainilla aireado, Nube dulce",
+      "Notas de corazón: Flor de sándalo celestial, Almizcle blanco",
+      "Notas de fondo: Ámbar puro cálido, Vainilla ligera",
+      "Presentación: Frasco perlado blanco traslúcido y estuche sobrio en blanco impoluto con ribete dorado"
+    ],
+    "history": "La sensación relajante de flotar en las nubes, envuelta en un abrazo cálido y aterciopelado."
+  },
+  {
+    "id": "perfume-chanel-chance-edp",
+    "name": "Chanel Chance Eau de Parfum",
+    "category": "perfumes",
+    "description": "La oportunidad inesperada embotellada por Chanel. Una constelación floral donde el jazmín exótico y la pimienta rosa se entrelazan con el ámbar pachulí y la vainilla sensual.",
+    "price": 125,
+    "image": "/images/chanel-chance-edp.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
       "Volumen: 50 ml / 1.7 FL. OZ",
-      "Notas: Rosa Centifolia de Grasse, Lirio de los valles, Peonía, Madera de sándalo",
-      "Concentración: Eau de Parfum Vaporisateur Spray",
-      "Presentación: Frasco de cristal tallado con lazo artesanal 'millefiori' y estuche rosa empolvado"
+      "Familia olfativa: Floral Chipre Cálido",
+      "Notas de salida: Pimienta rosa picante, Piña, Jacinto",
+      "Notas de corazón: Absoluto de jazmín de Grasse, Iris noble",
+      "Notas de fondo: Vainilla de Bourbon, Pachulí blanco, Almizcle blanco",
+      "Presentación: Frasco circular icónico de cristal con aro perimetral plateado y estuche rosa con filete de oro"
     ],
-    "history": "Inspirada en el despertar del amor y la alegría de vivir, una obra maestra de la alta costura olfativa de Dior."
+    "history": "'La suerte es una forma de ser', decía Gabrielle Chanel. Chance simboliza la audacia de tomar la iniciativa."
   },
   {
-    "id": "perfume-07",
-    "name": "Chanel Chance Eau de Toilette Spray",
+    "id": "perfume-chanel-chance-fraiche-edt",
+    "name": "Chanel Chance Eau Fraîche Eau de Toilette",
     "category": "perfumes",
-    "description": "Una fragancia floral e imprevisible con una constelación olfativa en constante movimiento que entrelaza la pimienta rosa, el jazmín y el pachulí ambarino con una frescura envolvente.",
+    "description": "Un torbellino chispeante de frescura vibrante. Salida cítrica de cidra chispeante, corazón suave de jazmín acuático y un fondo vibrante de madera de teca.",
+    "price": 110,
+    "image": "/images/chanel-chance-fraiche-edt.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Volumen: 50 ml / 1.7 FL. OZ",
+      "Familia olfativa: Floral Chispeante Cítrico",
+      "Notas de salida: Esencia de cidra verde, Jacinto de agua",
+      "Notas de corazón: Jazmín transparente, Pimienta rosa",
+      "Notas de fondo: Madera de teca, Vetiver, Ámbar ligero",
+      "Presentación: Frasco circular con líquido verde pastel radiante y estuche rosa ribeteado en plata"
+    ],
+    "history": "Una oportunidad que surge espontáneamente como una brisa marina matinal llena de vitalidad."
+  },
+  {
+    "id": "perfume-chanel-chance-fraiche-edp",
+    "name": "Chanel Chance Eau Fraîche Eau de Parfum",
+    "category": "perfumes",
+    "description": "La nueva concentración intensa de Chance Eau Fraîche. Conserva la vivacidad de la cidra amplificándola con un corazón denso de jazmín y una profunda nota ambarina amaderada de teca.",
     "price": 125,
-    "image": "/images/chanel-chance.jpg",
+    "image": "/images/chanel-chance-fraiche-edp.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Volumen: 100 ml / 3.4 FL. OZ",
-      "Notas: Pimienta rosa, Jazmín, Pachulí ambarino, Vainilla blanca, Almizcle",
-      "Concentración: Eau de Toilette Vaporisateur Spray",
-      "Presentación: Frasco circular icónico con aro plateado y estuche rosa pastel"
+      "Volumen: 50 ml / 1.7 FL. OZ",
+      "Familia olfativa: Floral Amaderado Intenso",
+      "Notas de salida: Esencia pura de cidra chispeante",
+      "Notas de corazón: Jazmín absoluto floral radiante",
+      "Notas de fondo: Acorde de madera de teca profunda, Ámbar amaderado",
+      "Presentación: Frasco redondo de cristal con líquido verde esmeralda y caja rosa con acabados dorados"
     ],
-    "history": "Una oportunidad que surge y se aprovecha; la suerte es una forma de ser, un torbellino de optimismo y encanto."
+    "history": "La madurez elegante de la frescura: más duradera, rica y magnética sobre la piel."
   },
   {
-    "id": "perfume-08",
-    "name": "Rabanne Fame Eau de Parfum",
+    "id": "perfume-tom-ford-noir-extreme-coffret",
+    "name": "Tom Ford Noir Extreme Coffret Eau de Parfum + Atomiseur",
     "category": "perfumes",
-    "description": "La quintaesencia del lujo vanguardista: un aroma irresistiblemente femenino que fusiona el mango excepcionalmente jugoso, el jazmín puro y el incienso cremoso con sándalo y vainilla.",
+    "description": "Magnífico cofre de lujo dorado con el perfume Tom Ford Noir Extreme EDP 100ml y su vaporizador de viaje recargable atomizador a juego. Una creación amaderada oriental con acordes de cardamomo, postre indio kulfi y sándalo.",
     "price": 145,
-    "image": "/images/rabanne-fame.jpg",
+    "image": "/images/tom-ford-noir-extreme-coffret.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Volumen: 150 ml / 5.1 FL. OZ (Recargable)",
-      "Notas: Mango suculento, Jazmín puro de Grasse, Incienso sensual, Vainilla y Sándalo",
-      "Concentración: Eau de Parfum Vaporisateur Spray",
-      "Presentación: Frasco joya icónico en forma de robot con vestido de malla metálica de pastillas plateadas y gafas de sol"
+      "Contenido: Eau de Parfum 100 ml + Atomizador de viaje recargable 10 ml",
+      "Familia olfativa: Oriental Amaderado Especiado Opulento",
+      "Notas de salida: Aceite de cardamomo, Nuez moscada, Mandarina, Azafrán",
+      "Notas de corazón: Acorde Kulfi de la India, Flor de azahar, Rosa, Jazmín",
+      "Notas de fondo: Madera de sándalo australiano, Ámbar dorado, Vainilla de Madagascar",
+      "Presentación: Cofre estriado de oro con logotipo Tom Ford en negro y nido interior acolchado"
     ],
-    "history": "Un icono de la feminidad parisina, juguetona, sensual y empoderada, con el inconfundible sello vanguardista de Rabanne."
+    "history": "Un homenaje al hombre que vive al límite de sus pasiones, donde la opulencia y el refinamiento no conocen límites."
   },
   {
-    "id": "perfume-09",
-    "name": "Rabanne Olympéa Eau de Parfum",
+    "id": "perfume-valentino-born-in-roma",
+    "name": "Valentino Uomo Born in Roma Eau de Toilette",
     "category": "perfumes",
-    "description": "Un duelo divino entre la frescura floral de la mandarina verde y el jazmín de agua, y la sensualidad magnética de un acorde adictivo de vainilla salada, ámbar gris y madera de cachemira.",
-    "price": 112,
-    "image": "/images/rabanne-olympea.jpg",
-    "details": [
-      "Volumen: 80 ml / 2.7 FL. OZ",
-      "Notas: Mandarina verde, Jazmín hidropónico, Flor de jengibre, Vainilla salada, Ámbar gris, Madera de cachemira",
-      "Concentración: Eau de Parfum Vaporisateur Spray",
-      "Presentación: Frasco talismán circular enmarcado por alas de laurel en oro rosa y estuche con alas doradas"
-    ],
-    "history": "Inspirada en una Cleopatra contemporánea: la mujer que conquista y triunfa, dejando una estela celestial inolvidable."
-  },
-  {
-    "id": "perfume-10",
-    "name": "Carolina Herrera Good Girl Eau de Parfum",
-    "category": "perfumes",
-    "description": "Una fragancia audaz y sofisticada que celebra la dualidad de la mujer moderna. La luminosidad seductora del nardo y el jazmín sambac contrasta con la intensidad oscura del haba tonka tostada y el cacao.",
-    "price": 114.5,
-    "image": "/images/carolina-herrera-good-girl.jpg",
-    "details": [
-      "Volumen: 80 ml / 2.7 FL. OZ",
-      "Notas: Almendra, Café, Nardo, Jazmín Sambac, Haba Tonka tostada, Cacao",
-      "Concentración: Eau de Parfum Vaporisateur Spray",
-      "Presentación: Frasco escultórico icónico en forma de zapato stiletto azul noche con tacón de aguja dorado y estuche de terciopelo"
-    ],
-    "history": "Bajo el lema 'It's so good to be bad', Good Girl encarna la sensualidad, el empoderamiento y el misterio femenino de la alta costura neoyorquina."
-  },
-  {
-    "id": "perfume-11",
-    "name": "Jean Paul Gaultier Le Male Le Parfum",
-    "category": "perfumes",
-    "description": "Una fragancia oriental amaderada intensa y carismática que toma el mando con la potencia del cardamomo, la frescura de la lavanda y el lirio, y la calidez cautivadora de la vainilla.",
-    "price": 128,
-    "image": "/images/jpg-le-male-le-parfum.jpg",
-    "details": [
-      "Volumen: 125 ml / 4.2 FL. OZ",
-      "Notas: Cardamomo especiado, Lavanda e Iris noble, Vainilla oriental, Notas amaderadas",
-      "Concentración: Eau de Parfum Intense Vaporisateur Spray",
-      "Presentación: Frasco torso en negro mate con rayas de oficial y mítica lata metálica en negro y oro"
-    ],
-    "history": "¡Abran paso al capitán! El icónico marinero de Jean Paul Gaultier asciende a oficial con un carisma irresistible y un estilo impecable."
-  },
-  {
-    "id": "perfume-12",
-    "name": "LOEWE Esencia Elixir Eau de Parfum",
-    "category": "perfumes",
-    "description": "Una reinterpretación más singular y concentrada de la icónica fragancia LOEWE Esencia. Combina acordes amaderados, aromáticos y ahumados con notas profundas de pachulí, vetiver y cuero suave para una presencia magnética y distinguida.",
-    "price": 185,
-    "image": "/images/loewe-esencia-elixir.jpg",
+    "description": "Una celebración de la elegancia y la rebeldía de Roma. Salvia aromática con vetiver ahumado contrastado con la sal mineral picante y hojas de violeta fresca.",
+    "price": 115,
+    "image": "/images/valentino-born-in-roma.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
       "Volumen: 100 ml / 3.4 FL. OZ",
-      "Notas olfativas: Esencia de lavanda, Salvia sclarea, Pachulí terroso, Vetiver ahumado, Toques de cuero fino y madera de sándalo",
-      "Concentración: Elixir de Parfum (máxima concentración y longevidad)",
-      "Frasco y diseño: Bloque de vidrio translúcido en verde bosque profundo coronado por un tapón de madera natural de wengué",
-      "Empaque: Caja blanca con la icónica fotografía botánica de helecho de Karl Blossfeldt"
+      "Familia olfativa: Amaderado Aromático Mineral",
+      "Notas de salida: Sal mineral, Hojas de violeta, Jengibre picante",
+      "Notas de corazón: Salvia romana aromatizada, Salvia sclarea",
+      "Notas de fondo: Vetiver ahumado de Java, Madera de guayaco",
+      "Presentación: Frasco icónico esculpido con tachuelas Rockstud de Valentino y cuello en piel negra con letras fucsia"
     ],
-    "history": "Inspirada en el aroma universal de la naturaleza silvestre y el bosque umbrío, LOEWE Esencia Elixir eleva el arte de la perfumería botánica a su máxima expresión de lujo."
+    "history": "Diseñado para los hombres que reimaginan las tradiciones con una actitud contemporánea y vanguardista."
   },
   {
-    "id": "perfume-13",
-    "name": "Jasmin d'Arabie Pure",
+    "id": "perfume-versace-dylan-blue",
+    "name": "Versace Dylan Blue Pour Homme Eau de Toilette",
     "category": "perfumes",
-    "description": "Jazmín de noche cosechado a mano antes del alba con toques de miel de azahar.",
-    "price": 215,
-    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800",
+    "description": "El alma del hombre Versace: fuerza, pasión y carisma mediterráneo. Notas cítricas de bergamota de Calabria, hojas de higuera, pimienta negra, ambrox y pachulí.",
+    "price": 105,
+    "image": "/images/versace-dylan-blue.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Volumen: 100 ml",
-      "Notas: Jazmín Sambac, Miel silvestre, Benjuí",
-      "Frasco facetado a mano"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Fougère Amaderado Acuático",
+      "Notas de salida: Bergamota de Calabria, Pomelo, Notas acuáticas, Hojas de higuera",
+      "Notas de corazón: Hojas de violeta, Papiro de Egipto, Pachulí orgánico, Pimienta negra",
+      "Notas de fondo: Almizcle mineral, Haba tonka, Incienso místico, Azafrán",
+      "Presentación: Frasco azul noche geométrico con el legendario emblema de la Medusa dorada y cenefa griega"
     ],
-    "history": "Homenaje a los palacios andalusíes y las noches de brisa tibia."
+    "history": "Una fragancia que evoca la brisa del Mediterráneo y el poder imperecedero de la mitología de Versace."
   },
   {
-    "id": "perfume-14",
-    "name": "Cèdre & Vétiver Privé",
+    "id": "perfume-chanel-allure-superleggera",
+    "name": "Chanel Allure Homme Sport Superleggera Eau de Parfum",
     "category": "perfumes",
-    "description": "Madera de cedro noble con vetiver de Java, pimienta rosa y hojas de tabaco rubio.",
-    "price": 185,
-    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=800",
+    "description": "Edición exclusiva Superleggera de Chanel inspirada en el automovilismo de alta velocidad. Salida cítrica chispeante de mandarina y pomelo con maderas nobles de cedro y notas ambarinas potentes.",
+    "price": 145,
+    "image": "/images/chanel-allure-superleggera.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Volumen: 100 ml",
-      "Notas: Cedro, Vetiver, Pimienta rosa",
-      "Carácter unisex refinado"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Amaderado Cítrico Fresco de Alta Gama",
+      "Notas de salida: Mandarina de Italia, Pomelo fresco, Acorde Superleggera dinámico",
+      "Notas de corazón: Notas ambarinas ligeras, Cedro blanco",
+      "Notas de fondo: Almizcles blancos puros, Sándalo noble",
+      "Presentación: Frasco ahumado en cristal gris antracita con caligrafía roja Superleggera y estuche plateado mate"
     ],
-    "history": "Estructura arquitectónica y aplomo para personalidades seguras."
+    "history": "El tributo definitivo de Chanel al rendimiento atlético y a la ligereza estructural de los superdeportivos."
   },
   {
-    "id": "perfume-15",
-    "name": "Nectar d'Or Magnifique",
+    "id": "perfume-dior-homme-edt",
+    "name": "Christian Dior Dior Homme Eau de Toilette",
     "category": "perfumes",
-    "description": "Extracto con micropartículas de oro coloidal, neroli imperial y ámbar blanco resplandeciente.",
-    "price": 290,
-    "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=800",
+    "description": "La encarnación de la sensualidad masculina contemporánea de Dior. Un acorde amaderado poliédrico construido alrededor del cedro del Atlas, pachulí cálido y vetiver de Haití.",
+    "price": 120,
+    "image": "/images/dior-homme-edt.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Volumen: 100 ml",
-      "Notas: Neroli, Ámbar blanco, Oro 24K",
-      "Reflejos dorados al pulverizar"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Amaderado Especiado Pulido",
+      "Notas de salida: Bergamota de Calabria, Pimienta rosa, Elemí",
+      "Notas de corazón: Madera de cedro del Atlas, Pachulí dulce de corazón",
+      "Notas de fondo: Vetiver de Haití, Almizcle blanco envolvente",
+      "Presentación: Bloque arquitectónico de cristal macizo tallado con vástago negro lacado y tapón biselado"
     ],
-    "history": "El broche de oro para las celebraciones más fastuosas."
+    "history": "'Soy un hombre', proclama este icono de Dior, redefiniendo la masculinidad sin falsos artificios."
   },
   {
-    "id": "glasses-01",
-    "name": "Chanel Gafas de Sol Bicolor Logo CC",
-    "category": "glasses",
-    "description": "Diseño rectangular de alta costura con montura frontal en acetato negro brillante, varillas bicolores en blanco marfil y negro realzadas con el emblemático logotipo de doble C entrelazada en relieve, y lentes oscuras polarizadas de máxima protección.",
-    "price": 395,
-    "image": "/images/chanel-bicolor-sunglasses.jpg",
+    "id": "perfume-lancome-idole-edp",
+    "name": "Lancôme Idôle Le Parfum Eau de Parfum",
+    "category": "perfumes",
+    "description": "El perfume de las mujeres que se atreven a soñar a lo grande. Una rosa limpia y radiante orquestada con jazmín grandiflorum y un velo de chipre blanco impecable.",
+    "price": 118,
+    "image": "/images/lancome-idole-edp.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Montura: Acetato premium negro brillante y varillas en contraste marfil/negro",
-      "Detalle emblemático: Logotipo joya CC entrelazado de Chanel en relieve lateral",
-      "Lentes: Polarizadas gris oscuro con tratamiento antirreflejante y protección 100% UVA/UVB Cat. 3",
-      "Fabricación: Realizadas artesanalmente en Italia con estuche rígido acolchado y paño de seda"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Chipre Limpio",
+      "Notas de salida: Bergamota jugosa, Pera fresca",
+      "Notas de corazón: Rosa de Isparta sustentable, Rosa de mayo, Jazmín de la India",
+      "Notas de fondo: Chipre blanco, Vainilla de Madagascar, Almizcles blancos puros",
+      "Presentación: Frasco revolucionario de solo 15 mm de grosor con perfiles bañados en oro rosa"
     ],
-    "history": "Un diseño icónico de Chanel que conjuga el contraste gráfico blanco y negro distintivo de la Maison con una silueta geométrica atemporal."
+    "history": "Un tótem a la nueva generación de líderes femeninas que iluminan su propio camino."
   },
   {
-    "id": "glasses-02",
-    "name": "Miu Miu Gafas de Sol Carey con Logotipo Dorado",
-    "category": "glasses",
-    "description": "Diseño ovalado cat-eye vanguardista con montura en acetato de carey havana de exquisito brillo. Destaca por sus varillas anchas con el icónico logotipo calado en relieve metálico dorado 'MIU MIU' integrado en la bisagra y lentes tintadas de máxima protección.",
-    "price": 360,
-    "image": "/images/miu-miu-carey-sunglasses.jpg",
+    "id": "perfume-lancome-idole-edt",
+    "name": "Lancôme Idôle L'Eau de Toilette",
+    "category": "perfumes",
+    "description": "La brisa más fresca y luminosa del universo Idôle. Acordes de té verde Shincha y bergamota revitalizante envueltos en rosas recién cortadas al rocío de la mañana.",
+    "price": 105,
+    "image": "/images/lancome-idole-edt.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Montura: Acetato premium en patrón carey havana brillante",
-      "Detalle emblemático: Logotipo tridimensional 'MIU MIU' calado en metal dorado pulido",
-      "Lentes: Tintadas en verde oliva/marrón con protección 100% UVA/UVB Cat. 3",
-      "Fabricación: Hechas en Italia, incluye estuche rígido en terciopelo rosa Miu Miu y paño de microfibra"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Verde Cítrico Energizante",
+      "Notas de salida: Té verde Shincha japonés, Bergamota brillante",
+      "Notas de corazón: Agua de rosas de Damasco, Esencia de jazmín",
+      "Notas de fondo: Madera de cedro, Almizcle blanco limpio",
+      "Presentación: Frasco ultra delgado recargable con cantos cromados y caja blanca con logo celeste"
     ],
-    "history": "La audacia y el espíritu rebelde de Miu Miu convertidos en un accesorio de culto global que define la silueta contemporánea."
+    "history": "Una ola refrescante de energía pura que despierta los sentidos al iniciar cada jornada."
   },
   {
-    "id": "glasses-03",
-    "name": "Ray-Ban Scuderia Ferrari Lifestyle RB2217-M",
-    "category": "glasses",
-    "description": "Diseño cuadrado vanguardista y robusto en acetato carey Havana oscuro con lentes minerales tintadas en marrón cálido. Incorpora el legendario escudo de la Scuderia Ferrari en lente y varilla con acabados de alta competición.",
-    "price": 247,
-    "image": "/images/rayban-ferrari-sunglasses.jpg",
+    "id": "perfume-gucci-bloom-edp",
+    "name": "Gucci Bloom Eau de Parfum",
+    "category": "perfumes",
+    "description": "Creada para florecer como un jardín repleto de flores blancas. Combina el jazmín sambac natural, el nardo de la India y la exclusiva enredadera de Rangoon.",
+    "price": 135,
+    "image": "/images/gucci-bloom-edp.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Modelo: RB 2217-M F613/73 53-21 145 3N (Ferrari Lifestyle)",
-      "Montura: Acetato premium en patrón carey Havana oscuro brillante",
-      "Lentes: Minerales de alta definición en marrón con filtro solar Cat. 3N y 100% protección UVA/UVB",
-      "Detalles exclusivos: Escudo oficial Ferrari grabado al láser en la lente, firma clásica Ray-Ban y estuche personalizado con ribetes rojos de competición"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Blanco Rico y Opulento",
+      "Notas de salida: Yemas de jazmín Sambac verde",
+      "Notas de corazón: Nardo natural cosechado en la India",
+      "Notas de fondo: Enredadera de Rangoon (flor que cambia de color al florecer)",
+      "Presentación: Frasco de porcelana esmaltada rosa palo retro con etiqueta acanalada y estuche Toile de Jouy"
     ],
-    "history": "La fusión entre el ADN deportivo y la adrenalina de Maranello con el diseño óptico icónico e imperecedero de Ray-Ban."
+    "history": "La visión botánica surrealista de Gucci, capturando la autenticidad y la diversidad de la feminidad."
   },
   {
-    "id": "glasses-04",
-    "name": "Celine Gafas de Sol Oversized CL40263I",
-    "category": "glasses",
-    "description": "Silueta cuadrada geométrica de gran formato en acetato negro pulido de alta costura. Varillas anchas firmadas con el logotipo dorado de Celine Paris y las emblemáticas tachuelas de remache de tres puntos.",
-    "price": 410,
-    "image": "/images/celine-square-sunglasses.jpg",
+    "id": "perfume-gucci-flora-gardenia",
+    "name": "Gucci Flora Gorgeous Gardenia Eau de Parfum",
+    "category": "perfumes",
+    "description": "Una poción floral de alegría y resplandor. Centrada en la mística gardenia blanca mezclada con absoluto de jazmín solar, pera jugosa y un sutil toque de azúcar moreno.",
+    "price": 135,
+    "image": "/images/gucci-flora-gardenia.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Modelo: Celine CL40263I 54/19 01a",
-      "Montura: Acetato premium biselado en negro profundo brillante",
-      "Lentes: Minerales uniformes gris humo con filtro solar Cat. 3 y protección total UV400",
-      "Detalles distintivos: Logotipo Celine en tipografía dorada sobre las varillas y triple remache de acero inoxidable",
-      "Accesorios: Incluye funda rígida de piel lisa Celine Paris y gamuza de microfibra de alta densidad"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Dulce Solar Alegre",
+      "Notas de salida: Flor de peral, Frutos rojos silvestres, Mandarina italiana",
+      "Notas de corazón: Gardenia blanca de garden, Absoluto de jazmín grandiflorum, Frangipani",
+      "Notas de fondo: Azúcar moreno tostado, Pachulí solar",
+      "Presentación: Frasco esmaltado en turquesa vibrante con el icónico estampado floral de la Casa Gucci"
     ],
-    "history": "Un icono del chic parisino contemporáneo que combina proporciones arquitectónicas con una sofisticación discreta."
+    "history": "Un canto al optimismo y a la magia del florecimiento interior, coronado por un diseño de ensueño."
   },
   {
-    "id": "glasses-05",
-    "name": "Lacoste Montura Graduada con Clip Solar Magnético L2707MAGN",
-    "category": "glasses",
-    "description": "Innovador diseño 2 en 1 versátil y deportivo. Montura rectangular en acabado negro mate de peso pluma con varillas ergonómicas en azul y el mítico cocodrilo de Lacoste. Incluye suplemento clip-on magnético solar polarizado que se fija al instante con precisión milimétrica.",
-    "price": 143.24,
-    "image": "/images/lacoste-magnetic-sunglasses.jpg",
+    "id": "perfume-dg-pour-femme",
+    "name": "Dolce & Gabbana Pour Femme Eau de Parfum",
+    "category": "perfumes",
+    "description": "La esencia de la mujer mediterránea apasionada y voluptuosa. Salida de neroli y frambuesa jugosa, corazón de jazmín aterciopelado y fondo goloso de malvavisco dulce y sándalo.",
+    "price": 120,
+    "image": "/images/dg-pour-femme.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Modelo: Lacoste L2707MAGN 002 55X16 (Clip-On Included)",
-      "Montura base: Inyectado mate de alta resistencia en negro con detalles interiores azul deportivo",
-      "Clip-On solar: Lentes polarizadas gris oscuro con enganche magnético ultrarrápido y protección UV400",
-      "Detalle de marca: Emblema clásico del cocodrilo Lacoste en relieve sobre las varillas",
-      "Presentación: Incluye estuche rígido protector Lacoste con compartimento especial para el clip solar"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Gourmand Cálido Mediterráneo",
+      "Notas de salida: Neroli, Frambuesa dulce, Mandarina verde",
+      "Notas de corazón: Azahar de flor de naranjo, Jazmín aterciopelado",
+      "Notas de fondo: Acorde de malvavisco goloso, Vainilla, Madera de sándalo",
+      "Presentación: Frasco de líneas arquitectónicas con tapón rojo carmesí y estuche de terciopelo burdeos"
     ],
-    "history": "La sofisticación deportiva del 'French chic' unida a la funcionalidad técnica más avanzada para el día a día."
+    "history": "Un tributo a la belleza sensual de Sicilia, donde la ternura y la pasión coexisten en perfecta armonía."
   },
   {
-    "id": "glasses-06",
-    "name": "Oakley Sutro Sweep Vented Prizm Black",
-    "category": "glasses",
-    "description": "Diseño deportivo de alto rendimiento con pantalla panorámica envolvente y perforaciones de ventilación en la parte superior del visor para evitar el empañamiento. Montura O Matter ultraligera en negro mate y lente de alta definición Prizm™.",
-    "price": 195,
-    "image": "/images/oakley-sutro-sweep.jpg",
+    "id": "perfume-chanel-coco-mademoiselle-privee",
+    "name": "Chanel Coco Mademoiselle L'Eau Privée Eau Pour la Nuit",
+    "category": "perfumes",
+    "description": "La fragancia nocturna más íntima y delicada de Chanel. Un velo de almizcle suave con jazmín y pétalos de rosa para vaporizar en la piel y el cabello antes de dormir.",
+    "price": 130,
+    "image": "/images/chanel-coco-mademoiselle-privee.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Modelo: Oakley Sutro Sweep (Vented) Matte Black / Prizm Black",
-      "Lente: Tecnología Prizm™ de pantalla completa con orificios de ventilación antivaho integrados y protección 100% UV",
-      "Montura: Material O Matter™ resistente y ultraligero con logotipo Oakley grabado en las varillas",
-      "Ajuste y sujeción: Almohadillas nasales de Unobtainium® que aumentan el agarre con el sudor",
-      "Accesorios: Incluye estuche rígido protector Oakley y funda electrostática Microbag"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Oriental Fresco Floral Nocturno",
+      "Notas de salida: Mandarina dulce suave",
+      "Notas de corazón: Pétalos de rosa de mayo, Absoluto de jazmín de Grasse",
+      "Notas de fondo: Velo de almizcles blancos delicados",
+      "Presentación: Frasco de cristal satinado al ácido traslúcido con anillo de oro y estuche marfil satinado"
     ],
-    "history": "Inspirada en las legendarias Eyeshade de 1984, combina la estética retro de vanguardia con la óptica deportiva más avanzada del mundo."
+    "history": "Diseñado como un ritual privado y confidente para envolver las noches en una estela de sensualidad sutil."
   },
   {
-    "id": "glasses-07",
-    "name": "Ray-Ban Square Reverse RBR0104S",
-    "category": "glasses",
-    "description": "Innovación revolucionaria con la primera lente cóncava invertida de la historia. Silueta cuadrada refinada en metal dorado brillante con lentes minerales cóncavas en azul profundo que siguen la curvatura natural del pómulo.",
-    "price": 184,
-    "image": "/images/rayban-reverse-square.jpg",
+    "id": "perfume-chanel-n5-leau",
+    "name": "Chanel N°5 L'Eau Eau de Toilette",
+    "category": "perfumes",
+    "description": "La reinvención más fresca, moderna y cristalina del legendario N°5. Cítricos dinámicos de limón y mandarina con aldehídos transparentes, rosa de mayo, jazmín y cedro.",
+    "price": 135,
+    "image": "/images/chanel-n5-leau.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Modelo: Ray-Ban 0RBR0104S 92023A 54/19 (Reverse Square)",
-      "Montura: Metal pulido de alta precisión en acabado oro brillante / oro rosa",
-      "Lentes: Tecnología Reverse cóncava en azul oscuro con tratamiento antirreflejante de bio-nailon y protección UV total",
-      "Ergonomía: Plaquetas nasales ajustables y terminales de varilla transparentes hipoalergénicos",
-      "Presentación: Incluye estuche exclusivo Ray-Ban Reverse sostenible y bayeta de microfibra premium"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Aldehídico Puro Cristalino",
+      "Notas de salida: Limón, Mandarina, Naranja dulce, Neroli, Aldehídos frescos",
+      "Notas de corazón: Rosa de mayo de Grasse, Jazmín luminoso, Ylang-ylang",
+      "Notas de fondo: Madera de cedro blanco, Almizcles blancos como algodón",
+      "Presentación: Frasco rectangular transparente puro con tapón facetado y estuche blanco y negro de Chanel"
     ],
-    "history": "Un hito en la ingeniería óptica contemporánea: la primera lente invertida del mundo que redefine la estética y la claridad visual."
+    "history": "Olivier Polge reinventó la fórmula mítica para revelar una ligereza y transparencia absolutamente contemporáneas."
   },
   {
-    "id": "glasses-08",
-    "name": "Ray-Ban Wayfarer Deluxe Polarized Gold Matte",
-    "category": "glasses",
-    "description": "Reinterpretación de lujo y vanguardia de la legendaria silueta Wayfarer. Estructura frontal de metal premium en oro mate cepillado, varillas anchas con la firma Ray-Ban en relieve, terminales geométricos en acetato negro y lentes polarizadas en azul profundo.",
-    "price": 223,
-    "image": "/images/rayban-wayfarer-deluxe.jpg",
+    "id": "perfume-chanel-coco-edp",
+    "name": "Chanel Coco Eau de Parfum",
+    "category": "perfumes",
+    "description": "La expresión barroca y fascinante del estilo oriental de Gabrielle Chanel. Una exuberante composición especiada con mandarina, rosa damascena, cilantro, haba tonka y benjuí.",
+    "price": 140,
+    "image": "/images/chanel-coco-edp-black.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Modelo: Ray-Ban WAYFARER DELUXE GLD MT BLU P (Polarized)",
-      "Montura: Metal cepillado de alta precisión en acabado oro mate dorado (GLD MT)",
-      "Lentes: Minerales polarizadas antirreflejos en azul profundo (BLU P) con protección total UV400",
-      "Varillas: Formato ancho Deluxe con grabado oficial Ray-Ban y terminales de acetato negro ergonómicos",
-      "Accesorios: Incluye estuche rígido de piel Ray-Ban Deluxe con gamuza de microfibra de alta densidad"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Oriental Especiado Opulento",
+      "Notas de salida: Cilantro, Mandarina siciliana, Melocotón, Azahar",
+      "Notas de corazón: Rosa de Damasco, Clavel, Mimosa, Azahar",
+      "Notas de fondo: Ámbar cálido, Sándalo, Haba tonka, Vainilla, Civeta, Benjuí",
+      "Presentación: Frasco clásico de cristal pesado con tapón joya negro y estuche lacado en negro con ribetes de oro"
     ],
-    "history": "La evolución más sofisticada del diseño más icónico de la historia óptica: ingeniería metálica de precisión con lentes polarizadas de máxima claridad."
+    "history": "Un viaje a la Venecia bizantina y al apartamento de Mademoiselle en la Rue Cambon, rodeado de biombos de Coromandel."
   },
   {
-    "id": "glasses-09",
-    "name": "Ray-Ban New Wayfarer Classic Tortoise G-15",
-    "category": "glasses",
-    "description": "Una versión más compacta y suave del legendario diseño Wayfarer. Fabricadas en acetato brillante con patrón carey Habana (Tortoise), montura ergonómica estilizada y las icónicas lentes minerales de cristal verde G-15 que ofrecen una nitidez y fidelidad cromática inigualables.",
-    "price": 152,
-    "image": "/images/rayban-new-wayfarer.jpg",
+    "id": "perfume-chanel-chance-tendre",
+    "name": "Chanel Chance Eau Tendre Eau de Toilette",
+    "category": "perfumes",
+    "description": "La ternura y poesía de una oportunidad dulce. Acorde afrutado de pomelo y membrillo entrelazado con la suavidad del jazmín y la calidez del almizcle blanco.",
+    "price": 135,
+    "image": "/images/chanel-chance-eau-tendre.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Modelo: Ray-Ban RB 2132 NEW WAYFARER 902 52[]18 145 3N (TRT / GRN)",
-      "Montura: Acetato de celulosa premium pulido con acabado Carey / Tortuga Habana (902)",
-      "Lentes: Cristal mineral legendario G-15 Verde con protección UV400 completa y máxima claridad óptica",
-      "Detalles: Remaches metálicos frontales plateados e inscripción de firma Ray-Ban en relieve en las varillas",
-      "Incluye: Estuche protector oficial Ray-Ban, paño de limpieza de microfibra y folleto de autenticidad"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Afrutado Tierno y Radiante",
+      "Notas de salida: Pomelo rosado chispeante, Membrillo fresco",
+      "Notas de corazón: Absoluto de jazmín, Jacinto de agua",
+      "Notas de fondo: Almizcle blanco algodonoso, Ámbar ligero, Cedro",
+      "Presentación: Frasco circular de cristal con líquido rosa pastel, aro plateado y estuche rosa pastel"
     ],
-    "history": "La actualización contemporánea del mayor icono de la moda óptica desde 1952, optimizada con una curvatura facial más ligera y confortable."
+    "history": "Una constelación de notas tiernas y envolventes para una mujer soñadora, delicada y optimista."
   },
   {
-    "id": "glasses-10",
-    "name": "Gafas Deportivas Grand Prix",
-    "category": "glasses",
-    "description": "Montura de fibra de carbono con inserciones de goma roja Katty Privé y lentes espejadas polarizadas.",
-    "price": 990,
-    "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&q=80&w=800",
+    "id": "perfume-miss-dior-edp",
+    "name": "Christian Dior Miss Dior Eau de Parfum",
+    "category": "perfumes",
+    "description": "Un bouquet floral embriagador que celebra el amor. Rosa centifolia de mil mieles, lirio de los valles fresco, peonía noble y notas de madera cremosa de sándalo de Papúa.",
+    "price": 140,
+    "image": "/images/miss-dior-eau-de-parfum.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Fibra de carbono real",
-      "Lentes hidrofóbicas anti-vaho",
-      "Resistencia extrema"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Ambarino Bouquet de Alta Costura",
+      "Notas de salida: Lirio de los valles, Peonía viva, Iris empolvado",
+      "Notas de corazón: Rosa Centifolia de Grasse aterciopelada y melosa",
+      "Notas de fondo: Madera de sándalo de Papúa, Benjuí, Vainilla, Haba tonka",
+      "Presentación: Frasco grabado con motivo pata de gallo de Dior y lazo 'poignard' bordado a mano en Jacquard"
     ],
-    "history": "Rendimiento y exclusividad para los amantes de la velocidad y el motor."
+    "history": "El primer perfume concebido por Christian Dior en 1947, renovado como una oda vibrante a la esperanza y al amor."
   },
   {
-    "id": "glasses-11",
-    "name": "Gafas Cuadradas Vintage 1970",
-    "category": "glasses",
-    "description": "Montura geométrica en acetato champán translúcido con varillas esculpidas.",
-    "price": 690,
-    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&q=80&w=800",
+    "id": "perfume-prada-infusion-ylang",
+    "name": "Prada Les Infusions de Prada Eau de Parfum",
+    "category": "perfumes",
+    "description": "La sofisticación y pureza de la alta perfumería de Milán. Notas solares de flor de ylang-ylang enriquecidas con bergamota, cardamomo y sándalo envolvente.",
+    "price": 135,
+    "image": "/images/prada-infusion-ylang.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Acetato cristal translúcido",
-      "Lentes degradadas tostadas",
-      "Bisagras de 5 dientes"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Solar Saffiano Exclusivo",
+      "Notas de salida: Bergamota de Calabria, Cardamomo verde",
+      "Notas de corazón: Flor de Ylang-Ylang solar de Madagascar",
+      "Notas de fondo: Madera de sándalo cremosa, Resina de benjuí",
+      "Presentación: Frasco vintage de vidrio pesado con tapón en piel saffiano verde menta y escudo heráldico plateado de Prada"
     ],
-    "history": "El encanto nostálgico de la Costa Azul en su época dorada."
+    "history": "Una exploración poética de ingredientes botánicos puros formulada por Daniela Andrier para Prada."
   },
   {
-    "id": "glasses-12",
-    "name": "Gafas de Sol Shield Panorámica",
-    "category": "glasses",
-    "description": "Lente única envolvente de una sola pieza con puente metálico y pernos dorados frontales.",
-    "price": 1100,
-    "image": "https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&q=80&w=800",
+    "id": "perfume-chloe-nomade-jasmin",
+    "name": "Chloé Nomade Jasmin Naturel Eau de Parfum",
+    "category": "perfumes",
+    "description": "Una expedición olfativa femenina formulada con fragancia de origen 100% natural. Jazmín egipcio recolectado al amanecer sobre un lecho suave de dátiles y vainilla reconfortante.",
+    "price": 110,
+    "image": "/images/chloe-nomade-jasmin.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Lente monolítica de policarbonato",
-      "Puente superior con logo Katty Privé",
-      "Protección periférica"
+      "Volumen: 75 ml / 2.5 FL. OZ",
+      "Familia olfativa: Floral Solar Gourmand Natural",
+      "Notas de salida: Ciruela mirabel, Néctar de bergamota",
+      "Notas de corazón: Jazmín egipcio 100% natural de comercio justo, Acorde de dátil dulce",
+      "Notas de fondo: Vainilla de Madagascar, Sándalo, Pachulí",
+      "Presentación: Frasco curvado en forma de herradura de viaje con cordón trenzado de ante mostaza y caja ocre cálida"
     ],
-    "history": "Vanguardia audaz para estilismos de alto impacto."
+    "history": "Un canto a los horizontes lejanos y a la belleza nómada libre de ataduras y en sintonía con la naturaleza."
   },
   {
-    "id": "glasses-13",
-    "name": "Gafas Cat-Eye Mini Retro",
-    "category": "glasses",
-    "description": "Micro montura felina estrecha en acetato blanco marfil y lentes oscuras de contraste.",
-    "price": 720,
-    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&q=80&w=800",
+    "id": "perfume-chloe-le-parfum",
+    "name": "Chloé Le Parfum Rechargeable",
+    "category": "perfumes",
+    "description": "La intensidad más sublime de la clásica rosa Chloé. Rosa aterciopelada y madera de roble tostado con una estela dulce y refinada de miel de azahar en formato recargable.",
+    "price": 125,
+    "image": "/images/chloe-le-parfum-rechargeable.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Acetato color blanco marfil",
-      "Lentes oscuras de alto contraste",
-      "Diseño compacto contemporáneo"
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Amaderado Sublime",
+      "Notas de salida: Mandarina dulce, Grosella roja",
+      "Notas de corazón: Rosa de Damasco orgánica concentrada, Azahar",
+      "Notas de fondo: Madera de roble noble, Vainilla aterciopelada, Cedro",
+      "Presentación: Frasco de cristal plisado artesanal con placa metálica bañada en plata y lazo burdeos atado a mano"
     ],
-    "history": "Favorita de estilistas para pasarelas internacionales."
+    "history": "La quintaesencia de la feminidad parisina, ahora en un formato respetuoso con el medio ambiente y recargable."
   },
   {
-    "id": "glasses-14",
-    "name": "Gafas Ópticas de Lectura Privé",
-    "category": "glasses",
-    "description": "Montura refinada para cristales graduados con varillas flexibles de titanio y frontal pantoscópico.",
-    "price": 650,
-    "image": "https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&q=80&w=800",
+    "id": "perfume-givenchy-linterdit-rouge-ultime",
+    "name": "Givenchy L'Interdit Rouge Ultime Eau de Parfum",
+    "category": "perfumes",
+    "description": "El tributo definitivo al color rojo icónico de Givenchy. Nardo hipnótico y flor de azahar cruzados con una tentación de cacao caliente ahumado y pachulí oscuro.",
+    "price": 120,
+    "image": "/images/givenchy-linterdit-rouge-ultime.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Compatible con lentes progresivas",
-      "Titanio satinado",
-      "Plaquetas antialérgicas"
+      "Volumen: 80 ml / 2.7 FL. OZ",
+      "Familia olfativa: Floral Amaderado Cálido con Cacao Sensual",
+      "Notas de salida: Flor de azahar de Túnez, Jazmín Sambac",
+      "Notas de corazón: Nardo carnal de la India, Vaina de cacao tostado",
+      "Notas de fondo: Corazón de pachulí de Indonesia, Vetiver de Haití, Ambroxan",
+      "Presentación: Frasco laqueado en rojo carmesí opaco con cinta de satén negro y sello 4G plateado en relieve"
     ],
-    "history": "Convierte el momento de lectura en un ritual de sofisticación."
+    "history": "Un homenaje a Audrey Hepburn y a la transgresión de romper las normas con elegancia aristocrática."
   },
   {
-    "id": "glasses-15",
-    "name": "Gafas de Edición Diamante",
-    "category": "glasses",
-    "description": "Montura de oro blanco de 18K con dos pequeños diamantes engastados en los extremos superiores.",
-    "price": 2600,
-    "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&q=80&w=800",
+    "id": "perfume-mugler-alien-edp",
+    "name": "Mugler Alien Eau de Parfum Talisman Rechargeable",
+    "category": "perfumes",
+    "description": "El talismán sagrado de la diosa solar de Mugler. Tres revelaciones olfativas: la luminosidad del jazmín sambac, el misterio de la madera de cashmeran y la opulencia del ámbar blanco.",
+    "price": 130,
+    "image": "/images/mugler-alien-edp.jpg",
+    "availability": "available",
+    "isAvailable": true,
     "details": [
-      "Oro blanco 18 quilates",
-      "2 diamantes talla brillante de 0.05 ct",
-      "Caja cofre de piel de aligátor"
+      "Volumen: 90 ml / 3.0 FL. OZ",
+      "Familia olfativa: Ambarino Amaderado Floral Solar",
+      "Notas de salida: Jazmín Sambac grandiflorum recogido a mano en la India",
+      "Notas de corazón: Madera de Cashmeran con cuerpo y densidad sensual",
+      "Notas de fondo: Ámbar blanco sagrado envolvente",
+      "Presentación: Frasco gema amatista esculpido como una piedra preciosa recargable con garras doradas"
     ],
-    "history": "La cumbre de la unión entre alta joyería y arte óptico."
+    "history": "Un amuleto mágico que difunde paz, magnetismo y una energía sobrenatural sobre quien lo viste."
+  },
+  {
+    "id": "perfume-zadig-really-her",
+    "name": "Zadig & Voltaire This is Really Her! Eau de Parfum Intense",
+    "category": "perfumes",
+    "description": "La fragancia más rebelde y festiva de París. Acordes luminosos de bayas rosas, castaña glaseada de autor, pachulí embriagador y vainilla dorada metálica.",
+    "price": 110,
+    "image": "/images/zadig-this-is-really-her.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Volumen: 100 ml / 3.4 FL. OZ",
+      "Familia olfativa: Floral Ámbar Gourmand Intenso",
+      "Notas de salida: Bayas rosas chispeantes, Albahaca dulce",
+      "Notas de corazón: Castaña tostada de autor, Rosa metálica",
+      "Notas de fondo: Vainilla dorada, Madera de sándalo, Pachulí",
+      "Presentación: Frasco monolito con efecto de oro líquido craquelado y estuche dorado metálico brillante"
+    ],
+    "history": "La banda sonora olfativa de las noches parisinas más salvajes y sofisticadas."
+  },
+  {
+    "id": "perfume-ysl-black-opium-le-parfum",
+    "name": "Yves Saint Laurent Black Opium Le Parfum",
+    "category": "perfumes",
+    "description": "La interpretación más intensa y adictiva de Black Opium. Un cuarteto de vainillas excepcionales con el emblemático café negro tostado y flores blancas solares.",
+    "price": 135,
+    "image": "/images/ysl-black-opium-le-parfum.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Volumen: 90 ml / 3.0 FL. OZ",
+      "Familia olfativa: Oriental Vainilla Café Floral Radiante",
+      "Notas de salida: Mandarina verde, Pera crujiente, Esencia de canela",
+      "Notas de corazón: Flor de azahar solar, Jazmín Sambac rico",
+      "Notas de fondo: Cuarteto de vainillas nobles (Madagascar, Tahití, Bourbon), Café negro torrefacto, Pachulí",
+      "Presentación: Frasco vinilo negro ultrabrillante con corazón destellante de purpurina líquida y aro dorado"
+    ],
+    "history": "La emoción de la noche en una dosis de adrenalina floral, dulce y radicalmente seductora."
+  },
+  {
+    "id": "glasses-celine-triomphe",
+    "name": "Celine Gafas de Sol Triomphe 01 en Acetato Negro",
+    "category": "glasses",
+    "description": "Diseño icónico ovalado de alta costura en acetato negro pulido. Destaca por el emblemático motivo Triomphe en relieve metálico dorado pulido en ambas varillas y lentes solares tintadas con máxima protección UV.",
+    "price": 420,
+    "image": "/images/celine-triomphe-oval.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Montura: Acetato de celulosa premium negro brillante biselado a mano",
+      "Detalle emblemático: Logotipo de autor Celine Triomphe en metal dorado tridimensional",
+      "Lentes: Tintadas en gris humo con protección 100% UVA/UVB Categoría 3",
+      "Presentación: Incluye funda de piel rígida oficial Celine Paris y paño de seda"
+    ],
+    "history": "La máxima expresión de la elegancia parisina contemporánea, un homenaje a la Place de l'Étoile que corona la mirada con un aura de sofisticación absoluta."
+  },
+  {
+    "id": "glasses-prada-symbole",
+    "name": "Prada Gafas de Sol Symbole PR 17WS Rectangulares",
+    "category": "glasses",
+    "description": "Silueta geométrica audaz con audaces cortes biselados en acetato negro profundo. Varillas tridimensionales multifacetadas que integran el legendario triángulo de Prada con logotipo PRADA Milano.",
+    "price": 390,
+    "image": "/images/prada-symbole-geometric.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Modelo: Prada Symbole PR 17WS 1AB-5S0 49-20",
+      "Montura: Acetato geométrico esculpido en negro de alto brillo",
+      "Varillas: Diseño facetado arquitectónico con placa triangular Prada Milano",
+      "Lentes: Minerales gris oscuro uniforme con filtro solar Cat. 3 y protección UV400",
+      "Accesorios: Estuche rígido texturizado Prada y gamuza de microfibra de alta densidad"
+    ],
+    "history": "Una obra de arte vanguardista que fusiona el brutalismo geométrico con el minimalismo de lujo milanés."
+  },
+  {
+    "id": "glasses-ysl-mica",
+    "name": "Saint Laurent Gafas de Sol SL 276 Mica Cat-Eye",
+    "category": "glasses",
+    "description": "Silueta felina cat-eye ultrafemenina y aristocrática en acetato negro pulido. Varillas estilizadas realzadas con el legendario monograma Cassandre YSL esculpido en metal dorado pulido.",
+    "price": 375,
+    "image": "/images/ysl-mica-cat-eye.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Modelo: Saint Laurent SL 276 Mica / Monogram Edition",
+      "Montura: Acetato lustrado en negro ébano con esquinas afiladas cat-eye",
+      "Detalle de autor: Monograma joya Cassandre YSL entrelazado en relieve de oro",
+      "Lentes: Polarizadas en gris humo con protección UV400 completa",
+      "Presentación: Incluye funda flexible de piel acolchada Saint Laurent Paris"
+    ],
+    "history": "El magnetismo felino y la audacia andrógina de Yves Saint Laurent destilados en el accesorio fetiche de las pasarelas de París."
+  },
+  {
+    "id": "glasses-dior-montaigne",
+    "name": "Dior Gafas de Sol 30 Montaigne Cuadradas con Bisagra CD",
+    "category": "glasses",
+    "description": "Diseño arquitectónico cuadrado de gran presencia en acetato negro brillante. Su rasgo maestro es la majestuosa bisagra joya en metal dorado con las iniciales CD caladas que unen el frente con las varillas.",
+    "price": 460,
+    "image": "/images/dior-30-montaigne.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Modelo: Christian Dior 30 Montaigne SU",
+      "Montura: Acetato biselado negro opulento con frontal cuadrangular",
+      "Herrajes: Bisagra funcional con logotipo CD bañado en oro claro de alta joyería",
+      "Lentes: Filtro solar gris degradado con tratamiento antirreflejante y protección 100% UV",
+      "Incluye: Estuche rígido Christian Dior Paris grabado en oro y paño de satén"
+    ],
+    "history": "Inspiradas en la mítica dirección histórica de Avenue Montaigne, rinden tributo al savoir-faire artesanal de la Maison Dior."
+  },
+  {
+    "id": "glasses-miumiu-oval",
+    "name": "Miu Miu Gafas de Sol Glimpse Ovaladas Carey Havana",
+    "category": "glasses",
+    "description": "Silueta ovalada retro de vanguardia en acetato carey havana de tonalidades ambarinas cálidas. Varillas gruesas con la exclusiva tipografía calada en relieve metálico dorado MIU MIU integrada en las sienes.",
+    "price": 365,
+    "image": "/images/miumiu-havana-oval.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Modelo: Miu Miu Glimpse / Regard SMU04Z",
+      "Montura: Acetato italiano carey havana con vetas doradas y ámbar",
+      "Logo: Tipografía MIU MIU en altorrelieve de oro pulido brillante",
+      "Lentes: Tintadas en marrón cálido con protección total UV400 Cat. 3",
+      "Presentación: Estuche rígido en terciopelo rosa empolvado Miu Miu y paño de seda"
+    ],
+    "history": "La esencia del espíritu libre e intelectual de Miuccia Prada, combinando el glamour vintage de los 90 con el chic urbano actual."
+  },
+  {
+    "id": "glasses-lv-cyclone",
+    "name": "Louis Vuitton Gafas de Sol Cyclone con Flor Monogram",
+    "category": "glasses",
+    "description": "Gafas de sol cuadradas de impacto escultural en acetato negro azabache con biselado frontal profundo. Destaca una exquisita flor Monogram de cristal engastada en el puente superior y herrajes metálicos dorados con iniciales LV.",
+    "price": 520,
+    "image": "/images/lv-cyclone-square.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Modelo: Louis Vuitton Cyclone Z1578E",
+      "Montura: Acetato de alta densidad negro azabache con biselado profundo",
+      "Detalle joya: Flor Monogram tallada con cristal engastado en el puente frontal",
+      "Varillas: Herrajes y bisagras doradas grabadas con Louis Vuitton",
+      "Presentación: Incluye estuche rígido Monogram Canvas y funda de microfibra de la Maison"
+    ],
+    "history": "Un hito del diseño audaz de Louis Vuitton, reinterpretando los códigos clásicos de la marroquinería en una pieza de óptica de culto."
+  },
+  {
+    "id": "glasses-gucci-gg",
+    "name": "Gucci Gafas de Sol Cuadradas con Doble G Entrelazada",
+    "category": "glasses",
+    "description": "Elegancia atemporal de proporciones cuadradas en acetato negro brillante pulido a mano. Las varillas de perfil ancho lucen el célebre emblema Doble G metálico dorado que evoca los archivos históricos de Florencia.",
+    "price": 340,
+    "image": "/images/gucci-interlocking-gg.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Modelo: Gucci GG0036S / Square Heritage Edition",
+      "Montura: Acetato refinado negro pulido con puente cómodo anatómico",
+      "Detalle de autor: Doble G dorada tridimensional entrelazada en los laterales",
+      "Lentes: Lentes gris oscuro con tratamiento antirrayas y 100% protección UVA/UVB",
+      "Accesorios: Estuche aterciopelado rígido Gucci en tono joya con forro de satén"
+    ],
+    "history": "El esplendor de la dolce vita italiana capturado en una silueta que nunca pasa de moda, destilando carisma y distinción."
+  },
+  {
+    "id": "glasses-balenciaga-dynasty",
+    "name": "Balenciaga Gafas de Sol Dynasty Rectangulares con Logo BB",
+    "category": "glasses",
+    "description": "Diseño rectangular futurista y de líneas puras en acetato negro de acabado espejo. Las varillas anchas integran el emblemático logotipo joya calado BB en metal dorado tridimensional con acabado de alta orfebrería.",
+    "price": 430,
+    "image": "/images/balenciaga-dynasty-bb.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Modelo: Balenciaga Dynasty BB0096S",
+      "Montura: Acetato inyectado premium negro pulido de silueta rectangular baja",
+      "Detalle joya: Emblema doble B calado en latón pulido con baño de oro amarillo",
+      "Lentes: Lentes nylon tintadas en negro intenso con protección UV total",
+      "Presentación: Estuche estuche rígido Balenciaga y toallita de limpieza técnica"
+    ],
+    "history": "La vanguardia radical de Cristóbal Balenciaga reinventada para el siglo XXI con proporciones arquitectónicas irresistibles."
   },
   {
     "id": "cosmetics-01",

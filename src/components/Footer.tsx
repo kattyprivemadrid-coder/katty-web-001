@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, ArrowRight, Check, Phone, MessageCircle, Globe, Share2, Clock, Instagram, Music2, Lock } from "lucide-react";
+import { Mail, ArrowRight, Check, Phone, MessageCircle, Globe, Share2, Clock, Instagram, Music2, Lock, Download, FileText } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import Logo from "./Logo";
 
@@ -156,6 +156,27 @@ export default function Footer({ onSelectSlide, onOpenAdmin, isAdmin = false, on
             </h5>
             <ul className="text-[11px] text-[#FAF9F6]/60 space-y-2.5">
               <li><a href="https://kattyprivemadrid.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-[#c5a880] transition-colors flex items-center gap-1.5 font-medium text-[#c5a880]"><Globe size={11} /> <span>kattyprivemadrid.netlify.app</span></a></li>
+              <li>
+                <a
+                  href="/descargar-factura"
+                  download="Katty-Prive-Facturacion.html"
+                  className="hover:text-[#c5a880] transition-colors flex items-center gap-1.5 font-medium text-[#c5a880]"
+                  title="Descargar la aplicación de facturación para tu móvil o PC"
+                >
+                  <Download size={11} /> <span>Descargar App de Facturación (A5)</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/factura.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#c5a880] transition-colors flex items-center gap-1.5"
+                  title="Abrir aplicación de facturación online"
+                >
+                  <FileText size={11} /> <span>Abrir Facturación en Línea</span>
+                </a>
+              </li>
               <li><a href="#boutiques" className="hover:text-[#c5a880] transition-colors">Solicitar Cita Privada</a></li>
               <li><a href="https://wa.me/34632892657" target="_blank" rel="noopener noreferrer" className="hover:text-[#c5a880] transition-colors">Asesoría Directa por WhatsApp</a></li>
               <li><a href="#" onClick={(e) => { e.preventDefault(); alert("Envíos de cortesía asegurados en todo el territorio nacional e internacional."); }} className="hover:text-[#c5a880] transition-colors">Envíos y Entregas Privadas</a></li>

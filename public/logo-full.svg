@@ -1,132 +1,175 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 640" width="100%" height="100%" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 650" width="100%" height="100%" fill="none">
   <defs>
-    <!-- 3D Gold Surface Gradient -->
-    <linearGradient id="fullGoldSurface" x1="0.15" y1="0.1" x2="0.85" y2="0.9">
-      <stop offset="0%" stop-color="#FBF4E6" />
-      <stop offset="25%" stop-color="#E5D1AC" />
-      <stop offset="50%" stop-color="#CAAF81" />
-      <stop offset="75%" stop-color="#B89764" />
-      <stop offset="100%" stop-color="#91723D" />
+    <linearGradient id="fullGold" x1="0.1" y1="0.05" x2="0.9" y2="0.95">
+      <stop offset="0%" stop-color="#FFF9EE" />
+      <stop offset="18%" stop-color="#EAD3AC" />
+      <stop offset="45%" stop-color="#CDB080" />
+      <stop offset="75%" stop-color="#B9965E" />
+      <stop offset="92%" stop-color="#95733B" />
+      <stop offset="100%" stop-color="#7A5824" />
     </linearGradient>
 
-    <!-- Bevel Light Highlight -->
     <linearGradient id="fullBevelLight" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85" />
-      <stop offset="40%" stop-color="#DFCCAA" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#80622F" stop-opacity="0" />
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="40%" stop-color="#F4E2C2" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#8A6832" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Shadow Rim Gradient -->
     <linearGradient id="fullBevelDark" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
-      <stop offset="60%" stop-color="#6E5020" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#4A3412" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#6B4C1E" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#30200A" stop-opacity="0.85" />
     </linearGradient>
 
-    <!-- Outer Ring Gradient -->
-    <linearGradient id="fullRingGrad" x1="0.2" y1="0.1" x2="0.8" y2="0.9">
-      <stop offset="0%" stop-color="#F8EFE0" />
-      <stop offset="30%" stop-color="#DDC8A0" />
-      <stop offset="70%" stop-color="#BEA06E" />
-      <stop offset="100%" stop-color="#8E6E3B" />
-    </linearGradient>
-
-    <!-- Realistic 3D Soft Drop Shadow for Transparent Background -->
-    <filter id="fullLuxuryShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="1" dy="3" stdDeviation="2.5" flood-color="#3A2810" flood-opacity="0.32" />
-      <feDropShadow dx="0.5" dy="1" stdDeviation="0.8" flood-color="#231707" flood-opacity="0.2" />
+    <filter id="fullDropShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="1" dy="3" stdDeviation="2.8" flood-color="#2B1B07" flood-opacity="0.38" />
+      <feDropShadow dx="0.5" dy="1" stdDeviation="0.8" flood-color="#180F03" flood-opacity="0.2" />
     </filter>
   </defs>
 
-  <g filter="url(#fullLuxuryShadow)">
+  <g filter="url(#fullDropShadow)">
     <!-- ============================================== -->
-    <!-- TOP: KP EMBLEM (Center cx=350, cy=220, r=165) -->
+    <!-- TOP: KP EMBLEM (Center cx=350, cy=220, r=160)  -->
     <!-- ============================================== -->
-    <circle cx="350" cy="220" r="160" stroke="url(#fullRingGrad)" stroke-width="11" fill="none" />
-    <circle cx="350" cy="220" r="164.5" stroke="url(#fullBevelLight)" stroke-width="1.5" fill="none" opacity="0.6" />
-    <circle cx="350" cy="220" r="154.5" stroke="url(#fullBevelDark)" stroke-width="1.5" fill="none" opacity="0.5" />
+    <circle cx="350" cy="220" r="155" stroke="url(#fullGold)" stroke-width="11" fill="none" />
+    <circle cx="350" cy="220" r="159.5" stroke="url(#fullBevelLight)" stroke-width="1.4" fill="none" opacity="0.7" />
+    <circle cx="350" cy="220" r="150.5" stroke="url(#fullBevelDark)" stroke-width="1.4" fill="none" opacity="0.6" />
 
-    <!-- KP Monogram Inside -->
-    <g fill="url(#fullGoldSurface)">
-      <!-- K Left Vertical Pillar (288 to 308, y: 138 to 302) -->
-      <path d="M 288 138 L 308 138 L 308 302 L 288 302 Z" />
+    <!-- KP Monogram inside -->
+    <g fill="url(#fullGold)">
+      <!-- K Left Vertical Pillar -->
+      <path d="M 288,136 L 308,136 L 308,304 L 288,304 Z" />
+      <path d="M 288,136 L 278,136 C 284,141 288,146 288,154 L 288,136 Z" />
+      <path d="M 288,304 L 278,304 C 284,299 288,294 288,286 L 288,304 Z" />
+      <path d="M 308,304 L 318,304 C 312,299 308,294 308,286 L 308,304 Z" />
 
-      <!-- Top Triangle / Serif of K -->
-      <polygon points="288,138 308,138 308,156 288,138" fill="url(#fullBevelLight)" opacity="0.5" />
+      <!-- P Vertical Stem -->
+      <path d="M 338,136 L 356,136 L 356,260 L 338,260 Z" />
 
-      <!-- Central Vertical Stem of P (x: 338..356, y: 138..264) -->
-      <path d="M 338 138 L 356 138 L 356 264 L 338 264 Z" />
+      <!-- K Upper Diagonal Arm -->
+      <path d="M 308,208 L 366,136 L 384,136 L 320,216 Z" />
 
-      <!-- Upper Diagonal Arm of K -->
-      <path d="M 308 204 L 368 138 L 386 138 L 308 224 Z" />
-      <polygon points="368,138 386,138 364,164 346,164" />
-      <polygon points="346,164 364,164 329,204 311,204" fill="url(#fullBevelDark)" opacity="0.25" />
+      <!-- K Lower Diagonal Leg -->
+      <path d="M 338,208 L 412,304 L 432,304 L 356,208 Z" />
+      <path d="M 432,304 L 442,304 C 436,299 432,294 432,286 L 432,304 Z" />
 
-      <!-- Lower Diagonal Leg of K -->
-      <path d="M 338 217 L 387 302 L 407 302 L 356 217 Z" />
-      <!-- Base Foot -->
-      <path d="M 366 292 L 407 292 L 407 302 L 366 302 Z" />
-      <polygon points="366,292 407,292 381,255 366,255" fill="url(#fullBevelLight)" opacity="0.35" />
-
-      <!-- 'P' Loop Bowl -->
-      <path d="
-        M 356 138 
-        L 386 138 
-        C 420 138, 440 158, 440 186 
-        C 440 214, 420 234, 386 234 
-        L 356 234 
-        L 356 215 
-        L 386 215 
-        C 408 215, 420 204, 420 186 
-        C 420 168, 408 157, 386 157 
-        L 356 157 
-        Z
-      " />
+      <!-- P Loop -->
+      <path d="M 356,136 L 388,136 C 420,136 440,152 440,178 C 440,204 420,220 388,220 L 356,220 Z M 356,154 L 356,202 L 386,202 C 406,202 420,192 420,178 C 420,164 406,154 386,154 Z" />
     </g>
 
-    <!-- Bevel highlight lines on Emblem -->
-    <path d="M 356 138 L 386 138 C 418 138, 438 156, 440 182" stroke="url(#fullBevelLight)" stroke-width="1.8" fill="none" opacity="0.8" />
-    <line x1="288" y1="138" x2="288" y2="302" stroke="url(#fullBevelLight)" stroke-width="1.8" opacity="0.75" />
-    <line x1="308" y1="138" x2="308" y2="302" stroke="url(#fullBevelDark)" stroke-width="1.4" opacity="0.6" />
-    <line x1="308" y1="204" x2="368" y2="138" stroke="url(#fullBevelLight)" stroke-width="1.8" opacity="0.85" />
-    <line x1="356" y1="217" x2="407" y2="302" stroke="url(#fullBevelDark)" stroke-width="1.8" opacity="0.7" />
+    <!-- Bevel Detail Lines -->
+    <path d="M 288,136 L 288,304" stroke="url(#fullBevelLight)" stroke-width="1.8" opacity="0.85" />
+    <path d="M 308,136 L 308,304" stroke="url(#fullBevelDark)" stroke-width="1.5" opacity="0.7" />
+    <path d="M 338,136 L 338,260" stroke="url(#fullBevelLight)" stroke-width="1.8" opacity="0.85" />
+    <path d="M 356,136 L 356,260" stroke="url(#fullBevelDark)" stroke-width="1.5" opacity="0.7" />
+    <path d="M 308,208 L 366,136" stroke="url(#fullBevelLight)" stroke-width="1.8" opacity="0.9" />
+    <path d="M 356,208 L 432,304" stroke="url(#fullBevelDark)" stroke-width="1.8" opacity="0.75" />
+    <path d="M 356,136 L 388,136 C 420,136 440,152 440,178" stroke="url(#fullBevelLight)" stroke-width="1.8" opacity="0.85" />
+    <path d="M 440,178 C 440,204 420,220 388,220 L 356,220" stroke="url(#fullBevelDark)" stroke-width="1.8" opacity="0.75" />
 
     <!-- ============================================== -->
-    <!-- BOTTOM: KATTY PRIVÉ (Scaled & Centered below)   -->
+    <!-- BOTTOM: 'KATTY PRIVÉ' TYPOGRAPHY (Centered)    -->
+    <!-- Scale: 0.69, centered in 700px width           -->
+    <!-- 880 * 0.69 = 607.2; (700 - 607.2)/2 = 46.4     -->
     <!-- ============================================== -->
-    <g transform="translate(42, 455) scale(0.67)" fill="url(#fullGoldSurface)">
+    <g transform="translate(46, 450) scale(0.69)" fill="url(#fullGold)">
       <!-- K -->
-      <path d="M 14 26 L 33 26 L 33 118 L 14 118 Z" />
-      <path d="M 33 76 L 73 26 L 96 26 L 50 76 Z" />
-      <path d="M 44 70 L 85 118 L 108 118 L 61 70 Z" />
+      <path d="M 14,24 L 34,24 L 34,106 L 14,106 Z" />
+      <path d="M 14,24 L 6,24 C 11,28 14,33 14,40 L 14,24 Z" />
+      <path d="M 14,106 L 6,106 C 11,102 14,97 14,90 L 14,106 Z" />
+      <path d="M 34,106 L 42,106 C 37,102 34,97 34,90 L 34,106 Z" />
+      <path d="M 34,66 L 76,24 L 94,24 L 46,72 Z" />
+      <path d="M 94,24 L 102,24 C 97,28 94,33 94,40 L 94,24 Z" />
+      <path d="M 46,64 L 86,106 L 106,106 L 60,60 Z" />
+      <path d="M 106,106 L 114,106 C 109,101 106,95 106,88 L 106,106 Z" />
 
       <!-- A -->
-      <path d="M 152 26 L 172 26 L 208 118 L 187 118 L 178 92 L 146 92 L 137 118 L 116 118 Z M 162 52 L 152 77 L 172 77 Z" />
+      <path d="M 167,24 L 157,24 L 128,106 L 140,106 L 163,38 Z" />
+      <path d="M 128,106 L 120,106 C 125,102 128,98 128,92 L 128,106 Z" />
+      <path d="M 165,24 L 178,24 L 208,106 L 192,106 L 165,38 Z" />
+      <path d="M 208,106 L 216,106 C 211,102 208,98 208,92 L 208,106 Z" />
+      <path d="M 157,24 L 178,24 L 174,30 L 161,30 Z" />
+      <path d="M 144,77 L 189,77 L 187,85 L 146,85 Z" />
 
-      <!-- T -->
-      <path d="M 218 26 L 288 26 L 288 43 L 263 43 L 263 118 L 243 118 L 243 43 L 218 43 Z" />
+      <!-- T (First) -->
+      <path d="M 232,24 L 304,24 L 304,33 L 232,33 Z" />
+      <path d="M 232,24 L 232,42 C 235,37 239,33 244,33 L 232,33 Z" />
+      <path d="M 304,24 L 304,42 C 301,37 297,33 292,33 L 304,33 Z" />
+      <path d="M 259,33 L 277,33 L 277,106 L 259,106 Z" />
+      <path d="M 259,106 L 249,106 C 255,102 259,97 259,90 L 259,106 Z" />
+      <path d="M 277,106 L 287,106 C 281,102 277,97 277,90 L 277,106 Z" />
 
-      <!-- T -->
-      <path d="M 298 26 L 368 26 L 368 43 L 343 43 L 343 118 L 323 118 L 323 43 L 298 43 Z" />
+      <!-- T (Second) -->
+      <path d="M 312,24 L 384,24 L 384,33 L 312,33 Z" />
+      <path d="M 312,24 L 312,42 C 315,37 319,33 324,33 L 312,33 Z" />
+      <path d="M 384,24 L 384,42 C 381,37 377,33 372,33 L 384,33 Z" />
+      <path d="M 339,33 L 357,33 L 357,106 L 339,106 Z" />
+      <path d="M 339,106 L 329,106 C 335,102 339,97 339,90 L 339,106 Z" />
+      <path d="M 357,106 L 367,106 C 361,102 357,97 357,90 L 357,106 Z" />
 
       <!-- Y -->
-      <path d="M 378 26 L 400 26 L 413 67 L 426 26 L 448 26 L 423 80 L 423 118 L 403 118 L 403 80 Z" />
+      <path d="M 400,24 L 413,24 L 429,66 L 417,66 Z" />
+      <path d="M 400,24 L 392,24 C 397,28 400,33 400,40 L 400,24 Z" />
+      <path d="M 458,24 L 444,24 L 425,66 L 439,66 Z" />
+      <path d="M 458,24 L 466,24 C 461,28 458,33 458,40 L 458,24 Z" />
+      <path d="M 420,66 L 438,66 L 438,106 L 420,106 Z" />
+      <path d="M 420,106 L 410,106 C 416,102 420,97 420,90 L 420,106 Z" />
+      <path d="M 438,106 L 448,106 C 442,102 438,97 438,90 L 438,106 Z" />
 
       <!-- P -->
-      <path d="M 486 26 L 530 26 C 548 26, 560 37, 560 56 C 560 75, 548 86, 530 86 L 506 86 L 506 118 L 486 118 Z M 506 43 L 506 69 L 527 69 C 536 69, 541 64, 541 56 C 541 48, 536 43, 527 43 Z" />
+      <path d="M 512,24 L 530,24 L 530,106 L 512,106 Z" />
+      <path d="M 512,24 L 504,24 C 509,28 512,33 512,40 L 512,24 Z" />
+      <path d="M 512,106 L 504,106 C 509,102 512,97 512,90 L 512,106 Z" />
+      <path d="M 530,106 L 538,106 C 533,102 530,97 530,90 L 530,106 Z" />
+      <path d="M 530,24 L 554,24 C 570,24 580,34 580,51 C 580,68 570,78 554,78 L 530,78 Z M 530,35 L 530,67 L 552,67 C 561,67 566,61 566,51 C 566,41 561,35 552,35 Z" />
 
       <!-- R -->
-      <path d="M 570 26 L 614 26 C 632 26, 642 36, 642 54 C 642 68, 634 78, 619 82 L 646 118 L 623 118 L 600 84 L 590 84 L 590 118 L 570 118 Z M 590 42 L 590 68 L 611 68 C 620 68, 624 63, 624 55 C 624 47, 620 42, 611 42 Z" />
+      <path d="M 596,24 L 614,24 L 614,106 L 596,106 Z" />
+      <path d="M 596,24 L 588,24 C 593,28 596,33 596,40 L 596,24 Z" />
+      <path d="M 596,106 L 588,106 C 593,102 596,97 596,90 L 596,106 Z" />
+      <path d="M 614,24 L 638,24 C 654,24 664,34 664,50 C 664,65 655,74 641,75 L 614,75 Z M 614,35 L 614,64 L 636,64 C 645,64 650,59 650,50 C 650,41 645,35 636,35 Z" />
+      <path d="M 634,73 C 640,78 646,86 651,96 L 657,106 L 674,106 C 666,97 659,88 650,80 C 645,75 639,73 634,73 Z" />
+      <path d="M 674,106 L 682,106 C 678,101 674,95 674,88 L 674,106 Z" />
 
       <!-- I -->
-      <path d="M 660 26 L 680 26 L 680 118 L 660 118 Z" />
+      <path d="M 698,24 L 716,24 L 716,106 L 698,106 Z" />
+      <path d="M 698,24 L 688,24 C 694,28 698,33 698,40 L 698,24 Z" />
+      <path d="M 716,24 L 726,24 C 720,28 716,33 716,40 L 716,24 Z" />
+      <path d="M 698,106 L 688,106 C 694,102 698,97 698,90 L 698,106 Z" />
+      <path d="M 716,106 L 726,106 C 720,102 716,97 716,90 L 716,106 Z" />
 
       <!-- V -->
-      <path d="M 698 26 L 719 26 L 734 93 L 749 26 L 770 26 L 745 118 L 723 118 Z" />
+      <path d="M 738,24 L 752,24 L 769,106 L 757,106 Z" />
+      <path d="M 738,24 L 730,24 C 735,28 738,33 738,40 L 738,24 Z" />
+      <path d="M 788,24 L 800,24 L 769,106 L 761,106 Z" />
+      <path d="M 800,24 L 808,24 C 803,28 800,33 800,40 L 800,24 Z" />
 
-      <!-- É with Acute Accent -->
-      <polygon points="814,10 829,10 820,21 807,21" fill="url(#fullGoldSurface)" />
-      <path d="M 786 26 L 842 26 L 842 43 L 806 43 L 806 63 L 837 63 L 837 80 L 806 80 L 806 101 L 844 101 L 844 118 L 786 118 Z" />
+      <!-- É -->
+      <path d="M 822,24 L 840,24 L 840,106 L 822,106 Z" />
+      <path d="M 822,24 L 814,24 C 819,28 822,33 822,40 L 822,24 Z" />
+      <path d="M 822,106 L 814,106 C 819,102 822,97 822,90 L 822,106 Z" />
+      <path d="M 840,106 L 848,106 C 843,102 840,97 840,90 L 840,106 Z" />
+      <path d="M 840,24 L 872,24 L 872,33 L 840,33 Z" />
+      <path d="M 872,24 L 872,40 C 869,36 866,33 860,33 L 872,33 Z" />
+      <path d="M 840,60 L 866,60 L 866,68 L 840,68 Z" />
+      <path d="M 866,55 L 866,73 L 861,68 L 866,68 Z" />
+      <path d="M 840,97 L 876,97 L 876,106 L 840,106 Z" />
+      <path d="M 876,106 L 876,90 C 873,94 870,97 864,97 L 876,97 Z" />
+      <!-- ACUTE ACCENT (´) -->
+      <polygon points="846,18 863,5 870,7 853,20" />
+    </g>
+
+    <!-- Bevel Detail highlights on typography -->
+    <g transform="translate(46, 450) scale(0.69)" fill="url(#fullBevelLight)" opacity="0.45">
+      <polygon points="14,24 16,24 16,106 14,106" />
+      <polygon points="165,24 168,24 195,106 192,106" />
+      <polygon points="259,33 261,33 261,106 259,106" />
+      <polygon points="339,33 341,33 341,106 339,106" />
+      <polygon points="512,24 514,24 514,106 512,106" />
+      <polygon points="596,24 598,24 598,106 596,106" />
+      <polygon points="698,24 700,24 700,106 698,106" />
+      <polygon points="822,24 824,24 824,106 822,106" />
+      <polygon points="846,18 863,5 865,6 848,19" />
     </g>
   </g>
 </svg>

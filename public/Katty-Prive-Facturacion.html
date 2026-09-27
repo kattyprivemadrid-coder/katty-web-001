@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>Katty Privé — Facturación</title>
+<link rel="icon" type="image/svg+xml" href="/logo-emblem.svg">
+<meta name="theme-color" content="#221E1B">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+  :root{
+    --gold:#8a6a3a;
+    --gold-soft:#a9803f;
+    --ink:#2A2521;
+    --ink-soft:#7A7168;
+    --danger:#a24444;
+  }
+  *{ box-sizing:border-box; }
+  html,body{
+    margin:0; padding:0;
+    background:#E9E4D8;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color:var(--ink);
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  .app{ min-height:100vh; display:flex; flex-direction:column; align-items:center; }
+
+  /* ---------- TOOLBAR ---------- */
+  .toolbar{
+    width:100%; position:sticky; top:0; z-index:50;
+    background:#221E1B; color:#F1EBDC;
+    padding:10px 12px; display:flex; flex-wrap:wrap; gap:8px;
+    align-items:center; justify-content:space-between;
+  }
+  .toolbar h1{
+    font-size:14px; font-weight:600; letter-spacing:.03em; margin:0;
+    color:#EFE3C6; white-space:nowrap;
+  }
+  .toolbar .btns{ display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+  .btn{
+    appearance:none; -webkit-appearance:none;
+    border:1px solid rgba(240,228,198,0.35);
+    background:transparent; color:#F1EBDC;
+    padding:7px 11px; border-radius:7px; font-size:12.5px;
+    cursor:pointer; display:inline-flex; align-items:center; gap:6px;
+    touch-action:manipulation;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .btn:active{ background:rgba(240,228,198,0.15); }
+  .btn.primary{ background:#C9A467; border-color:#C9A467; color:#221E1B; font-weight:600; }
+  .hint{
+    width:100%; text-align:center; font-size:11.5px; color:var(--ink-soft);
+    padding:7px 12px 0; max-width:600px;
+  }
+
+  /* ---------- SHEET SCALING WRAPPER ---------- */
+  .sheet-outer{
+    width:100%; display:flex; justify-content:center;
+    padding:18px 8px 40px; overflow:hidden;
+  }
+  .sheet-wrapper{
+    transform-origin: top center;
+  }
+
+  /* ---------- THE A5 INVOICE SHEET (fixed background, unmodified) ---------- */
+  .sheet{
+    width:148mm; aspect-ratio: 148 / 210;
+    background-image:url("data:image/jpeg;base64,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");
+    background-size:100% 100%; background-repeat:no-repeat; background-position:top left;
+    position:relative;
+    box-shadow:0 6px 24px rgba(0,0,0,0.18);
+  }
+
+  input, textarea{
+    font-family:inherit; color:inherit; background:transparent;
+    border:none; outline:none; padding:0 1px; margin:0; resize:none;
+    min-width:0;
+    touch-action:manipulation;
+    -webkit-tap-highlight-color:transparent;
+  }
+  input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{ -webkit-appearance:none; margin:0; }
+  input[type=number]{ -moz-appearance:textfield; appearance:textfield; }
+  .editing input:not(.iva-pct), .editing textarea{ background:rgba(176,137,79,0.10); border-radius:2px; }
+  input:focus, textarea:focus{ background:rgba(176,137,79,0.20) !important; border-radius:2px; }
+
+  /* ---------- OVERLAY FIELD GROUPS (positions measured from the original template) ---------- */
+  .ov-meta{ position:absolute; top:12.2%; right:5.6%; width:38%; display:flex; flex-direction:column; gap:2.3mm; }
+  .ov-meta .row{ display:flex; justify-content:flex-end; align-items:baseline; gap:4px; font-size:8px; }
+  .ov-meta .lbl{ font-weight:700; color:var(--ink); white-space:nowrap; }
+  .ov-meta input{ text-align:right; font-weight:600; color:var(--gold-soft); min-width:19mm; font-size:8.5px; }
+
+  .ov-party{ position:absolute; top:17.4%; width:43%; display:flex; flex-direction:column; font-size:9px; }
+  .ov-emisor{ left:5.6%; }
+  .ov-facturado{ left:52.3%; }
+  .ov-party > *{ min-height:3.05mm; line-height:1.2; overflow:visible; white-space:nowrap; }
+  .ov-party .lbl{ color:var(--gold); font-weight:700; font-size:7.4px; letter-spacing:.08em; text-transform:uppercase; margin-bottom:1px; }
+  .ov-party input{ width:100%; font-size:8.6px; }
+  .ov-party input.name{ font-weight:700; }
+
+  .ov-items{ position:absolute; top:29.0%; left:5.6%; width:88.8%; }
+  .items-head{ display:flex; font-size:7.3px; font-weight:700; letter-spacing:.05em; color:var(--gold); text-transform:uppercase; padding-bottom:0.4mm; }
+  #itemsBody{ margin-top:1mm; }
+  .items-head .col-desc{ flex:1; min-width:0; }
+  .items-head .col-cant{ width:10%; text-align:center; }
+  .items-head .col-precio{ width:17%; text-align:right; }
+  .items-head .col-total{ width:16%; text-align:right; }
+  .items-head .col-del{ width:4%; }
+
+  .item-row{ display:flex; align-items:center; font-size:9px; font-style:italic; padding:1.35mm 0; }
+  .item-row .col-desc{ flex:1; min-width:0; }
+  .item-row .col-desc input{ width:100%; font-style:italic; min-width:0; }
+  .item-row .col-cant{ width:10%; text-align:center; min-width:0; }
+  .item-row .col-cant input{ width:100%; text-align:center; min-width:0; }
+  .item-row .col-precio{ width:17%; text-align:right; min-width:0; }
+  .item-row .col-precio input{ width:100%; text-align:right; min-width:0; }
+  .item-row .col-total{ width:16%; text-align:right; font-style:normal; font-weight:600; white-space:nowrap; }
+  .item-row .col-del{ width:4%; text-align:center; }
+  .item-row .del-btn{
+    border:none; background:none; color:var(--danger); font-size:12px;
+    cursor:pointer; line-height:1; padding:4px; touch-action:manipulation;
+  }
+  .add-row-btn{
+    font-size:10px; color:var(--gold); background:rgba(255,255,255,0.55); border:1px dashed rgba(138,106,58,0.5);
+    border-radius:5px; padding:3px 8px; cursor:pointer; margin-top:1.5mm; display:inline-flex; align-items:center; gap:5px;
+    touch-action:manipulation;
+  }
+
+  .ov-totals{ position:absolute; top:73.6%; right:5.6%; width:41%; font-size:9px; }
+  .ov-totals .line{ display:flex; justify-content:space-between; padding:0.9mm 0; }
+  .ov-totals .line .label{ color:var(--ink-soft); display:flex; align-items:baseline; gap:3px; }
+  .ov-totals .iva-pct{ width:7mm; text-align:right; font-size:9px; }
+  .ov-totals .value{ font-weight:600; white-space:nowrap; }
+  .ov-totals .divider{ height:1px; background:rgba(138,106,58,0.4); margin:1mm 0; }
+  .ov-totals .grand{ padding-top:0.3mm; }
+  .ov-totals .grand .label{ color:var(--gold); font-weight:700; text-transform:uppercase; font-size:9px; letter-spacing:.02em; }
+  .ov-totals .grand .value{ color:var(--gold); font-weight:700; font-size:13px; white-space:nowrap; }
+
+  .ov-footer{ position:absolute; top:83.0%; left:8%; width:84%; text-align:center; }
+  .ov-footer .tagline{ font-style:italic; font-size:8.5px; color:var(--ink); text-align:center; width:100%; margin-bottom:1.6mm; }
+  .ov-footer .pay-line{ font-size:7.6px; text-align:center; width:100%; margin-bottom:0.6mm; color:var(--ink); }
+  .ov-footer .pay-line input{ text-align:center; font-size:7.6px; }
+  .ov-footer .legal{ font-size:6.3px; color:var(--ink-soft); text-align:center; line-height:1.45; margin-top:2mm; width:100%; }
+
+  .exporting .add-row-btn, .exporting .del-btn{ display:none !important; }
+  .exporting input, .exporting textarea{ background:transparent !important; }
+
+  @media print{
+    body{ background:#fff; }
+    .toolbar, .hint, .add-row-btn, .del-btn{ display:none !important; }
+    .sheet-outer{ padding:0; overflow:visible; height:auto !important; }
+    .sheet-wrapper{ transform:none !important; }
+    .sheet{ box-shadow:none; margin:0 auto; }
+    @page{ size:148mm 210mm; margin:0; }
+    input, textarea{ background:transparent !important; }
+  }
+  @media (max-width:420px){ .toolbar h1{ display:none; } }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="toolbar">
+    <h1>Katty Privé · Facturación</h1>
+    <div class="btns">
+      <button class="btn" id="btnAdd" title="Añadir línea">➕ Línea</button>
+      <button class="btn" id="btnNew" title="Nueva factura">🔄 Nueva</button>
+      <button class="btn" id="btnShare" title="Enviar factura por WhatsApp">📲 WhatsApp</button>
+      <button class="btn" id="btnDownloadApp" title="Descargar esta aplicación para usarla sin conexión">💾 Guardar App</button>
+      <button class="btn primary" id="btnPrint" title="Imprimir / Guardar PDF">🖨️ Imprimir (A5)</button>
+    </div>
+  </div>
+  <div class="hint">Toca cualquier cifra o texto para editarlo. El fondo y el logotipo no se modifican. El total se calcula solo.</div>
+
+  <div class="sheet-outer">
+    <div class="sheet-wrapper">
+      <div class="sheet editing" id="sheet">
+
+        <div class="ov-meta">
+          <div class="row"><span class="lbl">Factura Nº:</span><input id="invNumber" value="KP-2026-001"></div>
+          <div class="row"><span class="lbl">Fecha:</span><input id="invDate" value=""></div>
+        </div>
+
+        <div class="ov-party ov-emisor">
+          <span class="lbl">Emisor</span>
+          <input class="name" id="emisorNombre" value="Katty Gaya Hernández">
+          <input id="emisorNif" value="NIF/DNI: 12345667a">
+          <input id="emisorTel" value="Teléf / Whatsapp: +34 632 89 26 57">
+          <input id="emisorEmail" value="Email: kattyprivemadrid@gmail.com">
+        </div>
+        <div class="ov-party ov-facturado">
+          <span class="lbl">Facturado a</span>
+          <input class="name" id="clienteNombre" value="Nombre de la clienta">
+          <input id="clienteNif" value="NIF/DNI: ">
+          <input id="clienteDir" value="Dirección completa de entrega">
+          <input id="clienteCiudad" value="Madrid, código postal, país">
+        </div>
+
+        <div class="ov-items">
+          <div class="items-head">
+            <div class="col-desc">Descripción</div>
+            <div class="col-cant">Cant.</div>
+            <div class="col-precio">Precio ud.</div>
+            <div class="col-total">Total</div>
+            <div class="col-del"></div>
+          </div>
+          <div id="itemsBody"></div>
+          <button class="add-row-btn" id="btnAddInline">＋ Añadir artículo</button>
+        </div>
+
+        <div class="ov-totals">
+          <div class="line">
+            <span class="label">Base imponible:</span>
+            <span class="value" id="baseValue">0,00 €</span>
+          </div>
+          <div class="line">
+            <span class="label">IVA (<input class="iva-pct" id="ivaPct" value="21" inputmode="decimal">%):</span>
+            <span class="value" id="ivaValue">0,00 €</span>
+          </div>
+          <div class="divider"></div>
+          <div class="line grand">
+            <span class="label">Total factura:</span>
+            <span class="value" id="totalValue">0,00 €</span>
+          </div>
+        </div>
+
+        <div class="ov-footer">
+          <textarea class="tagline" id="tagline" rows="2">"El lujo no se busca, se viste. Gracias por confiar en Katty Privé."</textarea>
+          <div class="pay-line"><input id="payMethod" value="Método de pago: Transferencia bancaria previa" style="text-align:center;width:100%;"></div>
+          <div class="pay-line">
+            <input id="payIban" value="IBAN: ES00 0000 0000 0000 0000 0000" style="width:60%;display:inline-block;">
+            <input id="paySwift" value="SWIFT: XXXXXX" style="width:35%;display:inline-block;">
+          </div>
+          <div class="pay-line"><input id="payBizum" value="Bizum: +34 632 89 26 57" style="text-align:center;width:100%;"></div>
+          <textarea class="legal" id="legalText" rows="3">El plazo para devoluciones es de 14 días naturales desde la recepción, siempre que la pieza mantenga su estado original y los precintos de seguridad de Katty Privé intactos.
+Documento generado para la venta de bienes de acuerdo a la legislación vigente en España.</textarea>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  const MESES = ['ENERO','FEBRERO','MARZO','ABRIL','MAYO','JUNIO','JULIO','AGOSTO','SEPTIEMBRE','OCTUBRE','NOVIEMBRE','DICIEMBRE'];
+  const itemsBody = document.getElementById('itemsBody');
+  const sheet = document.getElementById('sheet');
+  const outer = document.querySelector('.sheet-outer');
+  const wrapper = document.querySelector('.sheet-wrapper');
+
+  let items = [];
+  let nextId = 1;
+
+  function fmtMoney(n){
+    if(isNaN(n)) n = 0;
+    return n.toLocaleString('es-ES', {minimumFractionDigits:2, maximumFractionDigits:2}) + ' €';
+  }
+  function defaultDate(){
+    const d = new Date();
+    return d.getDate() + ' ' + MESES[d.getMonth()] + ' ' + d.getFullYear();
+  }
+  function addItem(desc, cant, precio){
+    items.push({ id: nextId++, desc: desc ?? '', cant: cant ?? 1, precio: precio ?? 0 });
+    renderItems();
+  }
+  function removeItem(id){
+    items = items.filter(it => it.id !== id);
+    if(items.length === 0) addItem('', 1, 0);
+    else renderItems();
+  }
+  function escapeHtml(s){
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function updateRowTotal(row, it){
+    row.querySelector('.col-total').textContent = fmtMoney(it.cant * it.precio);
+  }
+  function renderItems(){
+    itemsBody.innerHTML = '';
+    items.forEach(it => {
+      const row = document.createElement('div');
+      row.className = 'item-row';
+      row.dataset.id = it.id;
+      row.innerHTML = `
+        <div class="col-desc"><input type="text" class="f-desc" value="${escapeHtml(it.desc)}" placeholder="Descripción del artículo"></div>
+        <div class="col-cant"><input type="number" class="f-cant" value="${it.cant}" min="0" step="1" inputmode="decimal"></div>
+        <div class="col-precio"><input type="number" class="f-precio" value="${it.precio}" min="0" step="0.01" inputmode="decimal"></div>
+        <div class="col-total">${fmtMoney(it.cant * it.precio)}</div>
+        <div class="col-del"><button class="del-btn" title="Eliminar línea">✕</button></div>
+      `;
+      row.querySelector('.f-desc').addEventListener('input', e => { it.desc = e.target.value; });
+      row.querySelector('.f-cant').addEventListener('input', e => { it.cant = parseFloat(e.target.value) || 0; updateRowTotal(row, it); recalc(); });
+      row.querySelector('.f-precio').addEventListener('input', e => { it.precio = parseFloat(e.target.value) || 0; updateRowTotal(row, it); recalc(); });
+      row.querySelector('.del-btn').addEventListener('click', () => removeItem(it.id));
+      itemsBody.appendChild(row);
+    });
+    recalc();
+  }
+  function recalc(){
+    const base = items.reduce((sum, it) => sum + (it.cant * it.precio), 0);
+    const pct = parseFloat(document.getElementById('ivaPct').value) || 0;
+    const iva = base * (pct/100);
+    const total = base + iva;
+    document.getElementById('baseValue').textContent = fmtMoney(base);
+    document.getElementById('ivaValue').textContent = fmtMoney(iva);
+    document.getElementById('totalValue').textContent = fmtMoney(total);
+  }
+  document.getElementById('ivaPct').addEventListener('input', recalc);
+
+  // ---- fit sheet to viewport width without jump/flicker during typing on iPhone & Android ----
+  function fitSheet(){
+    // Prevent re-scaling while virtual keyboard is open
+    if(document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')){
+      return;
+    }
+    const avail = outer.clientWidth - 16;
+    // Calculate unscaled A5 natural width (148mm = 559.37px at 96 DPI, height = 793.7px)
+    const natW = 148 * (96 / 25.4);
+    const natH = 210 * (96 / 25.4);
+    const scale = Math.min(1, avail / natW);
+    wrapper.style.transform = `scale(${scale})`;
+    outer.style.height = (natH * scale + 36) + 'px';
+  }
+  window.addEventListener('resize', fitSheet);
+  window.addEventListener('orientationchange', () => setTimeout(fitSheet, 100));
+  window.addEventListener('load', fitSheet);
+
+  // ---- buttons ----
+  document.getElementById('btnAdd').addEventListener('click', () => addItem('', 1, 0));
+  document.getElementById('btnAddInline').addEventListener('click', () => addItem('', 1, 0));
+  document.getElementById('btnPrint').addEventListener('click', () => window.print());
+
+  document.getElementById('btnNew').addEventListener('click', () => {
+    if(!confirm('Esto vaciará el cliente y los artículos de la factura actual (se mantienen tus datos de emisor y pago). ¿Continuar?')) return;
+    const numEl = document.getElementById('invNumber');
+    const m = numEl.value.match(/^(.*?)(\d+)\s*$/);
+    if(m){
+      const nextNum = String(parseInt(m[2],10)+1).padStart(m[2].length,'0');
+      numEl.value = m[1] + nextNum;
+    }
+    document.getElementById('invDate').value = defaultDate();
+    document.getElementById('clienteNombre').value = 'Nombre de la clienta';
+    document.getElementById('clienteNif').value = 'NIF/DNI: ';
+    document.getElementById('clienteDir').value = 'Dirección completa de entrega';
+    document.getElementById('clienteCiudad').value = 'Madrid, código postal, país';
+    items = [];
+    addItem('', 1, 0);
+    saveDefaults();
+  });
+
+  // ---- Descargar esta aplicación para usarla sin conexión (offline) ----
+  document.getElementById('btnDownloadApp').addEventListener('click', () => {
+    const htmlContent = document.documentElement.outerHTML;
+    const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Katty-Prive-Facturacion.html';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+  });
+
+  document.getElementById('btnShare').addEventListener('click', shareImage);
+
+  async function shareImage(){
+    const btn = document.getElementById('btnShare');
+    const originalLabel = btn.textContent;
+    btn.textContent = '⏳ Generando…';
+    sheet.classList.remove('editing');
+    sheet.classList.add('exporting');
+    const prevTransform = wrapper.style.transform;
+    wrapper.style.transform = 'scale(1)';
+    document.querySelectorAll('input, textarea').forEach(el => el.blur());
+    try{
+      await new Promise(r => setTimeout(r, 60));
+      // scale 2.2 avoids iOS Safari canvas memory limit crashes while delivering HD crispness
+      const canvas = await html2canvas(sheet, { scale: 2.2, backgroundColor: '#FAF9F6', useCORS: true });
+      canvas.toBlob(async (blob) => {
+        const invNum = document.getElementById('invNumber').value || 'katty-prive';
+        const fileName = 'factura-' + invNum + '.png';
+        const file = new File([blob], fileName, { type: 'image/png' });
+        
+        let shared = false;
+        if(navigator.canShare && navigator.canShare({ files: [file] })){
+          try{
+            await navigator.share({
+              files: [file],
+              title: 'Factura Katty Privé Madrid',
+              text: 'Factura Oficial Nº ' + invNum + ' - Maison Katty Privé Madrid'
+            });
+            shared = true;
+          } catch(err){ /* cancelado por usuario */ }
+        }
+        
+        if(!shared){
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = fileName;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          setTimeout(() => URL.revokeObjectURL(url), 4000);
+
+          const clientName = document.getElementById('clienteNombre').value || 'Estimada clienta';
+          const totalVal = document.getElementById('totalValue').textContent || '';
+          const msg = encodeURIComponent(`✨ *MAISON KATTY PRIVÉ MADRID* ✨\nEstimada clienta, le adjuntamos su Factura Oficial Nº ${invNum} por un total de ${totalVal}.\n\n(Factura descargada en su galería/descargas lista para adjuntar).\n\nKatty Privé Madrid 📞 +34 632 89 26 57`);
+          
+          if(confirm('Factura en imagen guardada en tu galería / descargas. ¿Deseas abrir WhatsApp para enviársela a tu clienta?')){
+            window.open(`https://wa.me/?text=${msg}`, '_blank');
+          }
+        }
+        sheet.classList.add('editing');
+        sheet.classList.remove('exporting');
+        wrapper.style.transform = prevTransform;
+        btn.textContent = originalLabel;
+      }, 'image/png');
+    }catch(err){
+      alert('Aviso al generar la imagen. Puedes imprimir o guardar como PDF oficial en su lugar.');
+      sheet.classList.add('editing');
+      sheet.classList.remove('exporting');
+      wrapper.style.transform = prevTransform;
+      btn.textContent = originalLabel;
+    }
+  }
+
+  // ---- persistence of business defaults (localStorage for mobile + desktop) ----
+  const PERSIST_IDS = ['emisorNombre','emisorNif','emisorTel','emisorEmail','payMethod','payIban','paySwift','payBizum','tagline','legalText','ivaPct','invNumber'];
+  function saveDefaults(){
+    try{
+      const data = {};
+      PERSIST_IDS.forEach(id => { const el = document.getElementById(id); if(el) data[id] = el.value; });
+      localStorage.setItem('katty-prive-defaults', JSON.stringify(data));
+      if(window.storage && window.storage.set) window.storage.set('katty-prive-defaults', JSON.stringify(data), false);
+    }catch(e){}
+  }
+  function loadDefaults(){
+    try{
+      const raw = localStorage.getItem('katty-prive-defaults');
+      if(raw){
+        const data = JSON.parse(raw);
+        Object.keys(data).forEach(id => { const el = document.getElementById(id); if(el && data[id] !== undefined) el.value = data[id]; });
+      }
+    }catch(e){}
+  }
+  let saveTimer = null;
+  PERSIST_IDS.forEach(id => {
+    const el = document.getElementById(id);
+    if(el) el.addEventListener('input', () => { clearTimeout(saveTimer); saveTimer = setTimeout(saveDefaults, 400); });
+  });
+
+  // ---- init ----
+  document.getElementById('invDate').value = defaultDate();
+  loadDefaults();
+  addItem('', 1, 0);
+  fitSheet();
+})();
+</script>
+</body>
+</html>

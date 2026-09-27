@@ -194,6 +194,23 @@ Mensaje del cliente: ${message}`;
     app.use(express.static(publicPath));
   }
 
+  // Routes for Facturación Oficial and direct download
+  app.get(["/factura", "/factura.html"], (_req, res) => {
+    const pubFile = path.join(process.cwd(), "public", "factura.html");
+    if (fs.existsSync(pubFile)) {
+      return res.sendFile(pubFile);
+    }
+    res.redirect("/factura.html");
+  });
+
+  app.get("/descargar-factura", (_req, res) => {
+    const pubFile = path.join(process.cwd(), "public", "factura.html");
+    if (fs.existsSync(pubFile)) {
+      return res.download(pubFile, "Katty-Prive-Facturacion.html");
+    }
+    res.redirect("/factura.html");
+  });
+
   // Serve static assets in production, otherwise mount Vite in development
   if (!isProduction) {
     const { createServer: createViteServer } = await import("vite");

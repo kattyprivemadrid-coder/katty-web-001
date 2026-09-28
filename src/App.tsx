@@ -127,7 +127,7 @@ export default function App() {
         const saved = localStorage.getItem("kattyprive_sold_out_ids");
         if (!saved) return [];
         const parsed: string[] = JSON.parse(saved);
-        return parsed.filter((id) => !id.startsWith("glasses-"));
+        return parsed.filter((id) => !id.startsWith("glasses-") && !id.startsWith("cosmetics-"));
       } catch {
         return [];
       }

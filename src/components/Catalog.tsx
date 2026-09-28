@@ -119,11 +119,20 @@ export default function Catalog({
     return CATEGORIES_CONFIG.find(c => c.id === selectedCategory) || null;
   }, [selectedCategory]);
 
-  // Only display products that are in stock in the showcase (glasses must be in stock)
+  // Only display products that are in stock in the showcase (glasses and cosmetics must be in stock)
   const availableShowcaseProducts = useMemo(() => {
-    return products.filter(
-      (p) => !(p.category === "glasses" && (p.availability === "sold_out" || p.isAvailable === false || soldOutProductIds.includes(p.id)))
-    );
+    return products.filter((p) => {
+      const isNotAvailable =
+        p.availability === "sold_out" ||
+        p.isAvailable === false ||
+        soldOutProductIds.includes(p.id);
+
+      // Quitar del escaparate cualquier referencia no disponible de cosmética o gafas
+      if ((p.category === "cosmetics" || p.category === "glasses") && isNotAvailable) {
+        return false;
+      }
+      return true;
+    });
   }, [products, soldOutProductIds]);
 
   // Filtered and Sorted Products

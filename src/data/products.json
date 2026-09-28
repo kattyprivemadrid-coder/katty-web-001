@@ -783,7 +783,9 @@
       "Acabado y Tonos: Acabado brillante espejo con microdestellos brillantes en tonos exclusivos (Turquesa Glacé y Bronce Rosa)",
       "Diseño: Estuche joya transparente con el icónico motivo Dior Oblique plateado en relieve y tapón joya cromado"
     ],
-    "history": "Un imprescindible de los camerinos de pasarela de la Maison Dior: el cuidado labial embellecedor que combina hidratación profunda con volumen prodigioso."
+    "history": "Un imprescindible de los camerinos de pasarela de la Maison Dior: el cuidado labial embellecedor que combina hidratación profunda con volumen prodigioso.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-02",
@@ -799,7 +801,9 @@
       "Propiedades: Hidrata en profundidad, estimula el brillo natural y facilita el desenredado",
       "Aplicación: Apto para todo tipo de cabello y uso diario o frecuente"
     ],
-    "history": "Elaborado por la legendaria destilería Bulgarian Rose Karlovo, fundada en 1948, aunando la riqueza botánica de la rosa con la excelencia del cuidado capilar diario."
+    "history": "Elaborado por la legendaria destilería Bulgarian Rose Karlovo, fundada en 1948, aunando la riqueza botánica de la rosa con la excelencia del cuidado capilar diario.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-03",
@@ -815,23 +819,9 @@
       "Propiedades: Desmaquilla rostro, ojos y labios; calma rojeces y tonifica con suavidad",
       "Aplicación: Apta para todo tipo de pieles, incluidas las más sensibles; sin aclarado posterior"
     ],
-    "history": "Creada en el histórico Valle de las Rosas por Bulgarian Rose Karlovo (fundada en 1948), fusionando el poder dermopurificante del agua de rosas con la tecnología micelar más respetuosa."
-  },
-  {
-    "id": "cosmetics-04",
-    "name": "Bulgarian Rose Karlovo • Champú Rose Original",
-    "category": "cosmetics",
-    "description": "Champú capilar revitalizante enriquecido con agua y aceite esencial 100% puro de rosas búlgaras. Limpia profundamente respetando el cuero cabelludo, aportando suavidad sedosa, brillo natural y un delicado aroma floral.",
-    "price": 8,
-    "image": "/images/rose-original-shampoo.jpg",
-    "details": [
-      "Producto: Champú Revitalizante Rose Original Shampoo (Bulgarian Rose Karlovo)",
-      "Formulación: 100% puro aceite y agua natural de rosa damascena búlgara",
-      "Beneficios: Fortalece la fibra capilar, devuelve el brillo y aporta elasticidad duradera",
-      "Tipo de cabello: Apto para todo tipo de cabellos y uso diario frecuente",
-      "Origen: Valle de las Rosas de Bulgaria • Tradición desde 1948"
-    ],
-    "history": "Destilado por Bulgarian Rose Karlovo en el legendario Valle de las Rosas, aunando el poder nutritivo del aceite de rosas con una fórmula suave que protege la vitalidad del cabello."
+    "history": "Creada en el histórico Valle de las Rosas por Bulgarian Rose Karlovo (fundada en 1948), fusionando el poder dermopurificante del agua de rosas con la tecnología micelar más respetuosa.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-05",
@@ -847,7 +837,9 @@
       "Acción Dermocosmética: Estimula la renovación celular, combate líneas de expresión y mejora la elasticidad",
       "Dermatológicamente testado en tarro de cristal opalino con estuche protector"
     ],
-    "history": "La joya de la línea Signature de Karlovo: combina el icónico elixir de rosas búlgaras con las virtudes rejuvenecedoras del yogur tradicional para una piel visiblemente más lisa y luminosa."
+    "history": "La joya de la línea Signature de Karlovo: combina el icónico elixir de rosas búlgaras con las virtudes rejuvenecedoras del yogur tradicional para una piel visiblemente más lisa y luminosa.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-06",
@@ -863,7 +855,9 @@
       "Textura: Emulsión ligera de rápida absorción que prepara la piel para el maquillaje",
       "Sello de Calidad: 100% Rosa Búlgara Auténtica • Karlovo Since 1948"
     ],
-    "history": "El ritual diurno por excelencia de las mujeres búlgaras, manteniendo la frescura y juventud de la piel gracias al microclima privilegiado del Valle de Karlovo."
+    "history": "El ritual diurno por excelencia de las mujeres búlgaras, manteniendo la frescura y juventud de la piel gracias al microclima privilegiado del Valle de Karlovo.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-07",
@@ -879,7 +873,9 @@
       "Efecto: Alivia la sequedad y tirantez al instante, proporcionando tacto de seda",
       "Fabricación: Bulgarian Rose Karlovo (Since 1948)"
     ],
-    "history": "Famosa internacionalmente por su alta concentración de agua destilada de rosas búlgaras, es el cuidado de manos imprescindible para una hidratación elegante en cualquier ocasión."
+    "history": "Famosa internacionalmente por su alta concentración de agua destilada de rosas búlgaras, es el cuidado de manos imprescindible para una hidratación elegante en cualquier ocasión.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-08",
@@ -895,7 +891,9 @@
       "Textura: Crema emoliente y no pegajosa de fácil absorción",
       "Presentación: Tubo de 75 ml con cierre de seguridad"
     ],
-    "history": "La milenaria combinación búlgara de yogur con el exquisito aceite de rosas de Karlovo para crear un tratamiento de spa en casa que regenera la piel de los pies con total suavidad."
+    "history": "La milenaria combinación búlgara de yogur con el exquisito aceite de rosas de Karlovo para crear un tratamiento de spa en casa que regenera la piel de los pies con total suavidad.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-09",
@@ -911,7 +909,9 @@
       "Modo de Empleo: Aplicar cada noche sobre rostro y cuello limpios con un suave masaje ascendente",
       "Tradición: Elaborada ininterrumpidamente en Karlovo desde 1948"
     ],
-    "history": "Aprovecha el ciclo circadiano de reparación nocturna para impregnar la piel con los antioxidantes naturales del aceite de rosas más preciado del mundo."
+    "history": "Aprovecha el ciclo circadiano de reparación nocturna para impregnar la piel con los antioxidantes naturales del aceite de rosas más preciado del mundo.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-10",
@@ -927,7 +927,9 @@
       "Eficacia: Reduce líneas de fatiga y refuerza el tono cutáneo ante el estrés diario",
       "Contenido: 50 ml en tarro de cristal con tapa sellada"
     ],
-    "history": "Fusión pionera de Karlovo entre la biotecnología celular de la Coenzima Q10 y el poder cosmético del agua de rosas damascenas cultivadas en el corazón de los Balcanes."
+    "history": "Fusión pionera de Karlovo entre la biotecnología celular de la Coenzima Q10 y el poder cosmético del agua de rosas damascenas cultivadas en el corazón de los Balcanes.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-11",
@@ -943,7 +945,9 @@
       "Acabado: Piel satinada, fresca y visiblemente rellenada",
       "Gama: Bulgarian Rose Signature Spa Karlovo"
     ],
-    "history": "Inspirada en los centros termales y de hidroterapia búlgaros, esta fórmula de alta gama funde el elixir floral del Valle de las Rosas con el poder revitalizante del caviar negro."
+    "history": "Inspirada en los centros termales y de hidroterapia búlgaros, esta fórmula de alta gama funde el elixir floral del Valle de las Rosas con el poder revitalizante del caviar negro.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-12",
@@ -959,7 +963,9 @@
       "Beneficios: Limpia sin alterar el manto lipídico natural de la piel, apto para uso diario de toda la familia",
       "Garantía: Bulgarian Rose Karlovo • Since 1948"
     ],
-    "history": "Transforma la ducha en un baño de pétalos búlgaros con la autenticidad botánica certificada de la destilería de Karlovo."
+    "history": "Transforma la ducha en un baño de pétalos búlgaros con la autenticidad botánica certificada de la destilería de Karlovo.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-13",
@@ -975,7 +981,9 @@
       "Beneficios: Protección y confort íntimo, respeta la flora microbiana y alivia molestias o tirantez",
       "Seguridad: Testado ginecológicamente y dermatológicamente en pieles sensibles • Since 1948"
     ],
-    "history": "La combinación magistral de la rosa de Karlovo y el probiótico de yogur búlgaro para un cuidado íntimo de máxima suavidad y confianza."
+    "history": "La combinación magistral de la rosa de Karlovo y el probiótico de yogur búlgaro para un cuidado íntimo de máxima suavidad y confianza.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-14",
@@ -991,7 +999,9 @@
       "Sensación: Secado en segundos, cero residuo pegajoso y aroma floral dulce reconfortante",
       "Formato: Frasco compacto transparente de bolsillo de 85 ml con tapón bisagra hermético"
     ],
-    "history": "El aliado perfecto para llevar en el bolso o en el coche, aunando máxima higiene y la caricia aromática de las rosas búlgaras."
+    "history": "El aliado perfecto para llevar en el bolso o en el coche, aunando máxima higiene y la caricia aromática de las rosas búlgaras.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-15",
@@ -1007,7 +1017,9 @@
       "Efecto: Espuma cremosa, hidratación prolongada y manos suaves incluso tras múltiples lavados al día",
       "Origen: Destilado en el Valle de las Rosas de Bulgaria • Calidad original desde 1948"
     ],
-    "history": "Diseñado para enriquecer el ritual del aseo de manos con la pureza y el deleite aromático de la destilería de Karlovo."
+    "history": "Diseñado para enriquecer el ritual del aseo de manos con la pureza y el deleite aromático de la destilería de Karlovo.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-16",
@@ -1023,7 +1035,9 @@
       "Propiedades: Espuma aterciopelada, acción tonificante y aroma floral embriagador",
       "Compromiso: Libre de grasas animales, elaborado bajo método tradicional búlgaro"
     ],
-    "history": "La pieza más emblemática y tradicional de los tocadores búlgaros, elaborada ininterrumpidamente desde 1948."
+    "history": "La pieza más emblemática y tradicional de los tocadores búlgaros, elaborada ininterrumpidamente desde 1948.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-17",
@@ -1039,7 +1053,9 @@
       "Resultados: Nutrición intensiva, alivio de la tirantez y acabado sedoso no graso",
       "Garantía: Fórmula hipoalergénica sin aceites minerales pesados • Since 1948"
     ],
-    "history": "Un deleite sensorial que envuelve el cuerpo con la caricia nutritiva de la rosa reina de los Balcanes."
+    "history": "Un deleite sensorial que envuelve el cuerpo con la caricia nutritiva de la rosa reina de los Balcanes.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-18",
@@ -1055,7 +1071,9 @@
       "Acción: Reconstruye puntas abiertas, combate el encrespamiento y devuelve elasticidad a cabellos secos o castigados",
       "Modo de Uso: Aplicar 5 a 8 minutos tras el champú y enjuagar con abundante agua tibia"
     ],
-    "history": "El tratamiento capilar de salón más aclamado de Bulgaria para devolver la vitalidad y el aroma a rosas a la melena."
+    "history": "El tratamiento capilar de salón más aclamado de Bulgaria para devolver la vitalidad y el aroma a rosas a la melena.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-19",
@@ -1071,7 +1089,9 @@
       "Doble Efecto: Exfoliación suave no abrasiva + mascarilla iluminadora en 10 minutos",
       "Resultados: Cutis suave, poros limpios y afinados, y luminosidad radiante instantánea"
     ],
-    "history": "La solución completa dos en uno para disfrutar de una sesión de spa botánico purificante en casa."
+    "history": "La solución completa dos en uno para disfrutar de una sesión de spa botánico purificante en casa.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-20",
@@ -1087,7 +1107,9 @@
       "Aplicación Específica: Apto para rostro completo y la delicada zona periocular",
       "Textura: Fluido sedoso ultraligero de absorción inmediata sin sensación grasa"
     ],
-    "history": "Desarrollado en los laboratorios de Karlovo para concentrar el poder rejuvenecedor de la rosa en un elixir de luminosidad diaria."
+    "history": "Desarrollado en los laboratorios de Karlovo para concentrar el poder rejuvenecedor de la rosa en un elixir de luminosidad diaria.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-21",
@@ -1103,7 +1125,9 @@
       "Beneficios: Tonificante, descongestionante, reafirmante y equilibrador de pH",
       "Sin Alcohol: Fórmula ultrasuave adecuada para pieles secas, normales y reactivas"
     ],
-    "history": "El secreto diario de belleza en los Balcanes para despertar la frescura del rostro cada mañana."
+    "history": "El secreto diario de belleza en los Balcanes para despertar la frescura del rostro cada mañana.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-22",
@@ -1119,7 +1143,9 @@
       "Acción: Hidratación antienvejecimiento celular, regeneración de colágeno y luminosidad perlada",
       "Certificación: Organic Spa Oil - Karlovo • Elaboración bio-certificada"
     ],
-    "history": "La cúspide de la alta cosmética balcánica: el maridaje entre los pétalos más puros de Karlovo y la perla negra marina."
+    "history": "La cúspide de la alta cosmética balcánica: el maridaje entre los pétalos más puros de Karlovo y la perla negra marina.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-23",
@@ -1135,7 +1161,9 @@
       "Efecto: Alivio instantáneo del ardor, nutrición no grasa, absorción ultrarrápida y acabado mate confortable",
       "Tolerancia: Dermatológicamente testado para pieles masculinas sensibles o propensas a foliculitis"
     ],
-    "history": "La línea For Men traslada la herencia botánica de Karlovo a la rutina masculina moderna, aportando frescor amaderado y máxima protección dérmica."
+    "history": "La línea For Men traslada la herencia botánica de Karlovo a la rutina masculina moderna, aportando frescor amaderado y máxima protección dérmica.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-24",
@@ -1150,7 +1178,9 @@
       "Trilogía Magistral: Oro coloidal 24K bioasimilable, Aceite de rosa orgánico (Organic Rose) y Flor de las Nieves (Organic Edelweiss)",
       "Propiedades: Potente acción antioxidante frente a radicales libres, tensado epidérmico y luminosidad instantánea"
     ],
-    "history": "Inspirada en los rituales de oro y rosa de la realeza balcánica para revitalizar las pieles más exigentes."
+    "history": "Inspirada en los rituales de oro y rosa de la realeza balcánica para revitalizar las pieles más exigentes.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-25",
@@ -1166,7 +1196,9 @@
       "Beneficios: Efecto tensor no graso, tonifica la tez fatigada y revitaliza el rostro tras jornadas intensas",
       "Modo de Uso: Aplicar mañana y/o noche tras la limpieza o el afeitado con un ligero masaje ascendente"
     ],
-    "history": "Especialmente concebida para la densidad y necesidades energéticas de la piel masculina."
+    "history": "Especialmente concebida para la densidad y necesidades energéticas de la piel masculina.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-26",
@@ -1182,7 +1214,9 @@
       "Efecto 24H: Hidratación continua demostrada clínicamente, previene la deshidratación y la sensación de tirantez",
       "Textura: Crema ligera aterciopelada de absorción rápida que deja la piel fresca, elástica y deliciosamente perfumada"
     ],
-    "history": "Un oasis botánico que protege la piel femenina de los cambios bruscos de temperatura y la polución urbana."
+    "history": "Un oasis botánico que protege la piel femenina de los cambios bruscos de temperatura y la polución urbana.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-27",
@@ -1198,7 +1232,9 @@
       "Ingredientes: Aceite esencial de rosa damascena, extracto de bambú y complejo prebiótico bio-dermoactivo",
       "Sensación: Deslizamiento suave, frescor tonificante inmediato y piel elástica sin rojeces"
     ],
-    "history": "La evolución técnica del afeitado tradicional para lograr una definición impecable y máximo cuidado dérmico."
+    "history": "La evolución técnica del afeitado tradicional para lograr una definición impecable y máximo cuidado dérmico.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-28",
@@ -1214,7 +1250,9 @@
       "Activos: Rosa damascena de Bulgaria, extracto botánico de bambú y prebióticos protectores",
       "Aroma: Notas florales nobles combinadas con toques amaderados y verdes de bambú"
     ],
-    "history": "Una ducha vigorizante que despeja la mente y recarga la piel de energía botánica pura."
+    "history": "Una ducha vigorizante que despeja la mente y recarga la piel de energía botánica pura.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-29",
@@ -1230,55 +1268,60 @@
       "Efecto: Piel profundamente limpia, poros descongestionados y cutis libre de toxinas sin resecar",
       "Uso: Rostro y cuerpo, perfecto para la ducha matutina o tras la práctica deportiva"
     ],
-    "history": "La fuerza purificante del carbón combinada con la delicadeza calmante de la rosa damascena de Karlovo."
+    "history": "La fuerza purificante del carbón combinada con la delicadeza calmante de la rosa damascena de Karlovo.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-30",
-    "name": "Bulgarian Rose Karlovo • Desodorante Roll-on Suave de Rosas",
+    "name": "Bulgarian Rose Karlovo • Agua de Rosas Natural 100% Pura Spray",
     "category": "cosmetics",
-    "description": "Desodorante antitranspirante suave y respetuoso sin alcohol enriquecido con agua pura de rosas búlgaras. Garantiza frescura y protección eficaz durante todo el día protegiendo la piel sensible de las axilas.",
-    "price": 6,
-    "image": "/images/rose-original-shower-gel.jpg",
+    "description": "Agua floral pura de rosa damascena búlgara obtenida por destilación al vapor directa. Calma, refresca, hidrata y tonifica el rostro y cuerpo de forma instantánea.",
+    "price": 9,
+    "image": "/images/rose-water-spray.jpg",
     "details": [
-      "Producto: Desodorante Roll-on Antitranspirante Delicado Rose Original",
-      "Capacidad: 50 ml con aplicador de bola ergonómico",
-      "Composición: Agua de rosa de Karlovo, extracto de algodón calmante y alantoína",
-      "Seguridad: 0% alcohol etílico, testado para evitar manchas en ropa clara y oscura",
-      "Beneficios: Frescor floral duradero y confort absoluto tras la depilación"
+      "Volumen: 200 ml con vaporizador microdifusor ergonómico",
+      "Composición: 100% agua de flor de Rosa Damascena búlgara pura",
+      "Efectos: Tónico facial calmante, fijador de maquillaje y bruma hidratante corporal",
+      "Seguridad: Sin conservantes químicos, sin alcohol, apto para pieles ultrasensibles"
     ],
-    "history": "La delicadeza de la rosa convertida en protección diaria de máxima tolerancia cutánea."
+    "history": "El secreto de belleza más antiguo y universal de Bulgaria, destilado directamente de los pétalos frescos del Valle de las Rosas.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-31",
-    "name": "Bulgarian Rose Karlovo • Crema de Cuello y Escote Reafirmante",
+    "name": "Bulgarian Rose Karlovo • Bálsamo Labial Nutritivo Rose Original",
     "category": "cosmetics",
-    "description": "Tratamiento reafirmante y tensor específico para la delicada piel del cuello y el escote con complejo botánico tensor de rosas búlgaras y colágeno soluble marino.",
-    "price": 17,
-    "image": "/images/rose-signature-anti-aging.jpg",
+    "description": "Bálsamo labial ultra-nutritivo con aceite de rosas de Bulgaria, manteca de karité y vitamina E. Regenera los labios secos o agrietados, devolviendo flexibilidad y brillo natural.",
+    "price": 5,
+    "image": "/images/rose-lip-balm.jpg",
     "details": [
-      "Producto: Crema Reafirmante Tensora de Cuello y Escote Rose Neck & Décolleté Cream",
-      "Envase: Tarro de vidrio opalino de 50 ml",
-      "Ingredientes Clave: Aceite natural de rosa damascena, colágeno marino soluble y extracto de té verde",
-      "Eficacia: Reduce la flacidez del cuello, difumina las líneas de arrugas horizontales y devuelve firmeza",
-      "Modo de Uso: Aplicar mediante masajes ascendentes desde el busto hacia la mandíbula"
+      "Formato: Stick labial de 5 g de deslizamiento suave",
+      "Activos: Aceite puro de rosa damascena, manteca de karité, cera de abejas y vitamina E",
+      "Acción: Hidratación profunda 24h, protege del frío, viento y radiación solar",
+      "Sensación: Labios aterciopelados con un sutil y exquisito aroma a rosas frescas"
     ],
-    "history": "Creada para cuidar una de las zonas más reveladoras de la edad con la maestría antiedad de Karlovo."
+    "history": "Un imprescindible en cualquier bolso para mantener una sonrisa radiante y sedosa en todo momento.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-32",
-    "name": "Bulgarian Rose Karlovo • Cofre Regalo 'El Secreto de Karlovo'",
+    "name": "Bulgarian Rose Karlovo • Aceite de Masaje Corporal y Facial Rose Original",
     "category": "cosmetics",
-    "description": "Lujoso estuche de regalo que reúne los tratamientos esenciales de Bulgarian Rose Karlovo: Crema de Día, Agua de Rosas en Spray, Crema de Manos y Bálsamo Labial en un cofre ilustrado con motivos botánicos dorados.",
-    "price": 32,
-    "image": "/images/rose-signature-hydrating-cream.jpg",
+    "description": "Aceite corporal sedoso de masaje enriquecido con aceite de rosa damascena búlgara, aceite de almendras dulces y vitamina E. Nutre intensamente, relaja los sentidos y perfuma la piel.",
+    "price": 14,
+    "image": "/images/rose-massage-oil.jpg",
     "details": [
-      "Producto: Cofre Regalo Edición Colección 'El Secreto de Karlovo' (Bulgarian Rose Karlovo)",
-      "Contenido Completo: Crema Facial de Día 50 ml + Agua de Rosas Spray 200 ml + Crema de Manos 50 ml + Bálsamo Labial",
-      "Presentación: Caja de regalo rígida con relieves dorados y ventana expositora",
-      "Sello de Autenticidad: Destilado en el Valle de las Rosas de Bulgaria • Calidad de Exportación",
-      "Ideal para: Regalo de lujo personal o para obsequiar el ritual completo de belleza de rosas"
+      "Volumen: 100 ml con dosificador de precisión",
+      "Base botánica: Aceite de almendras dulces, aceite de girasol orgánico y aceite esencial de rosa",
+      "Propiedades: Tacto seco de absorción progresiva que no mancha los tejidos",
+      "Ritual: Ideal para masajes relajantes tras el baño o como nutrición profunda de la piel"
     ],
-    "history": "La experiencia completa de la destilería de rosas más célebre de Europa reunida en un cofre de ensueño."
+    "history": "El ritual de spa privado de la Maison, elevando el masaje a una experiencia sensorial inolvidable.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "cosmetics-33",
@@ -1294,7 +1337,9 @@
       "Acción Oftalmológica: Descongestiona bolsas, aclara el tono oscuro de las ojeras y previene líneas de expresión",
       "Tolerancia: Testado bajo estricto control dermatológico y oftalmológico, ideal para ojos sensibles"
     ],
-    "history": "Un tratamiento botánico indispensable de Karlovo concebido para iluminar la mirada y mimar la piel más fina y exigente del rostro."
+    "history": "Un tratamiento botánico indispensable de Karlovo concebido para iluminar la mirada y mimar la piel más fina y exigente del rostro.",
+    "availability": "available",
+    "isAvailable": true
   },
   {
     "id": "clothing-01",

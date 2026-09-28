@@ -15,6 +15,7 @@ export interface Product {
   selectedSize?: string;
   isAvailable?: boolean;
   availability?: ProductAvailability;
+  featured?: boolean;
 }
 
 export interface OrderCustomerDetails {

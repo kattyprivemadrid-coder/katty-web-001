@@ -43,14 +43,6 @@ export const CATEGORIES_CONFIG: CategoryInfo[] = [
     tagline: "La distinción arquitectónica del vestir"
   },
   {
-    id: "jewelry",
-    label: "Bisutería",
-    subtitle: "Bisutería Fina & Joyería de Autor",
-    description: "Creaciones icónicas de tres oros entrelazados, diamantes talla brillante y motivos emblemáticos que custodian los juramentos eternos.",
-    bannerImage: "/images/lv-enamel-hoops-multicolor.jpg",
-    tagline: "Talismanes eternos de amor y sofisticación"
-  },
-  {
     id: "bags",
     label: "Bolsos",
     subtitle: "Maroquinerie d'Art & Clutches",
@@ -66,7 +58,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Victoria's Secret Bombshell Eau de Parfum",
     "category": "perfumes",
     "description": "La fragancia icónica número uno de Victoria's Secret. Una mezcla chispeante y luminosa de maracuyá morada de Brasil, peonía paradisíaca Shangri-la de Shigatse y orquídea de vainilla de Madagascar.",
-    "price": 95,
+    "price": 60,
     "image": "/images/vs-bombshell-edp.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -85,7 +77,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Victoria's Secret Bombshell Passion Eau de Parfum",
     "category": "perfumes",
     "description": "Una interpretación floral audaz y envolvente de la familia Bombshell. Captura la exuberancia de la grosella negra jugosa, la peonía reina y la calidez de la rosa fucsia vibrante.",
-    "price": 95,
+    "price": 60,
     "image": "/images/vs-bombshell-passion.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -104,7 +96,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Victoria's Secret Bombshell Intense Eau de Parfum",
     "category": "perfumes",
     "description": "Inspirada en el rojo perfecto de la alta costura. Una fragancia chipre afrutada provocativa con una explosión de cereza exuberante, peonía roja aterciopelada y vainilla sensual.",
-    "price": 95,
+    "price": 60,
     "image": "/images/vs-bombshell-intense.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -123,7 +115,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Victoria's Secret Very Sexy Eau de Parfum",
     "category": "perfumes",
     "description": "Sensual, sofisticada e irresistible. Una embriagadora infusión de vainilla cálida, clementina jugosa y mora silvestre oscura con un fondo amaderado aterciopelado.",
-    "price": 98,
+    "price": 60,
     "image": "/images/vs-very-sexy-edp.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -142,7 +134,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Victoria's Secret Very Sexy Night Eau de Parfum",
     "category": "perfumes",
     "description": "El misterio de la noche hecho perfume. Notas oscuras de ciruela negra madura, maderas aterciopeladas y manzana verde crujiente para un magnetismo irresistible.",
-    "price": 98,
+    "price": 60,
     "image": "/images/vs-very-sexy-night.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -161,7 +153,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Victoria's Secret Tease Eau de Parfum",
     "category": "perfumes",
     "description": "Coqueta y femenina por excelencia. Una deliciosa sinfonía gourmand floral con pera Anjou blanca congelada, gardenia en flor y praliné negro fundido.",
-    "price": 95,
+    "price": 60,
     "image": "/images/vs-tease-edp.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -180,7 +172,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Victoria's Secret Tease Sugar Fleur Eau de Parfum",
     "category": "perfumes",
     "description": "Una reinterpretación luminosa y azucarada de Tease. Manzana rosa confitada cristalizada con pétalos de jazmín blanco y cálido caramelo esponjoso.",
-    "price": 95,
+    "price": 60,
     "image": "/images/vs-tease-sugar-fleur.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -199,7 +191,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Victoria's Secret Tease Crème Cloud Eau de Parfum",
     "category": "perfumes",
     "description": "Suave como una nube sobre la piel. Merengue de vainilla batido, flor de sándalo luminosa y ámbar blanco puro en una caricia etérea y reconfortante.",
-    "price": 95,
+    "price": 60,
     "image": "/images/vs-tease-creme-cloud.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -218,7 +210,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chanel Chance Eau de Parfum",
     "category": "perfumes",
     "description": "La oportunidad inesperada embotellada por Chanel. Una constelación floral donde el jazmín exótico y la pimienta rosa se entrelazan con el ámbar pachulí y la vainilla sensual.",
-    "price": 125,
+    "price": 60,
     "image": "/images/chanel-chance-edp.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -237,7 +229,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chanel Chance Eau Fraîche Eau de Toilette",
     "category": "perfumes",
     "description": "Un torbellino chispeante de frescura vibrante. Salida cítrica de cidra chispeante, corazón suave de jazmín acuático y un fondo vibrante de madera de teca.",
-    "price": 110,
+    "price": 60,
     "image": "/images/chanel-chance-fraiche-edt.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -256,7 +248,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chanel Chance Eau Fraîche Eau de Parfum",
     "category": "perfumes",
     "description": "La nueva concentración intensa de Chance Eau Fraîche. Conserva la vivacidad de la cidra amplificándola con un corazón denso de jazmín y una profunda nota ambarina amaderada de teca.",
-    "price": 125,
+    "price": 60,
     "image": "/images/chanel-chance-fraiche-edp.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -294,7 +286,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Valentino Uomo Born in Roma Eau de Toilette",
     "category": "perfumes",
     "description": "Una celebración de la elegancia y la rebeldía de Roma. Salvia aromática con vetiver ahumado contrastado con la sal mineral picante y hojas de violeta fresca.",
-    "price": 115,
+    "price": 60,
     "image": "/images/valentino-born-in-roma.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -313,7 +305,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Versace Dylan Blue Pour Homme Eau de Toilette",
     "category": "perfumes",
     "description": "El alma del hombre Versace: fuerza, pasión y carisma mediterráneo. Notas cítricas de bergamota de Calabria, hojas de higuera, pimienta negra, ambrox y pachulí.",
-    "price": 105,
+    "price": 60,
     "image": "/images/versace-dylan-blue.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -332,7 +324,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chanel Allure Homme Sport Superleggera Eau de Parfum",
     "category": "perfumes",
     "description": "Edición exclusiva Superleggera de Chanel inspirada en el automovilismo de alta velocidad. Salida cítrica chispeante de mandarina y pomelo con maderas nobles de cedro y notas ambarinas potentes.",
-    "price": 145,
+    "price": 75,
     "image": "/images/chanel-allure-superleggera.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -351,7 +343,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Christian Dior Dior Homme Eau de Toilette",
     "category": "perfumes",
     "description": "La encarnación de la sensualidad masculina contemporánea de Dior. Un acorde amaderado poliédrico construido alrededor del cedro del Atlas, pachulí cálido y vetiver de Haití.",
-    "price": 120,
+    "price": 75,
     "image": "/images/dior-homme-edt.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -370,7 +362,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Lancôme Idôle Le Parfum Eau de Parfum",
     "category": "perfumes",
     "description": "El perfume de las mujeres que se atreven a soñar a lo grande. Una rosa limpia y radiante orquestada con jazmín grandiflorum y un velo de chipre blanco impecable.",
-    "price": 118,
+    "price": 60,
     "image": "/images/lancome-idole-edp.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -389,7 +381,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Lancôme Idôle L'Eau de Toilette",
     "category": "perfumes",
     "description": "La brisa más fresca y luminosa del universo Idôle. Acordes de té verde Shincha y bergamota revitalizante envueltos en rosas recién cortadas al rocío de la mañana.",
-    "price": 105,
+    "price": 60,
     "image": "/images/lancome-idole-edt.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -408,7 +400,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Gucci Bloom Eau de Parfum",
     "category": "perfumes",
     "description": "Creada para florecer como un jardín repleto de flores blancas. Combina el jazmín sambac natural, el nardo de la India y la exclusiva enredadera de Rangoon.",
-    "price": 135,
+    "price": 60,
     "image": "/images/gucci-bloom-edp.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -427,7 +419,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Gucci Flora Gorgeous Gardenia Eau de Parfum",
     "category": "perfumes",
     "description": "Una poción floral de alegría y resplandor. Centrada en la mística gardenia blanca mezclada con absoluto de jazmín solar, pera jugosa y un sutil toque de azúcar moreno.",
-    "price": 135,
+    "price": 60,
     "image": "/images/gucci-flora-gardenia.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -446,7 +438,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Dolce & Gabbana Pour Femme Eau de Parfum",
     "category": "perfumes",
     "description": "La esencia de la mujer mediterránea apasionada y voluptuosa. Salida de neroli y frambuesa jugosa, corazón de jazmín aterciopelado y fondo goloso de malvavisco dulce y sándalo.",
-    "price": 120,
+    "price": 60,
     "image": "/images/dg-pour-femme.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -465,7 +457,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chanel Coco Mademoiselle L'Eau Privée Eau Pour la Nuit",
     "category": "perfumes",
     "description": "La fragancia nocturna más íntima y delicada de Chanel. Un velo de almizcle suave con jazmín y pétalos de rosa para vaporizar en la piel y el cabello antes de dormir.",
-    "price": 130,
+    "price": 75,
     "image": "/images/chanel-coco-mademoiselle-privee.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -484,7 +476,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chanel N°5 L'Eau Eau de Toilette",
     "category": "perfumes",
     "description": "La reinvención más fresca, moderna y cristalina del legendario N°5. Cítricos dinámicos de limón y mandarina con aldehídos transparentes, rosa de mayo, jazmín y cedro.",
-    "price": 135,
+    "price": 75,
     "image": "/images/chanel-n5-leau.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -503,7 +495,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chanel Coco Eau de Parfum",
     "category": "perfumes",
     "description": "La expresión barroca y fascinante del estilo oriental de Gabrielle Chanel. Una exuberante composición especiada con mandarina, rosa damascena, cilantro, haba tonka y benjuí.",
-    "price": 140,
+    "price": 75,
     "image": "/images/chanel-coco-edp-black.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -522,7 +514,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chanel Chance Eau Tendre Eau de Toilette",
     "category": "perfumes",
     "description": "La ternura y poesía de una oportunidad dulce. Acorde afrutado de pomelo y membrillo entrelazado con la suavidad del jazmín y la calidez del almizcle blanco.",
-    "price": 135,
+    "price": 75,
     "image": "/images/chanel-chance-eau-tendre.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -541,7 +533,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Christian Dior Miss Dior Eau de Parfum",
     "category": "perfumes",
     "description": "Un bouquet floral embriagador que celebra el amor. Rosa centifolia de mil mieles, lirio de los valles fresco, peonía noble y notas de madera cremosa de sándalo de Papúa.",
-    "price": 140,
+    "price": 75,
     "image": "/images/miss-dior-eau-de-parfum.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -560,7 +552,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Prada Les Infusions de Prada Eau de Parfum",
     "category": "perfumes",
     "description": "La sofisticación y pureza de la alta perfumería de Milán. Notas solares de flor de ylang-ylang enriquecidas con bergamota, cardamomo y sándalo envolvente.",
-    "price": 135,
+    "price": 60,
     "image": "/images/prada-infusion-ylang.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -579,7 +571,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chloé Nomade Jasmin Naturel Eau de Parfum",
     "category": "perfumes",
     "description": "Una expedición olfativa femenina formulada con fragancia de origen 100% natural. Jazmín egipcio recolectado al amanecer sobre un lecho suave de dátiles y vainilla reconfortante.",
-    "price": 110,
+    "price": 60,
     "image": "/images/chloe-nomade-jasmin.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -598,7 +590,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chloé Le Parfum Rechargeable",
     "category": "perfumes",
     "description": "La intensidad más sublime de la clásica rosa Chloé. Rosa aterciopelada y madera de roble tostado con una estela dulce y refinada de miel de azahar en formato recargable.",
-    "price": 125,
+    "price": 60,
     "image": "/images/chloe-le-parfum-rechargeable.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -617,7 +609,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Givenchy L'Interdit Rouge Ultime Eau de Parfum",
     "category": "perfumes",
     "description": "El tributo definitivo al color rojo icónico de Givenchy. Nardo hipnótico y flor de azahar cruzados con una tentación de cacao caliente ahumado y pachulí oscuro.",
-    "price": 120,
+    "price": 60,
     "image": "/images/givenchy-linterdit-rouge-ultime.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -636,7 +628,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Mugler Alien Eau de Parfum Talisman Rechargeable",
     "category": "perfumes",
     "description": "El talismán sagrado de la diosa solar de Mugler. Tres revelaciones olfativas: la luminosidad del jazmín sambac, el misterio de la madera de cashmeran y la opulencia del ámbar blanco.",
-    "price": 130,
+    "price": 60,
     "image": "/images/mugler-alien-edp.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -655,7 +647,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Zadig & Voltaire This is Really Her! Eau de Parfum Intense",
     "category": "perfumes",
     "description": "La fragancia más rebelde y festiva de París. Acordes luminosos de bayas rosas, castaña glaseada de autor, pachulí embriagador y vainilla dorada metálica.",
-    "price": 110,
+    "price": 60,
     "image": "/images/zadig-this-is-really-her.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -674,7 +666,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Yves Saint Laurent Black Opium Le Parfum",
     "category": "perfumes",
     "description": "La interpretación más intensa y adictiva de Black Opium. Un cuarteto de vainillas excepcionales con el emblemático café negro tostado y flores blancas solares.",
-    "price": 135,
+    "price": 60,
     "image": "/images/ysl-black-opium-le-parfum.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -689,147 +681,166 @@ export const PRODUCTS_DATA: Product[] = [
     "history": "La emoción de la noche en una dosis de adrenalina floral, dulce y radicalmente seductora."
   },
   {
-    "id": "glasses-celine-triomphe",
-    "name": "Celine Gafas de Sol Triomphe 01 en Acetato Negro",
+    "id": "glasses-chanel-twotone-cc",
+    "name": "Chanel Gafas de Sol Bicolor 'Two-Tone CC' Signature Polarizadas",
     "category": "glasses",
-    "description": "Diseño icónico ovalado de alta costura en acetato negro pulido. Destaca por el emblemático motivo Triomphe en relieve metálico dorado pulido en ambas varillas y lentes solares tintadas con máxima protección UV.",
-    "price": 420,
-    "image": "/images/celine-triomphe-oval.jpg",
+    "description": "Exclusivas gafas de sol rectangulares de Chanel con frontal en acetato negro brillante y audaces patillas en contraste blanco marfil. Lucen el emblemático logotipo joya de la doble 'CC' tridimensional en relieve y lentes solares polarizadas de alta definición.",
+    "price": 250,
+    "image": "/images/chanel-bicolor-sunglasses.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Montura: Acetato de celulosa premium negro brillante biselado a mano",
-      "Detalle emblemático: Logotipo de autor Celine Triomphe en metal dorado tridimensional",
-      "Lentes: Tintadas en gris humo con protección 100% UVA/UVB Categoría 3",
-      "Presentación: Incluye funda de piel rígida oficial Celine Paris y paño de seda"
+      "Modelo: Chanel Two-Tone CC Signature (Ref. 1656T8 52 P001)",
+      "Montura: Acetato premium en diseño bicolor blanco y negro",
+      "Patillas: Varillas anchas en tono marfil con logotipo joya CC en acabado plata y negro",
+      "Lentes: Polarizadas en gris humo con grabado 'CHANEL POLARIZED' y protección UV400 Cat. 3",
+      "Incluye: Estuche protector oficial Chanel Paris, funda suave y paño de seda"
     ],
-    "history": "La máxima expresión de la elegancia parisina contemporánea, un homenaje a la Place de l'Étoile que corona la mirada con un aura de sofisticación absoluta."
+    "history": "Un tributo al contraste inmortal de blanco y negro establecido por Gabrielle Chanel como máxima expresión de modernidad y alta costura."
   },
   {
-    "id": "glasses-prada-symbole",
-    "name": "Prada Gafas de Sol Symbole PR 17WS Rectangulares",
+    "id": "glasses-prada-symbole-17ws",
+    "name": "Prada Gafas de Sol Symbole PR 17WS Rectangulares Geométricas Carey",
     "category": "glasses",
-    "description": "Silueta geométrica audaz con audaces cortes biselados en acetato negro profundo. Varillas tridimensionales multifacetadas que integran el legendario triángulo de Prada con logotipo PRADA Milano.",
-    "price": 390,
+    "description": "Icónica silueta geométrica multifacetada con cortes arquitectónicos en acetato carey havana. Varillas tridimensionales angulares que integran la legendaria placa triangular esmaltada de Prada Milano dal 1913.",
+    "price": 200,
     "image": "/images/prada-symbole-geometric.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Modelo: Prada Symbole PR 17WS 1AB-5S0 49-20",
-      "Montura: Acetato geométrico esculpido en negro de alto brillo",
-      "Varillas: Diseño facetado arquitectónico con placa triangular Prada Milano",
-      "Lentes: Minerales gris oscuro uniforme con filtro solar Cat. 3 y protección UV400",
-      "Accesorios: Estuche rígido texturizado Prada y gamuza de microfibra de alta densidad"
+      "Modelo: Prada Symbole PR 17WS Trt Ptr Pol (Ref. # R019)",
+      "Montura: Acetato carey havana de alta densidad con biselados geométricos",
+      "Varillas: Escultura arquitectónica tridimensional con emblema triangular Prada Milano dal 1913",
+      "Lentes: Lentes polarizadas minerales en marrón cálido con protección 100% UV400 Cat. 3",
+      "Accesorios: Estuche rígido texturizado Prada Milano, caja oficial y toallita de microfibra"
     ],
-    "history": "Una obra de arte vanguardista que fusiona el brutalismo geométrico con el minimalismo de lujo milanés."
+    "history": "La silueta más emblemática del diseño contemporáneo de Prada, combinando el brutalismo arquitectónico con el refinamiento de la pasarela de Milán."
   },
   {
-    "id": "glasses-ysl-mica",
-    "name": "Saint Laurent Gafas de Sol SL 276 Mica Cat-Eye",
+    "id": "glasses-prada-26zs-cateye",
+    "name": "Prada Gafas de Sol PR 26ZS Hexagonales Cat-Eye Oversize Negro y Marfil",
     "category": "glasses",
-    "description": "Silueta felina cat-eye ultrafemenina y aristocrática en acetato negro pulido. Varillas estilizadas realzadas con el legendario monograma Cassandre YSL esculpido en metal dorado pulido.",
-    "price": 375,
-    "image": "/images/ysl-mica-cat-eye.jpg",
+    "description": "Vanguardistas gafas de sol de silueta hexagonal cat-eye extragrande en acetato negro pulido. Las varillas de perfil ancho lucen el interior en contraste marfil/blanco y la firma en relieve PRADA MILANO.",
+    "price": 200,
+    "image": "/images/prada-26zs-cateye.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Modelo: Saint Laurent SL 276 Mica / Monogram Edition",
-      "Montura: Acetato lustrado en negro ébano con esquinas afiladas cat-eye",
-      "Detalle de autor: Monograma joya Cassandre YSL entrelazado en relieve de oro",
-      "Lentes: Polarizadas en gris humo con protección UV400 completa",
-      "Presentación: Incluye funda flexible de piel acolchada Saint Laurent Paris"
+      "Modelo: Prada PR 26ZS BLK SHN GRY (Ref. # R019)",
+      "Montura: Acetato negro brillante en silueta cat-eye hexagonal sobredimensionada con ángulos biselados",
+      "Varillas: Perfil ancho con forro interior en contraste marfil/blanco y firma grabada PRADA MILANO",
+      "Lentes: Tintadas en gris mineral uniforme de máxima agudeza visual con filtro solar Cat. 3 UV400",
+      "Incluye: Estuche joya rígido Prada, caja original y paño de limpieza oficial"
     ],
-    "history": "El magnetismo felino y la audacia andrógina de Yves Saint Laurent destilados en el accesorio fetiche de las pasarelas de París."
+    "history": "Una declaración de feminidad audaz y vanguardia geométrica que reinterpreta el clásico cat-eye con proporciones esculturales de alta costura."
   },
   {
-    "id": "glasses-dior-montaigne",
-    "name": "Dior Gafas de Sol 30 Montaigne Cuadradas con Bisagra CD",
+    "id": "glasses-dolce-gabbana-dg-havana",
+    "name": "Dolce & Gabbana Gafas de Sol Rectangulares Carey Havana con Logotipo DG Dorado",
     "category": "glasses",
-    "description": "Diseño arquitectónico cuadrado de gran presencia en acetato negro brillante. Su rasgo maestro es la majestuosa bisagra joya en metal dorado con las iniciales CD caladas que unen el frente con las varillas.",
-    "price": 460,
-    "image": "/images/dior-30-montaigne.jpg",
+    "description": "Gafas rectangulares de silueta cat-eye refinada en acetato carey havana con ricas vetas ámbar, lentes degradadas en tono malva-marrón y patillas robustas ornamentadas con el logotipo 'DG' dorado en relieve y apliques dobles en charnelas.",
+    "price": 180,
+    "image": "/images/dolce-gabbana-havana-dg.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Modelo: Christian Dior 30 Montaigne SU",
-      "Montura: Acetato biselado negro opulento con frontal cuadrangular",
-      "Herrajes: Bisagra funcional con logotipo CD bañado en oro claro de alta joyería",
-      "Lentes: Filtro solar gris degradado con tratamiento antirreflejante y protección 100% UV",
-      "Incluye: Estuche rígido Christian Dior Paris grabado en oro y paño de satén"
+      "Modelo: Dolce & Gabbana DG Plaque Collection Havana",
+      "Montura: Acetato italiano carey havana oscuro con elegantes destellos ambarinos",
+      "Herrajes: Majestuoso monograma 'DG' en metal dorado macizo tridimensional y dobles apliques en charnela",
+      "Lentes: Tintadas en degradado malva-marrón cálido con tratamiento antirreflejante y protección UV400",
+      "Presentación: Estuche rígido aterciopelado negro oficial Dolce & Gabbana y paño de satén"
     ],
-    "history": "Inspiradas en la mítica dirección histórica de Avenue Montaigne, rinden tributo al savoir-faire artesanal de la Maison Dior."
+    "history": "Celebración de la seducción mediterránea y el lujo barroco siciliano característicos de la firma italiana."
   },
   {
-    "id": "glasses-miumiu-oval",
-    "name": "Miu Miu Gafas de Sol Glimpse Ovaladas Carey Havana",
+    "id": "glasses-celine-navigator-cl40236u",
+    "name": "Celine Gafas de Sol Navigator Cuadradas con Doble Puente en Acetato Negro",
     "category": "glasses",
-    "description": "Silueta ovalada retro de vanguardia en acetato carey havana de tonalidades ambarinas cálidas. Varillas gruesas con la exclusiva tipografía calada en relieve metálico dorado MIU MIU integrada en las sienes.",
-    "price": 365,
-    "image": "/images/miumiu-havana-oval.jpg",
+    "description": "Imponente silueta aviador cuadrada con doble puente arquitectónico en acetato negro ébano de alta densidad, patillas gruesas con la firma Celine estampada en dorado y los emblemáticos tres remaches metálicos distintivos.",
+    "price": 180,
+    "image": "/images/celine-navigator-sunglasses.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Modelo: Miu Miu Glimpse / Regard SMU04Z",
-      "Montura: Acetato italiano carey havana con vetas doradas y ámbar",
-      "Logo: Tipografía MIU MIU en altorrelieve de oro pulido brillante",
-      "Lentes: Tintadas en marrón cálido con protección total UV400 Cat. 3",
-      "Presentación: Estuche rígido en terciopelo rosa empolvado Miu Miu y paño de seda"
+      "Modelo: Celine Aviator / Navigator Square CL40236U",
+      "Montura: Acetato de alta densidad negro ébano con frontal recto y barra superior de doble puente",
+      "Varillas: Diseño lineal y robusto con los icónicos 3 remaches de bisagra y logotipo 'CELINE' en oro",
+      "Lentes: Lentes solares gris mineral uniforme con filtro solar Categoría 3 y tratamiento anti-impacto",
+      "Accesorios: Funda rígida en piel granulada negra de Celine Paris y paño de microfibra oficial"
     ],
-    "history": "La esencia del espíritu libre e intelectual de Miuccia Prada, combinando el glamour vintage de los 90 con el chic urbano actual."
+    "history": "El sello inconfundible de Hedi Slimane: actitud rock-and-roll atemporal combinada con la artesanía de lujo francesa más rigurosa."
   },
   {
-    "id": "glasses-lv-cyclone",
-    "name": "Louis Vuitton Gafas de Sol Cyclone con Flor Monogram",
+    "id": "glasses-rayban-ferrari-lifestyle",
+    "name": "Ray-Ban Scuderia Ferrari Lifestyle RB 2217-M Carey Havana Flat-Top",
     "category": "glasses",
-    "description": "Gafas de sol cuadradas de impacto escultural en acetato negro azabache con biselado frontal profundo. Destaca una exquisita flor Monogram de cristal engastada en el puente superior y herrajes metálicos dorados con iniciales LV.",
-    "price": 520,
-    "image": "/images/lv-cyclone-square.jpg",
+    "description": "Edición exclusiva de la colección Ray-Ban Scuderia Ferrari Lifestyle. Frontal plano horizontal contemporáneo en acetato carey havana oscuro con lentes marrón solar y remates inspirados en la ingeniería de Maranello.",
+    "price": 125,
+    "image": "/images/rayban-ferrari-sunglasses.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Modelo: Louis Vuitton Cyclone Z1578E",
-      "Montura: Acetato de alta densidad negro azabache con biselado profundo",
-      "Detalle joya: Flor Monogram tallada con cristal engastado en el puente frontal",
-      "Varillas: Herrajes y bisagras doradas grabadas con Louis Vuitton",
-      "Presentación: Incluye estuche rígido Monogram Canvas y funda de microfibra de la Maison"
+      "Modelo: Ray-Ban Scuderia Ferrari Lifestyle RB 2217-M F613/73 53[]21 145 3N (Ref. ICONSN125)",
+      "Montura: Acetato havana carey oscuro con frontal plano horizontal tipo escudo contemporáneo",
+      "Lentes: Cristal mineral marrón clásico de alta definición con firma Ray-Ban y escudo Ferrari",
+      "Varillas: Diseño ergonómico con remates y tornillería inspirados en la aerodinámica de Ferrari",
+      "Incluye: Estuche de piel oficial Ray-Ban for Scuderia Ferrari con pespunte rojo y caja de colección"
     ],
-    "history": "Un hito del diseño audaz de Louis Vuitton, reinterpretando los códigos clásicos de la marroquinería en una pieza de óptica de culto."
+    "history": "La unión de dos mitos mundiales: la legendaria silueta de Ray-Ban enriquecida con la pasión y aerodinámica de la escudería Ferrari."
   },
   {
-    "id": "glasses-gucci-gg",
-    "name": "Gucci Gafas de Sol Cuadradas con Doble G Entrelazada",
+    "id": "glasses-armani-clipon-ea4208",
+    "name": "Emporio Armani Gafas Graduables con Doble Clip-On Solar Magnético (EA 4208)",
     "category": "glasses",
-    "description": "Elegancia atemporal de proporciones cuadradas en acetato negro brillante pulido a mano. Las varillas de perfil ancho lucen el célebre emblema Doble G metálico dorado que evoca los archivos históricos de Florencia.",
-    "price": 340,
-    "image": "/images/gucci-interlocking-gg.jpg",
+    "description": "Set versátil de montura óptica rectangular en acabado mate grafito sostenible con dos suplementos solares magnéticos intercambiables (clip-on polarizados degradados) y varillas estilizadas con el águila de Emporio Armani.",
+    "price": 90,
+    "image": "/images/armani-magnetic-clipon.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Modelo: Gucci GG0036S / Square Heritage Edition",
-      "Montura: Acetato refinado negro pulido con puente cómodo anatómico",
-      "Detalle de autor: Doble G dorada tridimensional entrelazada en los laterales",
-      "Lentes: Lentes gris oscuro con tratamiento antirrayas y 100% protección UVA/UVB",
-      "Accesorios: Estuche aterciopelado rígido Gucci en tono joya con forro de satén"
+      "Modelo: Emporio Armani Sustainability Edition EA 4208 (55[]17 145)",
+      "Montura: Rectangular moderna en acetato mate grafito ecológico ultraligero",
+      "Suplementos: Incluye 2 clips solares magnéticos intercambiables (polarizado negro y degradado espejado)",
+      "Varillas: Perfil refinado con franja metálica pulida y el icónico emblema del águila de Emporio Armani",
+      "Presentación: Estuche rígido compartimentado para montura y clips, con paño oficial de microfibra"
     ],
-    "history": "El esplendor de la dolce vita italiana capturado en una silueta que nunca pasa de moda, destilando carisma y distinción."
+    "history": "Ingeniería óptica versátil y elegancia urbana milanesa: dos gafas de sol y una gafa de vista en un solo accesorio vanguardista."
   },
   {
-    "id": "glasses-balenciaga-dynasty",
-    "name": "Balenciaga Gafas de Sol Dynasty Rectangulares con Logo BB",
+    "id": "glasses-lacoste-l2707magn-clipon",
+    "name": "Lacoste L2707MAGN Gafas Ópticas con Clip-On Solar Magnético y Varilla Racing Bicolor",
     "category": "glasses",
-    "description": "Diseño rectangular futurista y de líneas puras en acetato negro de acabado espejo. Las varillas anchas integran el emblemático logotipo joya calado BB en metal dorado tridimensional con acabado de alta orfebrería.",
-    "price": 430,
-    "image": "/images/balenciaga-dynasty-bb.jpg",
+    "description": "Gafas ópticas rectangulares semi al aire con clip solar polarizado magnético de ajuste instantáneo, patillas ergonómicas con franja deportiva bicolor azul y rojo racing y emblema del cocodrilo Lacoste.",
+    "price": 90,
+    "image": "/images/lacoste-magnetic-sunglasses.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Modelo: Balenciaga Dynasty BB0096S",
-      "Montura: Acetato inyectado premium negro pulido de silueta rectangular baja",
-      "Detalle joya: Emblema doble B calado en latón pulido con baño de oro amarillo",
-      "Lentes: Lentes nylon tintadas en negro intenso con protección UV total",
-      "Presentación: Estuche estuche rígido Balenciaga y toallita de limpieza técnica"
+      "Modelo: Lacoste Magnetic Clip-On L2707MAGN 002 55[]16 (Ref. 158)",
+      "Montura: Frontal rectangular semi al aire en metal y acetato negro mate de gran ligereza",
+      "Varillas: Varillas deportivas con línea de contraste en azul cielo y rojo dinámico con cocodrilo Lacoste",
+      "Clip-On: Suplemento polarizado magnético que se fija firmemente convirtiéndolas en gafas de sol al instante",
+      "Incluye: Estuche rígido original Lacoste con compartimento para clip solar magnético"
     ],
-    "history": "La vanguardia radical de Cristóbal Balenciaga reinventada para el siglo XXI con proporciones arquitectónicas irresistibles."
+    "history": "El espíritu tenístico y la innovación técnica francesa de René Lacoste convertidos en confort y versatilidad diaria."
+  },
+  {
+    "id": "glasses-lacoste-sport-clipon",
+    "name": "Lacoste Sport Active Gafas Rectangulares con Clip-On Magnético Polarizado",
+    "category": "glasses",
+    "description": "Montura completa en acetato negro mate de líneas deportivas y dinámicas, patillas con inserciones en azul cobalto y gris carbón con cocodrilo plateado, y suplemento solar magnético polarizado de fijación instantánea.",
+    "price": 90,
+    "image": "/images/lacoste-sport-clipon.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "details": [
+      "Modelo: Lacoste Sport Performance Magnetic Edition",
+      "Montura: Acetato inyectado negro mate integral con puente ergonómico de sujeción perfecta",
+      "Varillas: Acabado deportivo con inserciones bitono en azul cobalto y gris asfalto con cocodrilo plateado",
+      "Clip Solar: Suplemento magnético con lentes polarizadas de alto contraste para máxima protección antirreflejos",
+      "Presentación: Funda semirrígida Lacoste con cremallera y gamuza limpiadora"
+    ],
+    "history": "Máximo rendimiento deportivo y estilo lifestyle para quienes buscan dinamismo, protección ocular completa y practicidad."
   },
   {
     "id": "cosmetics-01",
@@ -1404,600 +1415,6 @@ export const PRODUCTS_DATA: Product[] = [
     "isAvailable": true
   },
   {
-    "id": "clothing-01",
-    "name": "Victoria's Secret Shine Strap • Tanga Joya Cristal",
-    "category": "clothing",
-    "description": "El icónico diseño de lencería de Victoria's Secret confeccionado en microfibra sedosa ultra suave con tirantes laterales decorados con cristales y pedrería brillante que capturan la luz, combinando glamour audaz con confort absoluto.",
-    "price": 30,
-    "image": "/images/victorias-secret-shine-strap.jpg",
-    "details": [
-      "Modelo: Victoria's Secret Shine Strap Crystal Rhinestone Thong",
-      "Tonos disponibles: Azul Celeste Pastel con tirantes de strass brillante & Borgoña Ciruela Satinado con logo cristal 'VICTORIA'S SECRET'",
-      "Talla: M / M (Tiro bajo/medio con corte ergonómico de alta elasticidad)",
-      "Tejido: Microfibra sedosa premium con refuerzo higiénico de algodón 100%",
-      "Detalles: Tirantes joya elásticos con cristales facetados de alto brillo y etiqueta original"
-    ],
-    "history": "El diseño de lencería más aclamado y viral de Victoria's Secret, creado para realzar la silueta con un toque inconfundible de brillo y sensualidad.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-02",
-    "name": "Victoria's Secret Shine Strap • Tanga Multi-Tiras Negro",
-    "category": "clothing",
-    "description": "Seductora braguita tanga de tiro bajo con diseño de tiras dobles y multi-tiras laterales de Victoria's Secret, confeccionada en suave microfibra satinada negra azabache y decorada con cristales de strass brillantes que deletrean 'VICTORIA'S SECRET'.",
-    "price": 30,
-    "image": "/images/victorias-secret-black-shine-strap.jpg",
-    "details": [
-      "Modelo: Victoria's Secret Strappy Shine Strap Rhinestone Thong",
-      "Talla: S / Small (Tiro bajo ergonómico con ajuste suave y elástico)",
-      "Color: Negro Intenso Satinado & toques en Azul Glacé",
-      "Detalles: Tiras dobles joya con incrustaciones de strass cristalino y tipografía brillante 'VICTORIA'S SECRET'",
-      "Tejido: Microfibra sedosa de alta elasticidad con refuerzo de algodón 100%"
-    ],
-    "history": "El emblemático diseño Shine Strap de Victoria's Secret en su silueta más atrevida con tiras múltiples joya, pensado para aportar un brillo deslumbrante en cada movimiento.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-03",
-    "name": "Victoria's Secret Very Sexy • Tanga de Encaje Shine Strap",
-    "category": "clothing",
-    "description": "Diseño premium de la colección Very Sexy de Victoria's Secret que combina exquisito encaje floral transparente con tirantes elásticos decorados con deslumbrantes cristales de strass con el logo de 'VICTORIA'S SECRET', logrando un equilibrio perfecto entre sofisticación y sensualidad.",
-    "price": 30,
-    "image": "/images/victorias-secret-lace-shine-strap.jpg",
-    "details": [
-      "Colección: Victoria's Secret Very Sexy Collection (Lace Shine Strap Thong)",
-      "Talla: XS / Extra Small (Tiro bajo favorecedor y diseño anatómico adaptable)",
-      "Colores: Azul Real Cobalto con Encaje Floral, Rosa Fucsia Neón Satinado & Negro Azabache",
-      "Detalles: Tirantes anchos con cristales brillantes facetados y pedrería en tipografía 'VICTORIA'S SECRET'",
-      "Material: Encaje floral delicado con paneles elásticos y puente higiénico de algodón puro"
-    ],
-    "history": "La emblemática línea Very Sexy de Victoria's Secret fusiona el encaje de alta lencería con tirantes brillantes de strass para un look audaz e irresistible.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-04",
-    "name": "The North Face • Chaqueta Técnica DryVent Bicolor",
-    "category": "clothing",
-    "description": "Chaqueta técnica impermeable y cortavientos de The North Face con capucha ajustable y diseño colorblock bitonal en verde oliva y beige arena. Confeccionada con tecnología de membrana DryVent™ para máxima protección transpirable ante la lluvia y el viento.",
-    "price": 270,
-    "image": "/images/the-north-face-jacket.jpg",
-    "details": [
-      "Modelo: The North Face DryVent™ All-Weather Hooded Jacket",
-      "PVP Oficial: 270,00 € (etiqueta original The North Face)",
-      "Tecnología: Tejido técnico DryVent™ impermeable, transpirable y termosellado con acabado hidrófugo DWR",
-      "Diseño: Colorblock bitonal en Verde Oliva / Caqui en zona superior y Beige Arena en cuerpo y mangas",
-      "Detalles: Cierre frontal con cremallera completa, capucha ergonómica con cordones ajustables, puños regulables con velcro y logotipo blanco The North Face"
-    ],
-    "history": "Un icono del outdoor y la moda urbana técnica que combina la protección climática avanzada con la estética streetwear contemporánea.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-05",
-    "name": "Nike Pro • Mallas de Entrenamiento Dri-FIT",
-    "category": "clothing",
-    "description": "Mallas deportivas de alto rendimiento Nike Pro diseñadas para ajustarse al cuerpo con soporte firme y sensación de segunda piel. Cuentan con cintura elástica ancha con logotipo 'NIKE PRO' y tecnología Dri-FIT para mantener la frescura y la transpirabilidad en cada entrenamiento.",
-    "price": 48,
-    "image": "/images/nike-pro-leggings.jpg",
-    "details": [
-      "Modelo: Nike Pro Women's Training Leggings (Nike Sra Mlla L Gym NP)",
-      "PVP Oficial: 47,99 € (con etiquetas oficiales Nike)",
-      "Tallas & Colores disponibles: Talla S en Azul Cielo / Blanco & Talla M en Negro Puro",
-      "Tecnología: Tejido elástico en cuatro direcciones con tecnología Dri-FIT de capilarización del sudor",
-      "Detalles: Banda elástica ancha en la cintura con grafismo 'NIKE PRO' de sujeción óptima y logotipo Swoosh reflectante en la pierna"
-    ],
-    "history": "La prenda esencial de alto rendimiento de Nike que une compresión ergonómica, soporte postural y máxima libertad de movimiento tanto para el gimnasio como para un estilo activewear diario.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-06",
-    "name": "adidas • Mallas Deportivas de Cintura Alta Azul Cobalto",
-    "category": "clothing",
-    "description": "Mallas de entrenamiento de alto rendimiento adidas diseñadas con cintura alta anatómica que ofrece soporte firme y una silueta estilizada. Confeccionadas en tejido técnico transpirable AEROREADY con acabado suave y flexible para máxima comodidad.",
-    "price": 50,
-    "image": "/images/adidas-blue-leggings.jpg",
-    "details": [
-      "Modelo: adidas High-Waisted Training Leggings AEROREADY",
-      "Disponibilidad & Tallas: 2 unidades en Talla M y 1 unidad en Talla L",
-      "Color: Azul Cobalto Real Intenso / Royal Blue",
-      "Tecnología: Tejido elástico en cuatro direcciones con tecnología AEROREADY para evaporación rápida del sudor",
-      "Detalles: Logotipo blanco de tres barras adidas termoimpreso en el lateral de la cadera, cintura alta ancha reforzada y costuras planas suaves"
-    ],
-    "history": "El equilibrio ideal entre sujeción deportiva, elasticidad y estilo dinámico para sesiones de fitness, yoga o uso urbano diario.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-07",
-    "name": "Lacoste • Polo Clásico de Piqué Blanco Regular Fit",
-    "category": "clothing",
-    "description": "El icónico polo de tenis de Lacoste en corte Regular Fit, confeccionado en 100% petit piqué de algodón transpirable y duradero. Presenta cuello y mangas de canalé, tapeta de dos botones de nácar y el legendario cocodrilo verde bordado en el pecho.",
-    "price": 90,
-    "image": "/images/lacoste-polo-white.jpg",
-    "details": [
-      "Modelo: Lacoste Classic Piqué Polo Shirt Regular Fit (FR 6 / US XL)",
-      "PVP Oficial: 89,99 € (con etiqueta original Lacoste)",
-      "Talla: FR 6 / US XL (Corte clásico regular de caída recta impecable)",
-      "Color: Blanco Óptico Puro (POLO white)",
-      "Material: 100% Algodón en punto petit piqué clásico de alta resistencia",
-      "Detalles: Cuello y bordes de manga acanalados, tapeta con botones efecto nácar y cocodrilo verde bordado de 2,5 cm en el pecho"
-    ],
-    "history": "Creado originalmente por el campeón de tenis René Lacoste en 1933, este polo revolucionó la moda deportiva convirtiéndose en el símbolo imperecedero del estilo chic casual y la elegancia atemporal.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-08",
-    "name": "BOSS • Polo Paddy Clásico de Piqué Blanco Regular Fit",
-    "category": "clothing",
-    "description": "Elegante polo de corte regular BOSS confeccionado en piqué de puro algodón transpirable. Cuenta con un diseño contemporáneo realzado por rayas de contraste en negro y gris en el cuello y los puños, junto con el icónico logotipo 'BOSS' bordado en el pecho.",
-    "price": 90,
-    "image": "/images/boss-paddy-polo-white.jpg",
-    "details": [
-      "Modelo: BOSS Menswear Paddy Polo Shirt Regular Fit (HBG Paddy Polo Sn00)",
-      "PVP Oficial: 90,00 € (con etiqueta original Hugo Boss)",
-      "Talla: Medium / M (Corte regular con silueta moderna y cómoda)",
-      "Color: Blanco Óptico con ribete en Negro y Gris (White 100)",
-      "Material: 100% Algodón piqué de primera calidad transpirable",
-      "Detalles: Cuello y ribetes de manga acanalados con vivos a contraste, tapeta de tres botones y logotipo BOSS engomado/bordado en el pecho"
-    ],
-    "history": "El polo Paddy es un pilar indiscutible de las colecciones de BOSS Menswear, combinando precisión sastre alemana, acabados deportivos dinámicos y un porte sofisticado para cualquier ocasión casual elegante.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-09",
-    "name": "Lacoste • Polo Clásico de Piqué Azul Cielo Regular Fit",
-    "category": "clothing",
-    "description": "Polo de manga corta Lacoste en corte Regular Fit, elaborado en tejido petit piqué de tacto suave y alta transpirabilidad en un favorecedor tono azul cielo pastel. Incorpora cuello acanalado clásico, tapeta de dos botones y el inconfundible cocodrilo verde bordado en el pecho.",
-    "price": 90,
-    "image": "/images/lacoste-polo-sky-blue.jpg",
-    "details": [
-      "Modelo: Lacoste Sport / Classic Piqué Polo Shirt Regular Fit (DH5522 00 AEY)",
-      "PVP Oficial: 90,00 € (con etiqueta original Lacoste)",
-      "Talla: Large / L (FR 5 / US L - Corte Regular Fit de ajuste cómodo y elegante)",
-      "Color: Azul Cielo Pastel / Bleu Ciel (Blue AEY)",
-      "Material: Tejido piqué de algodón transpirable y resistente de máxima durabilidad",
-      "Detalles: Cuello camisero y ribetes acanalados, tapeta con botones al tono y logotipo legendario del cocodrilo verde bordado en el pecho"
-    ],
-    "history": "Un diseño esencial del vestuario masculino que encarna el savoir-faire deportivo y el refinamiento relajado característico de la casa Lacoste.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-10",
-    "name": "Style Edition • Camiseta Gráfica Rosa Roja & Tipografía Editorial",
-    "category": "clothing",
-    "description": "Camiseta artística de corte casual confeccionada en suave punto de algodón blanco óptico. Destaca por su impactante ilustración central de una rosa roja aterciopelada sobrepuesta a motivos caligráficos de prensa vintage y tipografía de moda editorial.",
-    "price": 28,
-    "image": "/images/rose-graphic-tshirt.jpg",
-    "details": [
-      "Modelo: Style Edition Rose Print Crewneck T-Shirt",
-      "PVP Oficial: 39,95 € (Precio Outlet Especial: 27,96 € con etiqueta)",
-      "Disponibilidad: ¡Última unidad disponible en Talla XS!",
-      "Color: Blanco Óptico con Ilustración Artística Rosa Carmesí y Letras Negras",
-      "Material: 100% Algodón de tacto suave y transpirable",
-      "Detalles: Cuello redondo acanalado, corte cómodo, estampado frontal de alta definición y mangas con detalle gráfico continuo"
-    ],
-    "history": "Una pieza de autor con estética poética y urbana que fusiona la botánica clásica con el dinamismo del diseño gráfico contemporáneo.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-11",
-    "name": "New Era & Jordan • Colección Exclusiva de Gorras Streetwear",
-    "category": "clothing",
-    "description": "Colección exclusiva de gorras icónicas de corte urbano y deportivo premium. Incluye los modelos New Era 9FORTY New York Yankees en tonos pastel lila/lavanda y trucker beige con bordado 3D, y la gorra Jordan Jumpman en suave azul hielo con silueta curva ergonómica.",
-    "price": 38,
-    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&q=80&w=800",
-    "details": [
-      "Modelos: New Era 9FORTY NY Yankees & Nike Air Jordan Jumpman Curved Cap",
-      "Estado de Stock: Modelos en Verde Bosque y Negro 'Vendidas / Agotadas'",
-      "Disponibles: New Era NY Yankees 9FORTY (Lila Pastel), New Era NY Trucker A-Frame (Beige Piedra) y Jordan Jumpman (Azul Hielo)",
-      "Detalles New Era: Corona estructurada de 6 paneles, visera curva con pegatina holográfica de autenticidad y bordado frontal en relieve 'NY'",
-      "Detalles Jordan: Corona ligera transpirable, cierre posterior ajustable y logotipo metálico/tonal Jumpman",
-      "Talla: Talla única ajustable para adulto (Strapback / Snapback universal)"
-    ],
-    "history": "Un elemento fundamental de la cultura urbana y el streetwear de lujo, combinando la herencia deportiva de las Grandes Ligas de Béisbol y la leyenda del baloncesto de Michael Jordan.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-12",
-    "name": "Desigual • Top Sin Mangas Estampado Periódico 'Breaking News'",
-    "category": "clothing",
-    "description": "Top artístico sin mangas de la firma Desigual confeccionado en punto elástico suave con un innovador estampado integral de collage periodístico 'Breaking News' en blanco y negro, realzado con titulares y caligrafía vanguardista.",
-    "price": 35,
-    "image": "/images/desigual-newspaper-top.jpg",
-    "details": [
-      "Modelo: Desigual TS_BREAKING NEWS Sleeveless Top (Art: 25WWTK10/1000)",
-      "PVP Oficial: 49,95 € (Precio Outlet Especial: 34,96 € con etiqueta original)",
-      "Talla: Medium / M (Corte entallado fluido con excelente caída y elasticidad)",
-      "Color: Blanco Óptico y Negro Gráfico (Collage Newspaper Print)",
-      "Material: Tejido elástico ligero, suave y transpirable de fácil cuidado",
-      "Detalles: Escote barco ancho, diseño sin mangas, bajo recto y motivo continuo de prensa vintage con frases tipográficas 'READ', 'NEWS', 'READY-MADE' y 'MYSELF'"
-    ],
-    "history": "Un diseño emblemático que refleja el espíritu transgresor y la creatividad mediterránea de Desigual, transformando la prensa escrita en una declaración de moda urbana contemporánea.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-13",
-    "name": "Desigual • Top Sin Mangas Girasol Artístico 'TS Haze'",
-    "category": "clothing",
-    "description": "Top fluido sin mangas de Desigual con un sofisticado motivo floral artístico de girasol en efecto difuminado 'Haze' en tonos ocres y ámbar. Diseñado con costuras overlock vistas en hilo dorado a contraste que recorren el escote, el bajo y una costura asimétrica frontal, con drapeado lateral favorecedor.",
-    "price": 49,
-    "image": "/images/desigual-haze-top.jpg",
-    "details": [
-      "Modelo: Desigual REPRIS TS_HAZE Sleeveless Top (Art: 25WWTKXE/1001)",
-      "PVP Oficial: 69,95 € (Precio Outlet Especial: 48,96 € con etiqueta original Desigual)",
-      "Talla: Large / L (USA L / MEX G - Corte drapeado elástico con ajuste estilizado)",
-      "Color: Blanco Óptico con Girasol en Tonos Ocre, Ámbar, Amarillo Mostaza y Oliva",
-      "Material: Punto suave de alta calidad con elastano para máxima adaptabilidad y confort",
-      "Detalles: Escote redondo, costuras vistas decorativas en hilo tostado/dorado, costura central asimétrica y fruncidos laterales que esculpen la silueta"
-    ],
-    "history": "Inspirado en la luz solar y la calidez del verano mediterráneo, el top TS Haze traslada la belleza orgánica de la naturaleza a una silueta contemporánea llena de personalidad.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-14",
-    "name": "BOSS • Bañador Starfish Rosa Coral con Cintura Elástica",
-    "category": "clothing",
-    "description": "Bañador de corte medio BOSS para hombre confeccionado en tejido técnico de secado ultra-rápido en un vibrante y sofisticado tono rosa coral pastel. Presenta cinturilla elástica blanca en contraste con cordón ajustable bicolor y el emblemático logotipo 'BOSS' estampado en el muslo izquierdo.",
-    "price": 90,
-    "image": "/images/boss-starfish-swim-shorts.jpg",
-    "details": [
-      "Modelo: BOSS Menswear Starfish Swim Shorts (Ref: 50514429 / 10229588 01 685)",
-      "PVP Oficial: 90,00 € (con etiqueta original Hugo Boss)",
-      "Talla: Medium / M (Corte medio confortable con forro interior de malla suave)",
-      "Color: Rosa Coral Pastel con Cinturilla Blanca (Bright Pink / Coral 685)",
-      "Material: 100% Poliamida reciclada de secado rápido, resistente al cloro y al agua salada",
-      "Detalles: Cintura elástica fruncida en blanco a contraste, cordón tubular con remates, bolsillos laterales en costura y logotipo BOSS engomado"
-    ],
-    "history": "Un icono del verano de BOSS que fusiona funcionalidad acuática, sostenibilidad y la elegancia deportiva inconfundible de la firma alemana.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-15",
-    "name": "adidas Originals • Shorts de Felpa 'Floral Shorts' Blanco Nube & Rosa Pastel",
-    "category": "clothing",
-    "description": "Pantalón corto deportivo adidas Originals confeccionado en suave felpa francesa de algodón en color blanco nube (Cloud White). Diseñado con cintura elástica fruncida de tiro alto, delicados vivos y ribetes en rosa pastel y un exquisito bordado floral de flores rojas y hojas verdes sobre la pernera junto al legendario trébol de adidas.",
-    "price": 38,
-    "image": "/images/adidas-floral-shorts-white.jpg",
-    "details": [
-      "Modelo: adidas Originals Floral Shorts (Ref: IS3869 - CLOWHI/BLANUA)",
-      "PVP Oficial: 55,00 € (Precio Outlet Especial: 38,00 € con etiqueta original adidas)",
-      "Tallas Disponibles: XS, S y M (Tiro alto con cintura elástica adaptable)",
-      "Color: Blanco Nube / Cloud White con vivos y perfiles en Rosa Pastel y bordado carmesí",
-      "Material: Felpa francesa 100% Algodón de tacto afelpado ultra-suave y transpirable",
-      "Detalles: Cintura ancha elástica fruncida, ribetes en contraste rosa pastel en costuras laterales y bajo redondeado, delicado bordado botánico floral y trébol bordado al tono"
-    ],
-    "history": "Una reinterpretación femenina y botánica de los clásicos shorts deportivos retro de adidas, fusionando la herencia atlética de los 70 con la frescura del diseño contemporáneo.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-16",
-    "name": "adidas • Shorts Deportivos 'W CB Sho' Rojo Rubí & Blanco",
-    "category": "clothing",
-    "description": "Pantalón corto deportivo de adidas en un vibrante tono rojo rubí / magenta 'Pure Ruby'. Confeccionado en tejido suave de algodón afelpado con cintura elástica con cordón de ajuste blanco, vivos laterales blancos a contraste y el logotipo oficial de adidas estampado en la pernera.",
-    "price": 35,
-    "image": "/images/adidas-ruby-red-shorts.jpg",
-    "details": [
-      "Modelo: adidas Women Colorblock Shorts (Ref: JG6216 W CB SHO)",
-      "PVP Oficial: 35,00 € (con etiqueta original adidas)",
-      "Talla Disponible: Talla S (USA S, D S, F S, UK S, I S, J M)",
-      "Color: Rojo Rubí Intenso / Pure Ruby (PURRUB / RUBPUR) con ribetes blancos",
-      "Material: Felpa suave de mezcla de algodón y poliéster transpirable",
-      "Detalles: Cinturilla elástica fruncida con cordón blanco exterior, ribetes laterales blancos estilizadores, bolsillos laterales y logotipo moderno de 3 barras de adidas en blanco"
-    ],
-    "history": "Un diseño esencial del catálogo deportivo de adidas que fusiona máxima comodidad diaria, libertad de movimiento y el estilo athleisure más vibrante.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-17",
-    "name": "Desigual • Bermudas Vaqueras 'Denim Plants' con Bordados Florales",
-    "category": "clothing",
-    "description": "Bermudas vaqueras cortas de tiro medio-alto de la firma Desigual confeccionadas en denim de algodón elástico en lavado azul claro vintage (Bleach Wash). Destacan por sus exquisitos bordados botánicos florales artesanales en tonos rosa, fucsia, verde y mostaza sobre ambos bolsillos delanteros, botón metálico grabado y detalle bordado del corazón invertido 'D' en el bolsillo relojero.",
-    "price": 56,
-    "image": "/images/desigual-denim-plants-shorts.jpg",
-    "details": [
-      "Modelo: Desigual DENIM_PLANTS Embroidered Denim Shorts (Art: 25SWDDXC/5053)",
-      "PVP Oficial: 79,95 € (Precio Outlet Especial: 55,96 € con etiqueta original Desigual)",
-      "Talla: Talla 36 (USA 8, MEX 26, UK 10, IT 40, D 34 - Corte recto ajustado)",
-      "Lavado: Azul Claro Vintage / Light Bleached Denim con sutiles desgastes",
-      "Material: Denim elástico suave y confortable (Algodón con elastano para libertad de movimiento)",
-      "Detalles: Cierre de cremallera con botón metálico repujado Desigual, bordados florales multicolores en cadera y bolsillos, diseño clásico de 5 bolsillos y costuras reforzadas"
-    ],
-    "history": "La esencia bohemia y mediterránea de Desigual plasmada en un denim veraniego donde la artesanía floral se fusiona con el estilo casual chic.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-18",
-    "name": "adidas Originals • Minifalda Vaquera Denim con Franjas Laterales",
-    "category": "clothing",
-    "description": "Minifalda vaquera de corte clásico de adidas Originals confeccionada en auténtico denim de algodón en lavado azul índigo vintage. Incorpora las icónicas franjas laterales de la marca curvadas a contraste sobre las costuras exteriores, botón metálico repujado con el trébol Trefoil y parche de piel negro grabado en la cinturilla trasera.",
-    "price": 55,
-    "image": "/images/adidas-denim-mini-skirt.jpg",
-    "details": [
-      "Modelo: adidas Originals 3-Stripes Heritage Denim Mini Skirt",
-      "PVP Oficial: 65,00 € (Precio Especial Outlet: 55,00 €)",
-      "Corte: Minifalda recta de tiro medio con sutil caída en línea A favorecedora",
-      "Lavado: Azul Marino Índigo Vintage / Stonewash Denim con pespuntes en tabaco",
-      "Material: 100% Algodón denim premium de tacto robusto, estructurado y confortable",
-      "Detalles: Bandas laterales a contraste cosidas en los costados, botón metálico dorado envejecido con trébol Trefoil grabado, trabillas para cinturón, diseño de 5 bolsillos y etiqueta trasera jacron de piel en negro mate con el logo adidas Originals en relieve"
-    ],
-    "history": "Una fusión magistral entre el legado deportivo retro de adidas y la estética desenfadada del denim noventero, creando un básico urbano atemporal.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-19",
-    "name": "adidas Originals • Shorts 'Floral Shorts' Blanco Nube con Bordado Botánico Doble",
-    "category": "clothing",
-    "description": "Pantalón corto deportivo de silueta retro de adidas Originals confeccionado en suave felpa de algodón en color blanco nube (Cloud White). Luce exquisitos bordados botánicos florales multicolores en ambos laterales (flores carmesí, pétalos azul zafiro y follaje verde), icónicas 3 bandas en rosa pastel a lo largo de las costuras y ribetes en bajo redondeado.",
-    "price": 38,
-    "image": "/images/adidas-floral-shorts-double.jpg",
-    "details": [
-      "Modelo: adidas Originals Floral Shorts (Ref: IS3869 - CLOWHI/BLANUA)",
-      "PVP Oficial: 55,00 € (Precio Outlet Especial: 38,00 € con etiqueta original adidas)",
-      "Tallas Disponibles: XS, S y M (Tiro alto con cinturilla elástica fruncida)",
-      "Color: Blanco Nube / Cloud White con vivos y 3 bandas laterales en Rosa Pastel",
-      "Material: Felpa francesa 100% Algodón ultra suave, transpirable y de máxima comodidad",
-      "Detalles: Bordado botánico artesanal simétrico en ambas perneras, ribete curvado estilo tulipán en contraste rosa pastel y trébol Trefoil bordado al tono en el bajo"
-    ],
-    "history": "Inspirado en el atletismo vintage de los años 70, este diseño de adidas Originals celebra la naturaleza y la feminidad combinando la estética deportiva con bordados florales de alta costura.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-20",
-    "name": "Hackett London Heritage • Polo Piqué de Manga Corta Azul Marino & Celeste",
-    "category": "clothing",
-    "description": "Polo clásico de manga corta de la prestigiosa firma británica Hackett London Heritage confeccionado en piqué de puro algodón peinado en tono azul marino profundo. Destaca por el logotipo 'HACKETT LONDON' serigrafiado en contraste azul celeste en el pecho, tapeta frontal con botones y cinta interior del cuello en combinación celeste y blanco crudo.",
-    "price": 70,
-    "image": "/images/hackett-navy-polo-shirt.jpg",
-    "details": [
-      "Modelo: Hackett London Heritage Logo Piqué Polo (Ref: HA.LO / PL - 5515HU 30000000020975)",
-      "PVP Oficial: 139,95 € (Precio Especial Outlet: 69,95 € con etiqueta original Hackett London)",
-      "Talla Disponible: Talla L (Corte Regular Fit británico elegante)",
-      "Color: Azul Marino Oscuro / Deep Navy con logo en contraste Azul Celeste y cinta interior bicolor",
-      "Material: Piqué 100% Algodón peinado premium de textura transpirable, duradera y suave",
-      "Detalles: Cuello camisero acanalado, tapeta con botones grabados, aberturas laterales en el bajo reforzadas y etiqueta interior de tela 'Hackett London Heritage'"
-    ],
-    "history": "Símbolo de la elegancia y tradición británica, la colección Heritage de Hackett London rinde homenaje al espíritu deportivo distinguido y la sastrería inglesa atemporal.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-21",
-    "name": "Calvin Klein Jeans • Camiseta 'New York' Tipografía Script Cursiva",
-    "category": "clothing",
-    "description": "Camiseta de manga corta de corte relajado de Calvin Klein Jeans confeccionada en puro algodón orgánico peinado de tacto extrasuave. Luce en el pecho la emblemática inscripción manuscrita 'calvin klein new york' en una armoniosa combinación cromática bicolor.",
-    "price": 39,
-    "image": "/images/calvin-klein-script-tee.jpg",
-    "details": [
-      "Modelo: Calvin Klein Jeans Script Logo Crew Neck Tee",
-      "Precio / Modalidad: 39,00 € (A pedido / Disponible bajo reserva)",
-      "Tallas Disponibles: XS, S, M, L y XL (Varias tallas disponibles)",
-      "Colores Disponibles: Blanco Puro con tipografía Burdeos & Gris Ceniza / Verde Oliva Militar con tipografía Crema",
-      "Material: 100% Algodón orgánico peinado de tacto sedoso y caída fluida",
-      "Detalles: Cuello redondo acanalado con doble pespunte, mangas con dobladillo sutil, corte recto contemporáneo y bajo reforzado"
-    ],
-    "history": "Un diseño esencial del estilo minimalista de Nueva York, que reinterpreta el icónico nombre de Calvin Klein con una caligrafía cursiva orgánica y relajada.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-22",
-    "name": "Michael Kors • Camisetas de Hombre 'New York Est. 1981' Blanco & Azul Marino",
-    "category": "clothing",
-    "description": "Camisetas de manga corta para hombre de Michael Kors confeccionadas en fino tejido de punto de puro algodón peinado transpirable y ultrasuave. Destacan por el emblemático logotipo de la firma serigrafiado en bloque vertical en el lateral del pecho 'MICHAEL KORS NEW YORK EST. 1981'.",
-    "price": 45,
-    "image": "/images/michael-kors-1981-tees.jpg",
-    "details": [
-      "Modelo: Michael Kors Men's New York Est. 1981 Graphic Crew Neck Tee",
-      "PVP Recomendado: 85,00 € (Precio Especial Outlet: 45,00 € con etiquetas originales)",
-      "Tallas Disponibles: Talla M y Talla L para Hombre (Corte Regular Fit confortable)",
-      "Colores Disponibles: Blanco Puro / Bright White con logo en contraste Azul Marino & Azul Marino Oscuro / Deep Navy con logo en Blanco",
-      "Material: 100% Algodón peinado de primera calidad de tacto suave, fresco y transpirable",
-      "Detalles: Cuello redondo acanalado de punto elástico indeformable, costuras dobles reforzadas en hombros y dobladillo, serigrafía vertical de alta durabilidad y etiqueta tejida interior Michael Kors"
-    ],
-    "history": "El tributo definitivo al año de fundación de la casa de moda neoyorquina (1981), encapsulando el lujo deportivo y la sofisticación cosmopolita de Michael Kors en un básico esencial.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-23",
-    "name": "Calvin Klein Jeans • Camiseta 'SS Boxy Graphic Logo Tee' Blanco Brillante",
-    "category": "clothing",
-    "description": "Camiseta corta de corte boxy contemporáneo de Calvin Klein Jeans confeccionada en puro punto de algodón peinado en tono blanco brillante (Bright White). Luce en el frontal un bordado artesanal en relieve con la firma 'calvin klein' en hilo color burdeos vino y 'new york' en caligrafía cursiva gris ceniza.",
-    "price": 35,
-    "image": "/images/calvin-klein-boxy-tee.jpg",
-    "details": [
-      "Modelo: Calvin Klein SS BOXY GRAPHIC LOGO TEE (Ref: OTL 4500648239 LZ047G893G YAF)",
-      "PVP Oficial: 49,90 € (Precio Outlet Especial: 34,90 € con etiqueta original de tienda)",
-      "Talla Disponible: Talla M (Corte Boxy Fit ligeramente cropped, cómodo y favorecedor)",
-      "Color: Blanco Brillante / Bright White con bordado frontal en relieve Burdeos & Gris",
-      "Material: 100% Algodón peinado de tacto ultra suave y fresco (Fabricado en India)",
-      "Detalles: Cuello redondo acanalado reforzado, bordado en relieve 'calvin klein' en punto cadeneta color vino y tipografía manuscrita 'new york' en gris, con etiqueta original cosida y precintada"
-    ],
-    "history": "Un diseño contemporáneo de Calvin Klein que reinterpreta el legado neoyorquino con un corte boxy de inspiración noventera y bordados de alta definición.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
-    "id": "clothing-24",
-    "name": "Polo Ralph Lauren • Polo Piqué 'Slim Fit' Azul Marino con 5 Botones de Nácar",
-    "category": "clothing",
-    "description": "Polo clásico femenino de manga corta de Polo Ralph Lauren en corte entallado Slim Fit, confeccionado en piqué de algodón peinado en tono azul marino profundo (Navy). Destaca por su elegante tapeta alargada de 5 botones de nácar nacarados y el icónico poni de Ralph Lauren bordado a contraste en hilo blanco sobre el pecho.",
-    "price": 81,
-    "image": "/images/ralph-lauren-navy-polo.jpg",
-    "details": [
-      "Modelo: Polo Ralph Lauren Slim Fit Stretch Piqué Polo (Ref: 211870237002 / 211818201005 SSL-KNT)",
-      "PVP Oficial: 135,00 € - 145,00 € (Precio Especial Outlet: 81,00 € con etiquetas originales de tienda)",
-      "Tallas Disponibles: Talla XL (y tallas seleccionadas de corte Slim Fit entallado femenino)",
-      "Color: Azul Marino Clásico / Deep Navy con bordado del poni en Blanco Brillante",
-      "Material: Piqué de 100% Algodón peinado de tacto suave, elástico y altamente transpirable",
-      "Detalles: Cuello camisero acanalado indeformable, tapeta frontal alargada con 5 botones de nácar auténticos, bordado de alta precisión del jugador de polo en el pecho y aberturas laterales en el bajo"
-    ],
-    "history": "Un emblema indiscutible del estilo preppy americano desde 1972, famoso por su sofisticada botonadura alargada y su impecable corte estilizado.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
-  {
     "id": "jewelry-01",
     "name": "Louis Vuitton • Pendientes de Aro 'Monogram Flower' Esmaltados Multicolor (3 cm)",
     "category": "jewelry",
@@ -2257,258 +1674,602 @@ export const PRODUCTS_DATA: Product[] = [
     "history": "Un tributo a la legendaria herencia de los baúles de Louis Vuitton, donde la estética artesanal de la herrería histórica se transforma en una joya moderna con carácter imperecedero."
   },
   {
-    "id": "bags-01",
-    "name": "Fendi • Bolso 'Peekaboo' en Lona Canvas Verde Oliva con Letras Metálicas Doradas",
-    "category": "bags",
-    "description": "Emblemático bolso Peekaboo de Fendi confeccionado en resistente lona canvas en tono verde oliva / caqui militar con ribetes y asa en piel gris marengo. Luce en el frontal un bordado tridimensional 'FENDI ROMA' al tono carbón, el legendario cierre de giro Peekaboo en latón dorado pulido y una impactante correa ancha de piel extraíble decorada con letras metálicas tridimensionales 'FENDI' en oro brillante.",
-    "price": 220,
-    "image": "/images/fendi-peekaboo-canvas-bag.jpg",
+    "id": "clothing-puma-mclaren-cap-papaya",
+    "name": "Puma McLaren F1 Team • Gorra Oficial Réplica 'Papaya & Black'",
+    "category": "clothing",
+    "description": "Gorra oficial del equipo McLaren Formula 1. Confeccionada en tejido técnico transpirable con visera curvada, panel frontal en emblemático color papaya y laterales negros con emblema reflectante McLaren.",
+    "price": 0.0,
+    "image": "/images/puma-mclaren-cap-papaya.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
     "details": [
-      "Modelo: Fendi Peekaboo Canvas & Leather Handbag (Ref: wsxc1776985812393_0 / Fendi Peekaboo手提包)",
-      "Dimensiones: 33 cm (ancho) × 26 cm (alto) × 12 cm (profundidad) aprox.",
-      "Color: Verde Oliva / Khaki Militar, gris marengo y herrajes bañados en oro brillante",
-      "Material: Lona canvas de algodón reforzado y detalles en piel de ternera lisa",
-      "Cierre: Cierre giratorio Peekaboo con placa superior metálica dorada grabada con la firma Fendi",
-      "Asas: Asa de mano superior rígida en piel y correa de hombro ancha desmontable con letras metálicas 'FENDI' en dorado tridimensional",
-      "Interior: Dos compartimentos divididos por una partición rígida central con bolsillo interior de cremallera"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Creado por Silvia Venturini Fendi en 2008, el Peekaboo es uno de los bolsos más icónicos de la moda italiana contemporánea, reinterpretado aquí en un sofisticado lenguaje utilitario de lona y alta marroquinería."
+    "history": "Esta exclusiva pieza de Puma McLaren F1 Team • Gorra Oficial Réplica 'Papaya & Black' forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
   },
   {
-    "id": "bags-02",
-    "name": "Guess • Billetera 'Woodson SLG Zip Around' Monograma 4G Blanco & Crema",
-    "category": "bags",
-    "description": "Cartera continental de Guess modelo Woodson SL G con cremallera perimetral completa, confeccionada en material técnico de alta resistencia con el clásico monograma '4G' estampado en tonos neutros arena sobre fondo blanco crema. Destaca por su detalle frontal con el logotipo 'G' en relieve metálico dorado pulido.",
-    "price": 49.9,
-    "image": "/images/guess-woodson-white-wallet.jpg",
+    "id": "clothing-puma-ferrari-bb-cap",
+    "name": "Puma Scuderia Ferrari • Gorra Oficial F1 'Rosso Corsa'",
+    "category": "clothing",
+    "description": "Gorra deportiva oficial de la Scuderia Ferrari en su legendario rojo Rosso Corsa. Escudo 'Cavallino Rampante' engomado en relieve frontal, detalles en negro carbón y ajuste regulable.",
+    "price": 0.0,
+    "image": "/images/puma-ferrari-bb-cap.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Guess Woodson SL G / Zip Around Wallet (Ref: G9282599 / UPC: 1 98659 01786 6)",
-      "PVP Oficial: 80,00 € (Precio Especial Outlet: 49,90 € con etiqueta original)",
-      "Color: White / Blanco Crema con estampado monograma 4G en beige arena y herrajes dorados",
-      "Material: Piel sintética texturizada saffiano con monograma continuo 4G y forro textil interior",
-      "Detalles: Cierre perimetral con cremallera metálica dorada (Zip Around), insignia 'G' dorada en frontal, compartimento para monedas con cremallera, 8 ranuras para tarjetas y divisiones para billetes"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "El diseño Woodson SLG representa la esencia cosmopolita de Guess: ligereza, durabilidad y el icónico monograma 4G en tonos claros luminosos."
+    "history": "Esta exclusiva pieza de Puma Scuderia Ferrari • Gorra Oficial F1 'Rosso Corsa' forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
   },
   {
-    "id": "bags-03",
-    "name": "Michael Kors • Cartera Continental 'Carson LG Snap Wallet' Piel Pebbled Luggage & Herrajes Oro",
-    "category": "bags",
-    "description": "Cartera continental de lujo Michael Kors modelo Carson confeccionada en auténtica piel granulada de vacuno (pebbled leather) en el emblemático tono marrón 'Luggage'. Incorpora en el frontal un elegante pasador con barra de freno ecuestre dorada grabada con 'MICHAEL KORS', solapa con broche a presión y un bolsillo exterior trasero con cremallera dorada y tirador metálico grabado.",
-    "price": 149,
-    "image": "/images/mk-carson-luggage-wallet.jpg",
+    "id": "clothing-puma-mclaren-trucker-cap",
+    "name": "Puma McLaren Racing • Gorra Trucker con Rejilla Transpirable",
+    "category": "clothing",
+    "description": "Gorra estilo trucker oficial McLaren Racing en color negro con paneles traseros de rejilla transpirable, ribete contrastado en naranja papaya y bordado de alta definición.",
+    "price": 0.0,
+    "image": "/images/puma-mclaren-trucker-cap.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Michael Michael Kors Carson LG Snap Wallet Leather (Ref: 35S5G2ZE3L / Style # 42810 NS / UPC: 1 97853 42810 2)",
-      "PVP Oficial: 225,00 € / £ 225.00 (Precio Especial Outlet: 149,00 € / £ 149.00 con tarjeta de autenticidad y etiqueta)",
-      "Color: Luggage / Marrón Caramelo con apliques metálicos bañados en oro brillante",
-      "Material: 100% Piel de vacuno con textura de grano guijarro (pebbled leather) ultra flexible y duradera",
-      "Detalles: Cierre de solapa frontal con botón snap a presión, adorno metálico central tipo bocado ecuestre grabado 'MICHAEL KORS', compartimento posterior con cremallera reforzada para monedas, ranura exterior para tickets, tarjeteros múltiples interiores y compartimento para billetes",
-      "Incluye: Libreto oficial Michael Kors Care Card de cuidado de la piel y etiquetas originales del distribuidor europeo (Michael Kors Europe BV, Venlo, The Netherlands)"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "La línea Carson de Michael Kors rinde homenaje a la marroquinería clásica americana, fusionando funcionalidad de viaje y sofisticación refinada en tono cuero natural."
+    "history": "Esta exclusiva pieza de Puma McLaren Racing • Gorra Trucker con Rejilla Transpirable forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
   },
   {
-    "id": "bags-04",
-    "name": "Loewe • Bolso Bucket Tote en Lona Canvas Crudo & Piel Marrón con Anagrama Vintage",
-    "category": "bags",
-    "description": "Exclusivo bolso tote estilo bucket / hobo de Loewe confeccionado en robusta lona de algodón canvas en tono crudo natural con base y refuerzos en rica piel de ternera marrón chocolate. Destaca por el emblemático Anagrama de Loewe calado en piel y cosido artesanalmente en el frontal, combinado con pespuntes en contraste blanco y una elegante asa de hombro ajustable con herrajes dorados.",
-    "price": 195,
-    "image": "/images/loewe-anagram-canvas-tote.jpg",
+    "id": "clothing-puma-mercedes-amg-tracksuit",
+    "name": "Puma Mercedes-AMG Petronas Motorsport • Chándal Deportivo Completo",
+    "category": "clothing",
+    "description": "Conjunto oficial de sudadera con capucha y pantalón jogger de la escudería Mercedes-AMG Petronas F1. Confección premium en negro con bandas laterales contrastadas y emblemas de alta precisión.",
+    "price": 27.5,
+    "image": "/images/puma-mercedes-amg-tracksuit.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
     "details": [
-      "Modelo: Loewe Vintage Canvas & Leather Anagram Bucket Tote (Ref: wsxc1785668747931_2 / 罗意威 中古帆布包 托特)",
-      "Dimensiones: 32 cm (ancho) × 35 cm (alto) × 15 cm (base) aprox.",
-      "Color: Crudo / Beige Claro Natural y Marrón Chocolate con pespuntes blancos en contraste y herrajes dorados",
-      "Material: Lona canvas de algodón premium y aplicaciones en auténtica piel de ternera noble",
-      "Asa y Herrajes: Correa de hombro regulable en piel marrón con hebilla y remaches metálicos dorados",
-      "Detalles: Emblema Anagram en piel troquelada en el frontal, base reforzada en piel para mantener la silueta vertical, amplio compartimento principal y forro interior con bolsillo"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Una silueta atemporal procedente de los archivos vintage de Loewe que combina la frescura de la lona natural con la centenaria tradición marroquinera de la casa española."
+    "history": "Esta exclusiva pieza de Puma Mercedes-AMG Petronas Motorsport • Chándal Deportivo Completo forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-05",
-    "name": "Chanel • Bolso Tote 'Deauville Straw' en Rafia Trenzada Bicolor y Asas de Piel Negra",
-    "category": "bags",
-    "description": "Exclusivo bolso tote veraniego de Chanel confeccionado en un primoroso trenzado artesanal bicolor que combina cordón de algodón en tono blanco crema y rafia natural entrelazada. Luce en el frontal el emblemático logotipo de la doble 'CC' bordado en relieve negro azabache, acompañado de dobles asas largas de piel negra con remaches plateados para lucir elegantemente al hombro.",
-    "price": 195,
-    "image": "/images/chanel-straw-tote-bag.jpg",
+    "id": "clothing-adidas-green-hoodie",
+    "name": "adidas • Sudadera con Capucha 'Trefoil' Verde Esmeralda",
+    "category": "clothing",
+    "description": "Sudadera con capucha y bolsillo canguro confeccionada en suave felpa de algodón en tono verde esmeralda profundo. Tres bandas icónicas en blanco en las mangas y logotipo bordado.",
+    "price": 30.0,
+    "image": "/images/adidas-green-hoodie.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
     "details": [
-      "Modelo: Chanel Woven Straw & Cotton Rope Tote Bag (Ref: wsxc1783024817400_5 / 香奈儿草编托特包)",
-      "Dimensiones Oficiales: 29 cm × 29 cm (Formato cuadrado estructurado tipo bucket/tote)",
-      "Color: Bicolor Crema / Arena Natural con detalles y logotipo 'CC' en Negro Profundo",
-      "Material: Fibras de algodón natural y rafia trenzada de alta tenacidad con forro interior reforzado",
-      "Asas y Herrajes: Asas dobles de piel vacuna negra fijadas con remaches metálicos pulidos en acabado plata",
-      "Detalles: Base reforzada para mantener la estructura, amplio compartimento central y bolsillo interior organizador"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Inspirado en los paseos marítimos de la Costa Azul y el espíritu libre de Deauville, este capazo tote de Chanel encarna la elegancia estival relajada con el sello inconfundible de la alta costura."
+    "history": "Esta exclusiva pieza de adidas • Sudadera con Capucha 'Trefoil' Verde Esmeralda forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-06",
-    "name": "Prada • Bolso Tote 'Crochet Raffia' Negro con Asas de Piel Coñac y Ojetes Metálicos",
-    "category": "bags",
-    "description": "Codiciado bolso tote de Prada confeccionado en ganchillo artesanal de rafia trenzada en negro azabache de textura suave y flexible. Destaca por sus elegantes tiras verticales y asas dobles en piel lisa color coñac envejecido ornamentadas con ojetes metálicos dorados y hebillas a tono, rematado con el icónico bordado en hilo blanco del escudo y tipografía 'PRADA MILANO' en el panel frontal.",
-    "price": 210,
-    "image": "/images/prada-crochet-tote-bag.jpg",
+    "id": "clothing-palm-angels-miami-croptop",
+    "name": "Palm Angels • Camiseta Cropped 'Miami Palms' Graphic Print",
+    "category": "clothing",
+    "description": "Camiseta corta de diseño urbano de Palm Angels con estampado fotográfico tropical de palmeras estilo neón Miami, cuello a contraste y banda elástica con tipografía gótica distintiva.",
+    "price": 0.0,
+    "image": "/images/palm-angels-miami-croptop.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Prada Crochet & Leather Straps Raffia Tote (Ref: wsxc1786141210097_0 / Prada绝美草编包)",
-      "Dimensiones: 34 cm (ancho) × 30 cm (alto) × 12 cm (profundidad) aprox.",
-      "Color: Negro Profundo con tiras de cuero en Tono Cuero / Coñac y bordado en Blanco Óptico",
-      "Material: 100% Rafia técnica de fibra natural tejida al ganchillo con apliques en auténtica piel vacuna",
-      "Asas y Herrajes: Asas de piel ajustables con hebillas doradas, tiras frontales y posteriores con hilera de ojetes metálicos",
-      "Detalles: Logotipo 'PRADA MILANO' bordado a mano en el frontal con escudo heráldico, forro interior al tono y cierre magnético superior"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Un diseño icónico de las colecciones estivales de Prada que eleva la estética artesanal del ganchillo de playa al estatus de lujo contemporáneo más sofisticado de la firma milanesa."
+    "history": "Esta exclusiva pieza de Palm Angels • Camiseta Cropped 'Miami Palms' Graphic Print forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-07",
-    "name": "Louis Vuitton • Bolso Tote 'Cabas OnTheGo / Maison Fondée en 1854' en Lona Cruda y Piel Coñac",
-    "category": "bags",
-    "description": "Elegante bolso tote de gran formato de Louis Vuitton confeccionado en lona gruesa de algodón natural en tono crudo / marfil con base, refuerzos y asas dobles en piel vacuna lisa color coñac tostado. En el panel frontal destaca la emblemática inscripción 'LOUIS VUITTON' en letras de cuero coñac aplicadas en relieve tridimensional, completada debajo con la inscripción serigrafiada 'MAISON FONDÉE EN 1854 PARIS'.",
-    "price": 215,
-    "image": "/images/lv-onthego-canvas-tote.jpg",
+    "id": "clothing-lacoste-sports-polo-grey",
+    "name": "Lacoste Sport • Polo Deportivo de Piqué Gris Vigoré Regular Fit",
+    "category": "clothing",
+    "description": "Polo de manga corta en piqué de algodón técnico transpirable de color gris claro vigoré. Cuello acanalado clásico con tapeta de botones y cocodrilo verde bordado en el pecho.",
+    "price": 0.0,
+    "image": "/images/lacoste-sports-polo-grey.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Louis Vuitton Cabas OnTheGo Canvas & Leather Tote (Ref: wsxc1786283889708_1 / Lv路易威登托特包)",
-      "Dimensiones: 41 cm (ancho) × 34 cm (alto) × 19 cm (profundidad) aprox.",
-      "Color: Lona Crudo Natural / Marfil con Piel Lisa en Marrón Coñac Tostado",
-      "Material: Lona de algodón de alto gramaje con base, ribetes y cantoneras en piel vacuna de curtición vegetal",
-      "Frontal Distintivo: Letras 'LOUIS VUITTON' en piel coñac cortada y pespunteada en relieve 3D + 'MAISON FONDÉE EN 1854 PARIS'",
-      "Asas y Organización: Asas de mano tubulares de piel y asas de hombro integradas, compartimento espacioso con bolsillo interior con cremallera"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Inspirado en los históricos archivos de baúles de viaje y equipaje de la Maison en Asnières, este tote combina la frescura de la lona veraniega con la nobleza del cuero coñac."
+    "history": "Esta exclusiva pieza de Lacoste Sport • Polo Deportivo de Piqué Gris Vigoré Regular Fit forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-08",
-    "name": "Dior • Bolso 'Book Tote 35cm' con Bordado Botánico Herbarium en Verde Bosque y Flores Coral",
-    "category": "bags",
-    "description": "Sublime bolso Dior Book Tote de 35 cm confeccionado íntegramente en tejido técnico bordado con un exquisito motivo vegetal de herbario botánico. Sobre un denso fondo en verde bosque profundo florecen ramilletes silvestres en tonos rosa coral, carmín y follaje verde menta. En el centro resalta un medallón ovalado perfilado por un cordón dorado bordado con la firma 'Dior' en elegante caligrafía clásica.",
-    "price": 220,
-    "image": "/images/dior-floral-book-tote.jpg",
+    "id": "clothing-lacoste-navy-polo-classic",
+    "name": "Lacoste • Polo Clásico de Piqué Azul Marino Regular Fit",
+    "category": "clothing",
+    "description": "La elegancia atemporal del polo de piqué Petit en azul marino profundo. Botones de nácar auténticos, corte regular impecable y emblemático cocodrilo bordado en el pecho.",
+    "price": 0.0,
+    "image": "/images/lacoste-navy-polo-classic.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Christian Dior Book Tote 35cm Botanical Garden Herbarium Embroidery (Ref: wsxc1784377033353_1 / Dior tote购物袋 35cm)",
-      "Dimensiones: 35 cm (ancho) × 27 cm (alto) × 16,5 cm (profundidad)",
-      "Color: Verde Bosque Intenso con bordados florales en Coral, Rosa y detalles Dorados",
-      "Material: Lienzo rígido de alta densidad bordado artesanalmente con más de 1.5 millones de puntadas continuas",
-      "Diseño Central: Medallón ovalado con trenzado dorado en relieve y firma 'Dior' en verde esmeralda",
-      "Acabados: Asas rígidas bordadas al tono para llevar en la mano o al antebrazo, interior diáfano con forro reforzado"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Presentado por Maria Grazia Chiuri y convertido en emblema mundial del savoir-faire de la firma parisina, el Book Tote encarna el lujo artesanal en su máxima expresión."
+    "history": "Esta exclusiva pieza de Lacoste • Polo Clásico de Piqué Azul Marino Regular Fit forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-09",
-    "name": "Hermès • Bandolera 'Calèche Duc Attelé' en Piel Togo Gris Antracita con Emblema en Relieve",
-    "category": "bags",
-    "description": "Exclusivo bolso de mensajero y bandolera masculina de Hermès confeccionado en suntuosa piel de ternera Togo granulada en tono gris antracita oscuro. Su solapa envolvente luce un refinado grabado en bajo relieve del carruaje y palafrenero ecuestre (Duc attelé), emblema histórico de la firma. Cuenta con un discreto pasador superior metálico con la 'H', forro suave en piel y una ancha correa ajustable de lona técnica al tono.",
-    "price": 230,
-    "image": "/images/hermes-caleche-messenger.jpg",
+    "id": "clothing-helly-hansen-driftline-polo",
+    "name": "Helly Hansen • Polo Piqué Técnico 'Driftline' Azul Marino",
+    "category": "clothing",
+    "description": "Polo técnico de navegación y sport en piqué de secado rápido tactel. Color azul marino con cuello camisero, tapeta con botones grabados y logotipo HH bordado en blanco.",
+    "price": 0.0,
+    "image": "/images/helly-hansen-driftline-polo.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Hermès Men's Messenger Bag Togo Leather Caleche Relief (Ref: wsxc1783611661618_3 / HERMES 爱马仕 斜挎单肩背包 男包)",
-      "Dimensiones: 28 cm (ancho) × 24 cm (alto) × 8 cm (profundidad)",
-      "Color: Gris Antracita / Grafito Mineral (Graphite) con herrajes plateados paladio mate",
-      "Material: Genuina piel de ternera Togo de grano natural anti-arañazos y tacto sedoso flexible",
-      "Emblema Frontal: Carruaje Duc attelé y palafrenero de Hermès grabado en relieve ciego de alta precisión sobre la solapa",
-      "Portabilidad: Correa ancha de lona técnica de alta resistencia ajustable con mosquetones para hombro o cruzado bandolera"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Heredero de la maestría guarnicionera de la calle Faubourg Saint-Honoré desde 1837, este bolso combina la elegancia discreta con el confort para el hombre contemporáneo."
+    "history": "Esta exclusiva pieza de Helly Hansen • Polo Piqué Técnico 'Driftline' Azul Marino forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-10",
-    "name": "Loewe • Bolso 'Hammock' en Piel Ternera Clásica Marrón Chocolate Oscuro con Herrajes Dorados",
-    "category": "bags",
-    "description": "Aclamado bolso Hammock de Loewe confeccionado en flexible piel de ternera clásica en un elegante tono marrón chocolate oscuro / café intenso. Su revolucionaria arquitectura multifuncional permite modificar su silueta según la ocasión mediante paneles laterales expandibles con cremalleras y tiradores de cuero. Luce el logotipo 'LOEWE' grabado en sutil oro en la parte inferior, asas superiores tubulares ajustables y bandolera desmontable.",
-    "price": 225,
-    "image": "/images/loewe-hammock-chocolate.jpg",
+    "id": "clothing-ralph-lauren-navy-polo",
+    "name": "Polo Ralph Lauren • Polo Piqué 'Slim Fit' Azul Marino",
+    "category": "clothing",
+    "description": "Polo icónico de Ralph Lauren en piqué de algodón azul marino de tacto sedoso. Corte slim refinado, botones de nácar y bordado de jinete Pony distintivo.",
+    "price": 84.5,
+    "image": "/images/ralph-lauren-navy-polo.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
     "details": [
-      "Modelo: Loewe Hammock Bag Classic Calfskin Chocolate (Ref: wsxc1783161277234_3 / 罗意威手袋)",
-      "Dimensiones: 30 cm (alto) × 25 cm (ancho cerrado) / 35 cm (abierto) × 13,5 cm (profundidad)",
-      "Color: Marrón Chocolate Oscuro / Moka Profundo con herrajes dorados pulidos",
-      "Material: 100% Piel de ternera clásica suave (Classic Calf) de curtición artesanal española",
-      "Multifuncionalidad: 6 formas distintas de llevarlo (de mano, al codo, al hombro, como tote o bandolera cruzada)",
-      "Detalles: Cremalleras laterales con tiradores largos de piel, bolsillo exterior con cremallera, forro de lona de espiga y logotipo LOEWE grabado en oro"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Diseñado por Jonathan Anderson, el Hammock representa la cúspide del ingenio geométrico y la centenaria tradición marroquinera de Loewe en Madrid."
+    "history": "Esta exclusiva pieza de Polo Ralph Lauren • Polo Piqué 'Slim Fit' Azul Marino forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-11",
-    "name": "Chanel • Bolso 'Deauville Bucket Tote 29×29' en Cuerda y Rafia Bicolor con Logotipo CC Bordado",
-    "category": "bags",
-    "description": "Auténtico capazo tote de verano de Chanel confeccionado con trenzado artesanal de cuerda de algodón blanco crudo y rafia color arena natural en patrón geométrico zigzag. En el frontal destaca en relieve bouclé negro el icónico monograma de las dos 'C' entrelazadas. Dispone de asas largas de piel vacuna negra fijadas con tachuelas plateadas, permitiendo lucirlo cómodamente colgado del hombro en la playa o en la ciudad.",
-    "price": 195,
-    "image": "/images/chanel-woven-cc-tote.jpg",
+    "id": "clothing-adidas-spain-rfef-jersey",
+    "name": "adidas • Camiseta Oficial Selección Española de Fútbol RFEF Roja",
+    "category": "clothing",
+    "description": "Camiseta oficial de juego de la Selección Española en color rojo pasión con detalles amarillos en las mangas y escudo termosellado de la RFEF con estrella de campeones.",
+    "price": 0.0,
+    "image": "/images/adidas-spain-rfef-jersey.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Chanel Deauville Beach Bucket Woven Rope & Rafia Tote 29×29 (Ref: wsxc1783024817400_5 / 香奈儿草编托特包 29.29)",
-      "Dimensiones: 29 cm × 29 cm × 14 cm (Formato cubo / bucket estructurado)",
-      "Color: Bicolor Blanco Crudo y Rafia Tostada Natural con logotipo y correas en Negro Azabache",
-      "Material: Cordón trenzado de algodón natural y rafia con refuerzo textil interior",
-      "Asas: Doble asa de hombro en piel suave negra fijada con pernos metálicos de terminación plateada",
-      "Cierre y Capacidad: Base firme con soporte interior, cierre magnético de seguridad y bolsillo interior organizador"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "La elegancia marinera y el espíritu desenfadado de Deauville reinterpretados con la maestría insuperable de Chanel."
+    "history": "Esta exclusiva pieza de adidas • Camiseta Oficial Selección Española de Fútbol RFEF Roja forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-12",
-    "name": "Louis Vuitton • Bolso de Viaje 'Keepall / Speedy Bandoulière Trunks & Bags' en Lona Amarillo Pastel",
-    "category": "bags",
-    "description": "Extraordinario bolso de viaje Speedy / Keepall Bandoulière de Louis Vuitton confeccionado en lona Monogram especial en franjas crema y suave amarillo pastel. Destaca el gran sello circular 'LOUIS VUITTON TRUNKS & BAGS' en tonos fucsia y mostaza con las ciudades de la ruta histórica de la Maison (Paris 101 Champs-Élysées, New York, Tokyo, Hong Kong). Asas y detalles en piel vachetta natural y correa bandolera desmontable.",
-    "price": 235,
-    "image": "/images/lv-speedy-trunks-duffle.jpg",
+    "id": "clothing-adidas-leopard-tee",
+    "name": "adidas Originals • Camiseta Animal Print Leopardo 'Trefoil'",
+    "category": "clothing",
+    "description": "Camiseta de moda urbana con estampado animal print de leopardo integral en tonos arena y negro. Tres bandas blancas en los hombros y cuello redondo en canalé negro.",
+    "price": 0.0,
+    "image": "/images/adidas-leopard-tee.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Louis Vuitton Speedy Keepall Bandoulière Heritage Stamp Duffle (Ref: wsxc1781307596917_0 / LV Speedy 旅行包 徽章)",
-      "Dimensiones: 45 cm (ancho) × 27 cm (alto) × 20 cm (profundidad) (Tamaño cabina)",
-      "Color: Lona Monogram Rayures Vainilla Pastel y Crema con sello en Magenta/Ocre y ribetes Vachetta Natural",
-      "Material: Lona revestida Monogram de alta resistencia con cantoneras y ribetes en piel de vaca natural (vachetta)",
-      "Diseño Frontal: Sello circular serigrafiado de la colección histórica 'Trunks & Bags' con ciudades del Grand Tour",
-      "Accesorios Incluidos: Etiqueta de equipaje en piel grabada, candado dorado LV, bandolera de piel ajustable con almohadilla para hombro"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Un tributo a la era dorada de los grandes viajes transoceánicos y a los sellos postales conmemorativos de las primeras boutiques de Louis Vuitton en el mundo."
+    "history": "Esta exclusiva pieza de adidas Originals • Camiseta Animal Print Leopardo 'Trefoil' forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-13",
-    "name": "Hermès • Bolso Tote de Viaje 'Hermès Sellier' en Lona Gruesa Negra con Asas Bicolor y Pouch",
-    "category": "bags",
-    "description": "Maxi bolso tote 'Grooming Cabas' de Hermès confeccionado en robusta lona de algodón de grueso calibre en negro azabache con la tipografía 'HERMÈS SELLIER' en contraste blanco impoluto. Cuenta con asas dobles combinadas en lona negra con refuerzos de cuero marrón silla fijados por remaches metálicos, correa bandolera ancha desmontable y un estuche/neceser de lona negra extraíble a juego.",
-    "price": 215,
-    "image": "/images/hermes-sellier-black-tote.jpg",
+    "id": "clothing-adidas-lilac-climacool-tights",
+    "name": "adidas Climacool • Mallas Técnicas de Entrenamiento Lila Pastel",
+    "category": "clothing",
+    "description": "Leggings deportivos de cintura alta y compresión moderada en suave tono lavanda lila pastel. Confeccionados en tejido transpirable Climacool con costuras ergonómicas.",
+    "price": 0.0,
+    "image": "/images/adidas-lilac-climacool-tights.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Hermès Grooming Cabas 'Hermès Sellier' Large Travel Tote (Ref: wsxc1781124444352_2 / 爱马仕Hermas 大容量帆布包托特包)",
-      "Dimensiones: 44 cm (ancho) × 36 cm (alto) × 18 cm (profundidad) (Gran capacidad de almacenaje)",
-      "Color: Lona Negra Intensa con tipografía en Blanco Óptico y detalles en Cuero Marrón Silla",
-      "Material: Lona técnica de algodón de ultra-resistencia al desgaste, agua y suciedad",
-      "Asas y Correa: Asas cortas reforzadas con piel marrón y mosquetones + correa ancha de hombro en tejido de cincha marrón de 5 cm de ancho",
-      "Complemento: Incluye pouch/neceser de mano independiente en la misma lona negra con cremallera superior"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Diseñado originalmente para la alta equitación y el transporte de aperos hípicos, hoy es el bolso de viaje, fin de semana y gimnasio predilecto por su resistencia imbatible y distinción discreta."
+    "history": "Esta exclusiva pieza de adidas Climacool • Mallas Técnicas de Entrenamiento Lila Pastel forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-14",
-    "name": "Louis Vuitton • Bolso 'Neverfull MM Monogram' con Ribetes Rosa Fucsia y Medallón de Cristales",
-    "category": "bags",
-    "description": "Edición especial y vibrante del icónico bolso Neverfull MM de Louis Vuitton en lona Monogram clásica marrón, realzado de forma electrizante con asas de hombro, cordones laterales y ribetes superiores en piel fucsia neón brillante. En el panel frontal resalta un espectacular medallón circular con el monograma 'LV' y 'PARIS' formado por strass y tachuelas de cristal rosa fucsia reflectantes. Forro interior de tela a juego en rosa intenso.",
-    "price": 220,
-    "image": "/images/lv-neverfull-fuchsia-tote.jpg",
+    "id": "clothing-adidas-snake-print-leggings",
+    "name": "adidas Originals • Mallas con Estampado de Serpiente 'Snake Print'",
+    "category": "clothing",
+    "description": "Mallas de diseño contemporáneo con patrón de piel de serpiente en escala de grises y grafito. Franjas laterales blancas y cintura elástica de ajuste ceñido estilizador.",
+    "price": 0.0,
+    "image": "/images/adidas-snake-print-leggings.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Louis Vuitton Neverfull MM Fuchsia Trim & Crystal Strass Medallion (Ref: wsxc178079609451_3 / LV Neverfull 玫红双面托特包)",
-      "Dimensiones: 31 cm (base) / 45 cm (boca superior) × 28 cm (alto) × 14 cm (profundidad)",
-      "Color: Lona Monogram Marrón Café con ribetes, asas e interior en Rosa Fucsia / Frambuesa Intenso",
-      "Material: Lona revestida flexible Monogram impermeable con guarniciones de piel vacuna teñida en rosa",
-      "Frontal Joya: Círculo y logotipo 'LV' compuestos por cristales facetados y tachuelas metálicas esmaltadas en fucsia destellante",
-      "Funcionalidad: Cordones laterales ajustables para cerrar la silueta, interior amplio con bolsillo con cremallera y anilla en D"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Una oda a la alta costura pop y nocturna, reinventando el bolso más versátil de Louis Vuitton con un toque festivo y exclusivo."
+    "history": "Esta exclusiva pieza de adidas Originals • Mallas con Estampado de Serpiente 'Snake Print' forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
-    "id": "bags-15",
-    "name": "Hermès • Bolso 'Médor / 24/24' en Piel Clemence Color Étoupe con Tachuelas Piramidales",
-    "category": "bags",
-    "description": "Magnífico bolso de alta marroquinería de Hermès confeccionado en auténtica piel de ternera Taurillon Clemence en el legendario color Étoupe (taupe grisáceo con sutiles pespuntes blancos en contraste). Su solapa delantera está protagonizada por una ancha correa con las emblemáticas tachuelas piramidales 'Clous Médor' en acabado paladio pulido con cierre de pasador. Dispone de asa superior rígida arqueada y bandolera de piel a tono desmontable.",
-    "price": 245,
-    "image": "/images/hermes-medor-etoupe-bag.jpg",
+    "id": "clothing-adidas-mint-leggings",
+    "name": "adidas Performance • Mallas de Entrenamiento Cintura Alta Verde Menta",
+    "category": "clothing",
+    "description": "Leggings deportivos de compresión suave en fresco tono verde menta pastel. Tejido elástico en cuatro direcciones anti-transparencia con banda anatómica en la cintura.",
+    "price": 0.0,
+    "image": "/images/adidas-mint-leggings.jpg",
+    "isAvailable": true,
+    "availability": "available",
     "details": [
-      "Modelo: Hermès Médor / 24/24 Flap Bag Étoupe Taurillon Clemence (Ref: wsxc1777046448382_1 / 爱马仕 Hermes medor)",
-      "Dimensiones: 29 cm (ancho) × 21 cm (alto) × 12 cm (profundidad)",
-      "Color: Étoupe (Gris Topo / Taupe cálido icónico) con pespuntes blancos guarnicioneros y herrajes plateados paladio",
-      "Material: 100% Piel de ternera Taurillon Clemence de tacto flexible, suave y textura de grano mate",
-      "Cierre Médor: Correa horizontal con tachuelas en forma de pirámide inspiradas en los collares de perro 'Collier de Chien' de los años 1920",
-      "Estructura: Asa corta reforzada de mano, correa larga de hombro desmontable, compartimento interior forrado en piel con bolsillo de seguridad"
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
     ],
-    "history": "Las tachuelas piramidales Médor son uno de los códigos de diseño más antiguos y venerados de Hermès, confiriendo a esta pieza una presencia rotunda y señorial."
+    "history": "Esta exclusiva pieza de adidas Performance • Mallas de Entrenamiento Cintura Alta Verde Menta forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "clothing-joma-brown-leggings",
+    "name": "Joma • Mallas Deportivas Moldeadoras Marrón Moka",
+    "category": "clothing",
+    "description": "Leggings técnicos de alta elasticidad en distinguido tono marrón moka chocolate. Cintura ancha reforzada que moldea la silueta con total libertad de movimiento.",
+    "price": 0.0,
+    "image": "/images/joma-brown-leggings.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Joma • Mallas Deportivas Moldeadoras Marrón Moka forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "clothing-joma-running-nude-shoes",
+    "name": "Joma • Zapatillas Running 'R.Vitaly' Mujer Rosa Palo & Nude",
+    "category": "clothing",
+    "description": "Zapatillas deportivas ultraligeras para running y fitness en combinación rosa palo y nude. Malla transpirable sin costuras y mediasuela amortiguadora Phylon para máxima comodidad.",
+    "price": 0.0,
+    "image": "/images/joma-running-nude-shoes.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Joma • Zapatillas Running 'R.Vitaly' Mujer Rosa Palo & Nude forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ]
+  },
+  {
+    "id": "clothing-joma-white-slip-resistant",
+    "name": "Joma • Zapatillas Confort Blancas con Suela Antideslizante",
+    "category": "clothing",
+    "description": "Calzado confort deportivo monocromo en blanco pulcro con plantilla Memory Foam de alta densidad y suela antideslizante certificada. Ideal para largas jornadas y estilo athleisure.",
+    "price": 0.0,
+    "image": "/images/joma-white-slip-resistant.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Joma • Zapatillas Confort Blancas con Suela Antideslizante forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
+  },
+  {
+    "id": "clothing-skechers-hands-free-slip-ins",
+    "name": "Skechers Slip-ins • Zapatillas Confort Blancas Sin Manos",
+    "category": "clothing",
+    "description": "Innovadoras zapatillas slip-in en malla técnica blanca transpirable. Talonera diseñada para calzar sin agacharse ni usar las manos, con plantilla amortiguada Air-Cooled Memory Foam.",
+    "price": 0.0,
+    "image": "/images/skechers-hands-free-slip-ins.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Skechers Slip-ins • Zapatillas Confort Blancas Sin Manos forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ]
+  },
+  {
+    "id": "clothing-joma-black-running-shoes",
+    "name": "Joma Sport • Zapatillas Running Negras Transpirables Hombre",
+    "category": "clothing",
+    "description": "Zapatillas de entrenamiento ligero y uso diario en malla técnica negra con detalles contrastados. Suela ergonómica de espuma EVA para pisada amortiguada y confortable.",
+    "price": 0.0,
+    "image": "/images/joma-black-running-shoes.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Joma Sport • Zapatillas Running Negras Transpirables Hombre forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ]
+  },
+  {
+    "id": "clothing-skechers-bobs-brown",
+    "name": "Skechers BOBS • Zapatillas Confort Casual Marrón Chocolate",
+    "category": "clothing",
+    "description": "Calzado casual de cordones confeccionado en lona resistente color marrón chocolate oscuro. Plantilla viscoelástica acolchada y suela flexible de perfil bajo.",
+    "price": 0.0,
+    "image": "/images/skechers-bobs-brown.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Skechers BOBS • Zapatillas Confort Casual Marrón Chocolate forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
+  },
+  {
+    "id": "clothing-hm-mid-trunks-coolmax-pack",
+    "name": "H&M • Pack de 3 Bóxers Mid Trunks Algodón & Coolmax",
+    "category": "clothing",
+    "description": "Set de tres calzoncillos tipo bóxer ajustado en gama de grises, negro y azul ceniza. Tejido con tecnología Coolmax transpirable y cinturilla elástica suave anti-roce.",
+    "price": 0.0,
+    "image": "/images/hm-mid-trunks-coolmax-pack.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de H&M • Pack de 3 Bóxers Mid Trunks Algodón & Coolmax forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
+  },
+  {
+    "id": "clothing-springfield-boxers-organic-pack",
+    "name": "Springfield • Pack de 5 Bóxers Algodón Orgánico Tonos Azules",
+    "category": "clothing",
+    "description": "Lote de cinco bóxers elásticos confeccionados en suave algodón orgánico hipoalergénico. Diseños lisos y con microrrayas en tonos navy, celeste y azul petróleo.",
+    "price": 0.0,
+    "image": "/images/springfield-boxers-organic-pack.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Springfield • Pack de 5 Bóxers Algodón Orgánico Tonos Azules forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "clothing-springfield-boxers-greys-pack",
+    "name": "Springfield • Pack de 5 Bóxers Monocromo Grises & Carbón",
+    "category": "clothing",
+    "description": "Pack de cinco unidades de ropa interior masculina en tonos negro, antracita y gris vigoré. Confección en punto elástico de máxima durabilidad con banda elástica con logo.",
+    "price": 0.0,
+    "image": "/images/springfield-boxers-organic-pack.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Springfield • Pack de 5 Bóxers Monocromo Grises & Carbón forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "clothing-victorias-secret-shine-strap",
+    "name": "Victoria's Secret • Tanga Joya Cristal 'Shine Strap' Rosa Nude",
+    "category": "clothing",
+    "description": "Icónico tanga de lujo de Victoria's Secret en microfibra sedosa color rosa nude con tiras laterales decoradas con brillantes cristales strass y logotipo de la Maison.",
+    "price": 15.0,
+    "image": "/images/victorias-secret-shine-strap.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Victoria's Secret • Tanga Joya Cristal 'Shine Strap' Rosa Nude forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
+  },
+  {
+    "id": "clothing-victorias-secret-black-shine-strap",
+    "name": "Victoria's Secret • Tanga Multi-Tiras Negro con Cristales 'Shine Strap'",
+    "category": "clothing",
+    "description": "Diseño de lencería de alta sensualidad en microfibra negra satinada. Tiras dobles enriquecidas con pavé de pedrería y herrajes pulidos.",
+    "price": 15.0,
+    "image": "/images/victorias-secret-black-shine-strap.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Victoria's Secret • Tanga Multi-Tiras Negro con Cristales 'Shine Strap' forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
+  },
+  {
+    "id": "clothing-victorias-secret-lace-shine-strap",
+    "name": "Victoria's Secret Very Sexy • Tanga de Encaje Floral con 'Shine Strap'",
+    "category": "clothing",
+    "description": "Delicada pieza de lencería en fino encaje floral transparente con ribete ondulado y laterales deslumbrantes engastados de cristales brillantes.",
+    "price": 15.0,
+    "image": "/images/victorias-secret-lace-shine-strap.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Confección de alta calidad con acabados impecables",
+      "Diseño ergonómico y materiales de tacto premium",
+      "Edición oficial de colección exclusiva",
+      "Garantía de autenticidad Katty Privé Madrid"
+    ],
+    "history": "Esta exclusiva pieza de Victoria's Secret Very Sexy • Tanga de Encaje Floral con 'Shine Strap' forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
+  },
+  {
+    "id": "bags-tom-ford-whisky-suede-bag",
+    "name": "Tom Ford • Bolso Bandolera de Ante Coñac y Cierre 'T' Dorada",
+    "category": "bags",
+    "description": "Pieza de alta marroquinería confeccionada en ante de ternera color whisky coñac con ribetes de piel suave, correa bandolera y emblemático cierre metálico 'T' bañado en oro. Incluye funda guardapolvo original.",
+    "price": 900.0,
+    "image": "/images/tom-ford-whisky-suede-bag.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Modelo: Tom Ford Tara / T-Clasp Suede Shoulder Bag",
+      "PVP Oficial boutique: 2.190,00 € (PVP Especial Katty Privé: 900,00 €)",
+      "Material: 100% Ante de ternera italiana de tacto aterciopelado con ribetes en piel vacuna lisa",
+      "Herrajes: Cierre magnético frontal con emblemática 'T' metálica bañada en oro brillante",
+      "Correa: Bandolera regulable en piel para llevar al hombro o cruzada",
+      "Interior: Compartimento principal con forro interior de lujo y bolsillo de seguridad",
+      "Incluye: Funda guardapolvo original protectora de la firma"
+    ],
+    "history": "La sofisticación inconfundible de Tom Ford en su máxima expresión: una silueta icónica de proporciones perfectas que combina la suntuosidad del ante coñac con el brillo eterno de su emblemático cierre 'T' dorado."
   }
 ];

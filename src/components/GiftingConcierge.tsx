@@ -252,13 +252,12 @@ export default function GiftingConcierge({ onScrollToBoutique }: GiftingConcierg
                 {/* Category preference Selection */}
                 <div className="space-y-1.5">
                   <label className="text-[10px] tracking-widest uppercase text-[#FAF9F6]/60">Categoría Predilecta</label>
-                  <div className="grid grid-cols-3 gap-1.5 text-xs">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-1.5 text-xs">
                     {[
                       { id: "perfumes", label: "Perfumes" },
                       { id: "glasses", label: "Gafas" },
                       { id: "cosmetics", label: "Cosmética" },
                       { id: "clothing", label: "Ropa" },
-                      { id: "jewelry", label: "Bisutería" },
                       { id: "bags", label: "Bolsos" }
                     ].map((item) => (
                       <button

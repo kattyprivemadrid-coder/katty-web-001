@@ -46,7 +46,6 @@ const CATEGORY_TABS: { id: "all" | ProductCategory; label: string; count?: numbe
   { id: "glasses", label: "Gafas" },
   { id: "cosmetics", label: "Cosmética" },
   { id: "clothing", label: "Ropa" },
-  { id: "jewelry", label: "Bisutería" },
   { id: "bags", label: "Bolsos" }
 ];
 
@@ -79,6 +78,14 @@ export default function Catalog({
     if (!editingProduct) return null;
     return products.find((p) => p.id === editingProduct.id) || editingProduct;
   }, [editingProduct, products]);
+
+  const formatPrice = (price: number) => {
+    if (price === 0) return "0,00 €";
+    return price.toLocaleString("es-ES", {
+      minimumFractionDigits: price % 1 === 0 ? 0 : 2,
+      maximumFractionDigits: 2,
+    }) + " €";
+  };
 
   const handleOpenQuickView = (product: Product) => {
     setQuickViewProduct(product);
@@ -119,16 +126,21 @@ export default function Catalog({
     return CATEGORIES_CONFIG.find(c => c.id === selectedCategory) || null;
   }, [selectedCategory]);
 
-  // Only display products that are in stock in the showcase (glasses and cosmetics must be in stock)
+  // Only display products that are in stock in the showcase (glasses, cosmetics, and bags must be in stock; jewelry hidden for now)
   const availableShowcaseProducts = useMemo(() => {
     return products.filter((p) => {
+      // Ocultar sección joyería / bisutería por el momento
+      if (p.category === "jewelry") {
+        return false;
+      }
+
       const isNotAvailable =
         p.availability === "sold_out" ||
         p.isAvailable === false ||
         soldOutProductIds.includes(p.id);
 
-      // Quitar del escaparate cualquier referencia no disponible de cosmética o gafas
-      if ((p.category === "cosmetics" || p.category === "glasses") && isNotAvailable) {
+      // Quitar del escaparate cualquier referencia no disponible de cosmética, gafas o bolsos
+      if ((p.category === "cosmetics" || p.category === "glasses" || p.category === "bags") && isNotAvailable) {
         return false;
       }
       return true;
@@ -567,7 +579,7 @@ export default function Catalog({
 
                   <div className="flex items-center justify-center gap-2">
                     <p className="font-serif text-sm font-medium text-[#8c1d27] font-mono pt-1">
-                      {product.price.toLocaleString("es-ES")} €
+                      {formatPrice(product.price)}
                     </p>
                     
                     {/* Botones Privados de Administración (Solo para la Dueña) */}
@@ -787,7 +799,7 @@ export default function Catalog({
                         )}
                       </div>
                       <p className="font-serif text-xl font-medium text-[#8c1d27] font-mono mt-2">
-                        {currentQuickViewProduct.price.toLocaleString("es-ES")} €
+                        {formatPrice(currentQuickViewProduct.price)}
                       </p>
                     </div>
 

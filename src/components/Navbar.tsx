@@ -86,6 +86,14 @@ export default function Navbar({
     return 0;
   };
 
+  const formatPrice = (price: number) => {
+    if (price === 0) return "0,00 €";
+    return price.toLocaleString("es-ES", {
+      minimumFractionDigits: price % 1 === 0 ? 0 : 2,
+      maximumFractionDigits: 2,
+    }) + " €";
+  };
+
   const currentShippingFee = getShippingFee(cartTotal);
   const currentGrandTotal = cartTotal + currentShippingFee;
 
@@ -471,7 +479,7 @@ export default function Navbar({
                                       )}
                                     </div>
                                     <p className="text-xs font-mono text-[#8c1d27] mt-1 font-semibold">
-                                      {item.product.price.toLocaleString("es-ES")} €
+                                      {formatPrice(item.product.price)}
                                     </p>
                                   </div>
                                   <div className="flex items-center justify-between mt-2">
@@ -667,7 +675,7 @@ export default function Navbar({
                                     {item.quantity}x {item.product.name}
                                   </span>
                                   <span className="font-mono text-[#8c1d27]">
-                                    {(item.product.price * item.quantity).toLocaleString("es-ES")} €
+                                    {formatPrice(item.product.price * item.quantity)}
                                   </span>
                                 </div>
                               ))}
@@ -742,7 +750,7 @@ export default function Navbar({
                             <div className="flex-1 flex flex-col justify-between">
                               <div>
                                 <h4 className="font-serif text-sm font-medium text-[#120002]">{item.name}</h4>
-                                <p className="text-xs font-mono text-[#8c1d27] mt-1">{item.price.toLocaleString("es-ES")} €</p>
+                                <p className="text-xs font-mono text-[#8c1d27] mt-1">{formatPrice(item.price)}</p>
                                 {isSoldOut ? (
                                   <span className="text-[9px] font-mono text-rose-700 uppercase font-semibold block mt-0.5">
                                     ● Agotado

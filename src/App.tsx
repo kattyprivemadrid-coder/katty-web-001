@@ -139,7 +139,7 @@ export default function App() {
         const parsed = JSON.parse(saved);
         const valid: Record<string, Product> = {};
         for (const [id, item] of Object.entries(parsed as Record<string, Product>)) {
-          if (id.startsWith("glasses-0") || id.startsWith("glasses-1")) {
+          if (id.startsWith("glasses-")) {
             continue;
           }
           if (id.startsWith("perfume-0") || id.startsWith("perfume-1")) {
@@ -196,6 +196,7 @@ export default function App() {
       return {
         ...p,
         ...custom,
+        price: (p.category === "perfumes" || p.category === "glasses" || p.category === "clothing" || p.category === "bags") ? p.price : (custom.price ?? p.price),
         image,
         availability,
         isAvailable: availability === "available"
@@ -214,8 +215,18 @@ export default function App() {
       const parsed: CartItem[] = JSON.parse(saved);
       return parsed.map((item) => {
         const catalogProd = PRODUCTS_DATA.find((p) => p.id === item.product.id);
-        if (catalogProd && item.product.image?.includes("unsplash.com") && !catalogProd.image.includes("unsplash.com")) {
-          return { ...item, product: { ...item.product, image: catalogProd.image } };
+        if (catalogProd) {
+          const image = (item.product.image?.includes("unsplash.com") && !catalogProd.image.includes("unsplash.com"))
+            ? catalogProd.image
+            : item.product.image;
+          return {
+            ...item,
+            product: {
+              ...item.product,
+              price: catalogProd.price,
+              image
+            }
+          };
         }
         return item;
       });
@@ -231,8 +242,15 @@ export default function App() {
       const parsed: Product[] = JSON.parse(saved);
       return parsed.map((prod) => {
         const catalogProd = PRODUCTS_DATA.find((p) => p.id === prod.id);
-        if (catalogProd && prod.image?.includes("unsplash.com") && !catalogProd.image.includes("unsplash.com")) {
-          return { ...prod, image: catalogProd.image };
+        if (catalogProd) {
+          const image = (prod.image?.includes("unsplash.com") && !catalogProd.image.includes("unsplash.com"))
+            ? catalogProd.image
+            : prod.image;
+          return {
+            ...prod,
+            price: catalogProd.price,
+            image
+          };
         }
         return prod;
       });

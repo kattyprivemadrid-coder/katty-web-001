@@ -18,7 +18,6 @@ const SERVICES = [
   "Gafas (Haute Lunetterie)",
   "Cosmética (Soins Précieux)",
   "Ropa (Haute Couture)",
-  "Bisutería (Haute Joaillerie)",
   "Bolsos (Maroquinerie d'Art)"
 ];
 

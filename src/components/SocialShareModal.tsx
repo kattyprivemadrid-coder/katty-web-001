@@ -33,11 +33,19 @@ export default function SocialShareModal({ product, isOpen, onClose }: SocialSha
 
   if (!isOpen) return null;
 
+  const formatPrice = (price: number) => {
+    if (price === 0) return "0,00 €";
+    return price.toLocaleString("es-ES", {
+      minimumFractionDigits: price % 1 === 0 ? 0 : 2,
+      maximumFractionDigits: 2,
+    }) + " €";
+  };
+
   // Formatted Texts for Each Network
   const instagramText = `✨ Colección Exclusiva • Katty Privé Madrid ✨
 
 Pieza: ${product.name}
-Precio: ${product.price.toLocaleString("es-ES")} €
+Precio: ${formatPrice(product.price)}
 ${product.category === "clothing" && product.sizes && product.sizes.length > 0 ? `Tallas: ${product.sizes.join(" · ")}\n` : ""}
 ${product.description}
 
@@ -51,7 +59,7 @@ ${product.details.map((d) => `• ${d}`).join("\n")}
 #KattyPrive #KattyPriveMadrid #AltaCostura #LujoMadrid #ModaExclusiva #Joyeria #BolsosDeLujo #Elegancia`;
 
   const tikTokText = `✨ Novedad exclusiva en Katty Privé Madrid ✨
-${product.name} • ${product.price.toLocaleString("es-ES")} €
+${product.name} • ${formatPrice(product.price)}
 
 ${product.description}
 
@@ -64,7 +72,7 @@ Envíos de cortesía asegurados 24/48h.
   const whatsAppText = `Hola 🌸 Te comparto una de las piezas más especiales de Katty Privé Madrid:
 
 *${product.name}*
-Precio: ${product.price.toLocaleString("es-ES")} €
+Precio: ${formatPrice(product.price)}
 ${product.category === "clothing" && product.sizes && product.sizes.length > 0 ? `Tallas: ${product.sizes.join(" · ")}\n` : ""}
 ${product.description}
 
@@ -233,7 +241,7 @@ https://kattyprivemadrid.netlify.app/
                 {product.name}
               </h4>
               <p className="text-sm font-mono text-[#8c1d27] font-semibold mt-0.5">
-                {product.price.toLocaleString("es-ES")} €
+                {formatPrice(product.price)}
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">

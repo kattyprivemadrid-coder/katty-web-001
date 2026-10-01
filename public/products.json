@@ -1,5 +1,141 @@
 [
   {
+    "id": "perfume-chanel-allure-homme-sport-150ml",
+    "name": "Chanel • Allure Homme Sport Eau de Toilette (150 ml)",
+    "category": "perfumes",
+    "description": "La emblemática fragancia Allure Homme Sport en su formato más generoso de 150 ml. Un frescor vigorizante de mandarina de Sicilia y notas acuáticas que se funde con el magnetismo especiado de la pimienta negra, el cedro del Atlas y el almizcle blanco sobre un fondo sensual de haba tonka de Venezuela.",
+    "price": 90.0,
+    "image": "/images/chanel-allure-homme-sport-150ml.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Volumen: 150 ml / 5.0 FL.OZ. Vaporisateur Spray (Formato Gran Lujo)",
+      "PVP Oficial boutique: 168,00 € (PVP Especial Katty Privé: 90,00 €)",
+      "Concentración: Eau de Toilette Vaporisateur Spray",
+      "Pirámide Olfativa: Mandarina de Sicilia, acorde ozónico marino, cedro del Atlas, pimienta negra, almizcle blanco y haba tonka",
+      "Carácter: Dinámico, fresco, masculino y magnéticamente sofisticado",
+      "Frasco: Silueta cuadrada lacada en plata satinada con tapón gomoso negro y anillo cromado grabado Chanel",
+      "Origen: Parfums Chanel Paris, Made in France"
+    ],
+    "history": "Concebido por Jacques Polge en 2004, Allure Homme Sport redefine la elegancia en movimiento: una composición vigorizante y sensual que encarna la energía desbordante del hombre que vive con pasión y autenticidad."
+  },
+  {
+    "id": "perfume-ysl-myslf-intense",
+    "name": "Yves Saint Laurent • MYSLF Eau de Toilette Intense (100 ml)",
+    "category": "perfumes",
+    "description": "La gran declaración olfativa masculina contemporánea de Yves Saint Laurent. MYSLF combina un estallido inicial de bergamota de Calabria con un corazón floral radiante de azahar de Túnez y un fondo amaderado texturizado de pachulí de Indonesia y Ambrofix™.",
+    "price": 65.0,
+    "image": "/images/ysl-myslf-intense.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Volumen: 100 ml / 3.3 FL.OZ. Vaporisateur Spray",
+      "PVP Oficial boutique: 135,00 € (PVP Especial Katty Privé: 65,00 €)",
+      "Concentración: Eau de Toilette Intense Vaporisateur Spray",
+      "Familia Olfativa: Amaderada Floral Masculina de Alta Costura",
+      "Notas de Salida: Bergamota de Calabria fresca y chispeante",
+      "Notas de Corazón: Absoluto de flor de azahar de Túnez cultivado en exclusiva para YSL",
+      "Notas de Fondo: Pachulí indonesio sostenible y acorde ambarino mineral de Ambrofix™",
+      "Frasco: Monolito de vidrio negro esmaltado de alta costura con el legendario logotipo Cassandra YSL incrustado en relieve",
+      "Origen: Yves Saint Laurent Beauté Paris, Made in France"
+    ],
+    "history": "MYSLF es la fragancia de la autoexpresión sin límites: un tributo a la masculinidad moderna concebido por Christophe Raynaud, Antoine Maisondieu y Daniela Andrier bajo la visión transgresora de la Maison Saint Laurent."
+  },
+  {
+    "id": "perfume-ysl-black-opium-pink-glaze",
+    "name": "Yves Saint Laurent • Black Opium Pink Glaze Eau de Parfum (90 ml)",
+    "category": "perfumes",
+    "description": "La adicción golosa más electrizante de Yves Saint Laurent. Black Opium Pink Glaze reinterpreta el icónico acorde de café negro y jazmín sambac envolviéndolo en un glaseado de frutos rojos caramelizados, vainilla de Madagascar y un resplandor rosa fluorescente irresistible.",
+    "price": 65.0,
+    "image": "/images/ysl-black-opium-pink-glaze.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Volumen: 90 ml / 3.0 FL.OZ. Eau de Parfum Vaporisateur Spray",
+      "PVP Oficial boutique: 155,00 € (PVP Especial Katty Privé: 65,00 €)",
+      "Concentración: Eau de Parfum Pink Glaze Intense",
+      "Familia Olfativa: Oriental Vainilla Frutal Adictiva",
+      "Notas de Salida: Glaseado de frutos rojos, pera Williams y mandarina luminosa",
+      "Notas de Corazón: Café negro tostado adictivo, flor de azahar y jazmín Sambac",
+      "Notas de Fondo: Vainilla Bourbon de Madagascar, pachulí blanco y cedro",
+      "Frasco: Textura escarchada de alta costura con corazón fucsia translúcido radiante y firma Cassandra",
+      "Origen: Yves Saint Laurent Parfums Paris, Made in France"
+    ],
+    "history": "Un giro deslumbrante al fenómeno mundial de Black Opium: la colisión audaz entre la cafeína más oscura y la dulzura aterciopelada del glaseado de frutas rojas parisinas."
+  },
+  {
+    "id": "perfume-prada-paradoxe-intense-90ml",
+    "name": "Prada • Paradoxe Intense Eau de Parfum Rechargeable (90 ml)",
+    "category": "perfumes",
+    "description": "La icónica fragancia de Prada en su expresión más poderosa y sensual. Paradoxe Intense explora la floración amplificada de neroli y jazmín sobre un fondo de calidez ambarina con Ambrofix™ y una sobredosis de almizcle revolucionario Serenolide™.",
+    "price": 65.0,
+    "image": "/images/prada-paradoxe-intense.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Volumen: 90 ml / 3.0 FL.OZ. Vaporisateur Rechargeable / Refillable Spray",
+      "PVP Oficial boutique: 165,00 € (PVP Especial Katty Privé: 65,00 €)",
+      "Concentración: Eau de Parfum Intense Rechargeable",
+      "Familia Olfativa: Floral Ambarina Intensa",
+      "Notas de Salida: Esencia de neroli biotecnológico, bergamota y pera jugosa",
+      "Notas de Corazón: Superinfusión de jazmín y acorde de musgo de roble terroso",
+      "Notas de Fondo: Acorde ambarino Ambrofix™ y almizcle Serenolide™ de difusión infinita",
+      "Frasco: Escultural triángulo de vidrio inspirado en el mítico logo Prada con tapón negro y detalles dorados",
+      "Origen: Prada Parfums Milano / Paris, Made in France"
+    ],
+    "history": "Paradoxe Intense desafía las convenciones de la perfumería: una contradicción hipnótica entre la delicadeza de las flores blancas y la fuerza rotunda de las maderas y el ámbar mineral."
+  },
+  {
+    "id": "perfume-gucci-guilty-love-edition",
+    "name": "Gucci • Guilty Love Edition Pour Femme Eau de Parfum (90 ml)",
+    "category": "perfumes",
+    "description": "Edición especial de coleccionista dedicada a los amantes inconformistas. Un tributo floral oriental verde dominado por la flor de narciso silvestre, bergamota fresca, violeta húmeda y un fondo aterciopelado de pachulí prisma y almizcle mineral.",
+    "price": 65.0,
+    "image": "/images/gucci-guilty-love-edition.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Volumen: 90 ml / 3.0 FL.OZ. Eau de Parfum Vaporisateur Spray",
+      "PVP Oficial boutique: 152,00 € (PVP Especial Katty Privé: 65,00 €)",
+      "Concentración: Eau de Parfum Love Edition Pour Femme",
+      "Familia Olfativa: Floral Verde Ambarina Oriental",
+      "Notas de Salida: Bergamota luminosa, pomelo rosado y acorde de notas acuosas",
+      "Notas de Corazón: Narciso silvestre narcótico, violeta, frambuesa y jazmín Sambac",
+      "Notas de Fondo: Pachulí prisma refinado, ámbar mineral y almizcle blanco sedoso",
+      "Frasco: Vidrio opaco esmaltado en un sofisticado tono lavanda lila vintage con el monograma entrelazado GG",
+      "Origen: Gucci Beauty Paris / Coty Luxury, Made in Spain / France"
+    ],
+    "history": "Bajo la dirección creativa de Alessandro Michele, Love Edition rinde homenaje a la libertad sentimental y a los amores que desafían las reglas sociales con una estética retro sublime."
+  },
+  {
+    "id": "perfume-rabanne-olympea-elixir",
+    "name": "Rabanne • Olympéa Elixir Eau de Parfum Intense (80 ml)",
+    "category": "perfumes",
+    "description": "La apoteosis de la sensualidad divina de Rabanne. Olympéa Elixir concentra la quintaesencia de la diosa moderna en un elixir hipnótico de vainilla negra salada, resina de incienso místico, flor de azahar y jazmín solar con laurel imperial.",
+    "price": 65.0,
+    "image": "/images/rabanne-olympea-elixir.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Volumen: 80 ml / 2.7 FL.OZ. Eau de Parfum Intense Vaporisateur Spray",
+      "PVP Oficial boutique: 145,00 € (PVP Especial Katty Privé: 65,00 €)",
+      "Concentración: Eau de Parfum Intense Elixir",
+      "Familia Olfativa: Oriental Vainilla Ambarina Solar",
+      "Notas de Salida: Pimienta rosa picante, mandarina verde y flor de azahar",
+      "Notas de Corazón: Jazmín solar majestuoso, acorde de sal marina y hojas de laurel",
+      "Notas de Fondo: Vainilla negra licorosa, extracto de incienso y madera de cachemira",
+      "Frasco: Ánfora esculpida con alas de laurel victoriosas en oro resplandeciente y néctar ámbar-ciruela",
+      "Origen: Puig France / Rabanne Paris, Made in France"
+    ],
+    "history": "Olympéa Elixir encarna el poder triunfal y seductor de una deidad contemporánea: una sobredosis de vainilla oscura licorosa que rinde a sus pies a quien la percibe."
+  },
+  {
     "id": "perfume-vs-bombshell",
     "name": "Victoria's Secret Bombshell Eau de Parfum",
     "category": "perfumes",
@@ -787,6 +923,48 @@
       "Presentación: Funda semirrígida Lacoste con cremallera y gamuza limpiadora"
     ],
     "history": "Máximo rendimiento deportivo y estilo lifestyle para quienes buscan dinamismo, protección ocular completa y practicidad."
+  },
+  {
+    "id": "cosmetics-larocheposay-pure-vitamin-c12",
+    "name": "La Roche-Posay • Pure Vitamin C12 Sérum Concentrado Antiarrugas Antioxidante",
+    "category": "cosmetics",
+    "description": "Sérum dermatológico concentrado con 12% de Vitamina C Pura, Ácido Salicílico, Neurosensina y Ácido Hialurónico. Fórmula antiedad iluminadora de alta eficacia que combate arrugas visibles, restaura la luminosidad celular y afina la textura irregular de la piel sensible.",
+    "price": 25.0,
+    "image": "/images/larocheposay-pure-vitamin-c12.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Volumen: 30 ml (1.01 fl. oz) en frasco de vidrio ámbar protector con pipeta cuentagotas",
+      "PVP Oficial boutique: 48,00 € (PVP Especial Katty Privé: 25,00 €)",
+      "Activos Clave: 12% Vitamina C Pura (Ácido L-Ascórbico), Neurosensina calmante, Ácido Salicílico y Ácido Hialurónico",
+      "Indicación: Arrugas marcadas, pérdida de luminosidad, tono apagado y relieve cutáneo irregular",
+      "Textura: Emulsión ligera de rápida absorción, acabado sedoso no graso ni comedogénico",
+      "Tolerancia: Testado bajo control dermatológico en pieles sensibles y reactivas con Agua Termal de La Roche-Posay",
+      "Fabricación: Laboratoire Dermatologique La Roche-Posay, Made in France"
+    ],
+    "history": "Nacido de la investigación dermatológica francesa más avanzada, Pure Vitamin C12 encarna la dosis áurea de la vitamina C estabilizada: potencia biológica antioxidante máxima combinada con una tolerancia absoluta incluso para las pieles más exigentes y delicadas."
+  },
+  {
+    "id": "cosmetics-larocheposay-mela-b3-serum",
+    "name": "La Roche-Posay • Mela B3 Sérum Concentrado Antimanchas Intensivo con Melasyl™",
+    "category": "cosmetics",
+    "description": "Revolucionario sérum dermatológico antimanchas enriquecido con Melasyl™, molécula multi-patentada desarrollada tras 18 años de investigación, combinada con un 10% de Niacinamida (Vitamina B3). Corrige eficazmente manchas oscuras persistentes, marcas pos-acné e hiperpigmentación con acción antirrecidiva.",
+    "price": 25.0,
+    "image": "/images/larocheposay-mela-b3-serum.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Volumen: 30 ml - 29 g en frasco de vidrio violeta protector con pipeta dosificadora",
+      "PVP Oficial boutique: 49,50 € (PVP Especial Katty Privé: 25,00 €)",
+      "Activos Clave: Melasyl™ multi-patentado (atrapa los precursores de melanina) + 10% Niacinamida pura (Vitamina B3)",
+      "Indicación: Manchas solares, manchas oscuras de la edad, melasma y marcas persistentes pos-acné",
+      "Eficacia: Acción visible desde la 1ª semana y efecto antirrecidiva científicamente demostrado",
+      "Tolerancia: Apto para todos los fototipos y tonos de piel, formulado con Agua Termal de La Roche-Posay",
+      "Fabricación: Laboratoire Dermatologique La Roche-Posay, Made in France"
+    ],
+    "history": "Mela B3 representa el mayor avance dermatológico en la lucha contra la hiperpigmentación de los últimos 20 años: la introducción de Melasyl™, una molécula patentada que intercepta el exceso de melanina antes de que marque la piel, preservando un cutis uniforme y radiante."
   },
   {
     "id": "cosmetics-01",

@@ -196,7 +196,7 @@ export default function App() {
       return {
         ...p,
         ...custom,
-        price: (p.category === "perfumes" || p.category === "glasses" || p.category === "clothing" || p.category === "bags") ? p.price : (custom.price ?? p.price),
+        price: (p.category === "perfumes" || p.category === "glasses" || p.category === "clothing" || p.category === "bags" || p.category === "cosmetics") ? p.price : (custom.price ?? p.price),
         image,
         availability,
         isAvailable: availability === "available"

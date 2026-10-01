@@ -139,8 +139,8 @@ export default function Catalog({
         p.isAvailable === false ||
         soldOutProductIds.includes(p.id);
 
-      // Quitar del escaparate cualquier referencia no disponible de cosmética, gafas o bolsos
-      if ((p.category === "cosmetics" || p.category === "glasses" || p.category === "bags") && isNotAvailable) {
+      // Quitar del escaparate cualquier referencia no disponible de cosmética o gafas (los bolsos se muestran con su estado Vendido / No disponible)
+      if ((p.category === "cosmetics" || p.category === "glasses") && isNotAvailable) {
         return false;
       }
       return true;

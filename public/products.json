@@ -2198,14 +2198,37 @@
     "history": "Esta exclusiva pieza de Victoria's Secret Very Sexy • Tanga de Encaje Floral con 'Shine Strap' forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
   },
   {
+    "id": "bags-miu-miu-arcadie-nappa",
+    "name": "Miu Miu • Bolsa Arcadie de Piel de Napa Matelassé Blanco Alabastro",
+    "category": "bags",
+    "description": "La icónica bolsa Arcadie de Miu Miu confeccionada en exquisita piel de napa con el inconfundible trabajo artesanal acolchado matelassé en tono blanco marfil alabastro. Silueta estructurada con dobles asas tubulares, logotipo metálico dorado 'miu miu' en relieve frontal, bandolera ajustable desmontable y etiqueta clochette con candado dorado.",
+    "price": 1100.0,
+    "image": "/images/miu-miu-arcadie-nappa-bag.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Modelo: Miu Miu Arcadie Bolsa de Piel de Napa (Ref: 5BB148 / Matelassé Nappa Leather)",
+      "PVP Oficial boutique: 2.550,00 € (PVP Especial Katty Privé: 1.100,00 €)",
+      "Color: Blanco Alabastro / Chalk White con herrajes metálicos dorados pulidos",
+      "Material: 100% Piel de napa de cordero ultrasuave con textura acolchada matelassé",
+      "Dimensiones: 22 cm (ancho) × 12 cm (alto) × 7.5 cm (profundidad) aprox.",
+      "Cierre: Cremallera superior perimetral de dos vías con tiradores de piel",
+      "Asas: Doble asa de mano de napa cosida y correa bandolera de piel desmontable y regulable (105 cm)",
+      "Accesorios: Etiqueta clochette de cuero extraíble con logotipo metálico dorado y candado lateral",
+      "Interior: Forro textil de satén de algodón con placa metálica oficial Miu Miu Milano y bolsillo de parche"
+    ],
+    "history": "La bolsa Arcadie encarna el espíritu audaz y sofisticado de Miu Miu. Su técnica de acolchado matelassé tridimensional combina la más refinada artesanía peletera italiana con un diseño contemporáneo y rebelde, convirtiéndose en el bolso fetiche de las pasarelas internacionales."
+  },
+  {
     "id": "bags-tom-ford-whisky-suede-bag",
     "name": "Tom Ford • Bolso Bandolera de Ante Coñac y Cierre 'T' Dorada",
     "category": "bags",
     "description": "Pieza de alta marroquinería confeccionada en ante de ternera color whisky coñac con ribetes de piel suave, correa bandolera y emblemático cierre metálico 'T' bañado en oro. Incluye funda guardapolvo original.",
     "price": 900.0,
     "image": "/images/tom-ford-whisky-suede-bag.jpg",
-    "isAvailable": true,
-    "availability": "available",
+    "isAvailable": false,
+    "availability": "sold_out",
     "featured": true,
     "details": [
       "Modelo: Tom Ford Tara / T-Clasp Suede Shoulder Bag",

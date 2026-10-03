@@ -782,39 +782,47 @@
   },
   {
     "id": "glasses-prada-symbole-17ws",
-    "name": "Prada Gafas de Sol Symbole PR 17WS Rectangulares Geométricas Carey",
+    "name": "Prada • Gafas de Sol Symbole PR 17WS Rectangulares Geométricas Carey Polarizadas",
     "category": "glasses",
-    "description": "Icónica silueta geométrica multifacetada con cortes arquitectónicos en acetato carey havana. Varillas tridimensionales angulares que integran la legendaria placa triangular esmaltada de Prada Milano dal 1913.",
-    "price": 200,
+    "description": "La icónica silueta geométrica multifacetada Prada Symbole PR 17WS en acetato carey havana oscuro. Varillas tridimensionales angulares de corte arquitectónico que lucen el legendario logotipo Prada Milano dal 1913 con escudo heráldico en dorado y lentes polarizadas de máxima protección.",
+    "price": 200.0,
     "image": "/images/prada-symbole-geometric.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Modelo: Prada Symbole PR 17WS Trt Ptr Pol (Ref. # R019)",
-      "Montura: Acetato carey havana de alta densidad con biselados geométricos",
-      "Varillas: Escultura arquitectónica tridimensional con emblema triangular Prada Milano dal 1913",
-      "Lentes: Lentes polarizadas minerales en marrón cálido con protección 100% UV400 Cat. 3",
-      "Accesorios: Estuche rígido texturizado Prada Milano, caja oficial y toallita de microfibra"
+      "Modelo: Prada Symbole PR 17WS Trt Ptr Pol (Ref. # R019 / Barcode 8056597435581)",
+      "PVP Oficial en etiqueta: 390,00 € (PVP Especial Katty Privé: 200,00 €)",
+      "Color Montura: Carey Havana Oscuro / Tortoise Tartaruga pulido de alta densidad",
+      "Diseño & Silueta: Rectangular geométrica multifacetada con cortes arquitectónicos biselados",
+      "Varillas: Perfil ancho escultural facetado con emblema Prada Milano y escudo dorado en relieve",
+      "Lentes: Minerales Polarizadas (Ptr Pol) gris-marrón antirreflejo con protección 100% UVA/UVB Cat. 3",
+      "Medidas: 49 mm (calibre lente) - 20 mm (puente) - 145 mm (longitud varilla)",
+      "Fabricación: Made in Italy, Luxottica / Prada Eyewear con etiquetas y packaging oficial"
     ],
-    "history": "La silueta más emblemática del diseño contemporáneo de Prada, combinando el brutalismo arquitectónico con el refinamiento de la pasarela de Milán."
+    "history": "La silueta Prada Symbole es el icono indiscutible del diseño contemporáneo de la casa milanesa: una obra de arte escultórica que combina el brutalismo arquitectónico con el refinamiento de la pasarela internacional.",
+    "featured": true
   },
   {
     "id": "glasses-prada-26zs-cateye",
-    "name": "Prada Gafas de Sol PR 26ZS Hexagonales Cat-Eye Oversize Negro y Marfil",
+    "name": "Prada • Gafas de Sol PR 26ZS Cat-Eye Mariposa Oversize Negro Brillante",
     "category": "glasses",
-    "description": "Vanguardistas gafas de sol de silueta hexagonal cat-eye extragrande en acetato negro pulido. Las varillas de perfil ancho lucen el interior en contraste marfil/blanco y la firma en relieve PRADA MILANO.",
-    "price": 200,
+    "description": "Vanguardistas gafas de sol Prada modelo PR 26ZS de silueta cat-eye mariposa extragrande en acetato negro brillante (Black Shiny). Varillas de perfil ancho escultural con el logotipo tridimensional PRADA MILANO en contraste y lentes tintadas con protección solar completa.",
+    "price": 200.0,
     "image": "/images/prada-26zs-cateye.jpg",
     "availability": "available",
     "isAvailable": true,
     "details": [
-      "Modelo: Prada PR 26ZS BLK SHN GRY (Ref. # R019)",
-      "Montura: Acetato negro brillante en silueta cat-eye hexagonal sobredimensionada con ángulos biselados",
-      "Varillas: Perfil ancho con forro interior en contraste marfil/blanco y firma grabada PRADA MILANO",
-      "Lentes: Tintadas en gris mineral uniforme de máxima agudeza visual con filtro solar Cat. 3 UV400",
-      "Incluye: Estuche joya rígido Prada, caja original y paño de limpieza oficial"
+      "Modelo: Prada SPR 26Z 55□16 16K-08Z 145 3N / PR 26ZS BLK SHN GH (Ref. # R019)",
+      "PVP Oficial en etiqueta: 390,00 € (PVP Especial Katty Privé: 200,00 €)",
+      "Color Montura: Black Shiny (Negro brillante de alta densidad con alma interior marfil/blanca)",
+      "Diseño & Silueta: Cat-Eye / Butterfly oversize audaz con volumen tridimensional en los ángulos superiores",
+      "Varillas: Varilla ancha aerodinámica con logotipo tridimensional PRADA MILANO en contraste",
+      "Lentes: Gris oscuro uniforme de máxima claridad visual con protección total UV400 Cat. 3N",
+      "Medidas: 55 mm (calibre lente) - 16 mm (puente nasal) - 145 mm (longitud varilla)",
+      "Fabricación: Made in Italy, Prada Eyewear oficial con etiqueta original del distribuidor"
     ],
-    "history": "Una declaración de feminidad audaz y vanguardia geométrica que reinterpreta el clásico cat-eye con proporciones esculturales de alta costura."
+    "history": "El modelo PR 26ZS materializa la sofisticación femenina más vanguardista de Prada: un cat-eye de proporciones cinematográficas que enmarca la mirada con misterio, carácter y una elegancia inquebrantable.",
+    "featured": true
   },
   {
     "id": "glasses-dolce-gabbana-dg-havana",

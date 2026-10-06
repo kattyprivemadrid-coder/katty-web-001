@@ -835,6 +835,28 @@ export const PRODUCTS_DATA: Product[] = [
     "history": "Un tributo al contraste inmortal de blanco y negro establecido por Gabrielle Chanel como máxima expresión de modernidad y alta costura."
   },
   {
+    "id": "glasses-chanel-ch5528-oval",
+    "name": "Chanel • Gafas de Sol Ovaladas CH5528 con Logotipo Joya Doble 'CC' Blanco Polarizadas",
+    "category": "glasses",
+    "description": "Elegantes y sofisticadas gafas de sol Chanel modelo CH5528 de silueta ovalada mariposa en acetato negro profundo brillante. Protagonizadas por imponentes varillas anchas con el icónico emblema joya de la doble 'CC' de Chanel en blanco y plata en relieve, y lentes solares polarizadas degradadas de cristal con protección UV400.",
+    "price": 240.0,
+    "image": "/images/chanel-ch5528-oval.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Modelo: Chanel Oval CH5528 C501W1 53□19 (Ref. Barcode 2855715)",
+      "PVP Oficial en etiqueta: 509,00 € (PVP Especial Katty Privé: 240,00 €)",
+      "Montura: 100% Acetato premium italiano negro brillante de alta densidad",
+      "Diseño & Silueta: Ovalada audaz retro-chic con perfil biselado y curvas de alta costura",
+      "Varillas: Perfil ancho inyectado con el legendario logotipo doble 'CC' de Chanel en relieve blanco y plata",
+      "Lentes: Cristal polarizado en degradado gris-ahumado de máxima definición y filtro solar UV400 Cat. 3",
+      "Medidas: 53 mm (calibre lente) - 19 mm (puente nasal) - 140 mm (longitud varilla)",
+      "Fabricación: Made in Italy, Chanel Eyewear con estuche acolchado estilo piel matelassé, funda y paño de seda"
+    ],
+    "history": "El modelo CH5528 resume la quintaesencia del estilo Chanel: un juego gráfico impecable entre el negro azabache y el blanco emblemático de la Maison, inmortalizado por la silueta ovalada que favorece las facciones con un magnetismo cinematográfico."
+  },
+  {
     "id": "glasses-prada-symbole-17ws",
     "name": "Prada • Gafas de Sol Symbole PR 17WS Rectangulares Geométricas Carey Polarizadas",
     "category": "glasses",
@@ -877,6 +899,95 @@ export const PRODUCTS_DATA: Product[] = [
     ],
     "history": "El modelo PR 26ZS materializa la sofisticación femenina más vanguardista de Prada: un cat-eye de proporciones cinematográficas que enmarca la mirada con misterio, carácter y una elegancia inquebrantable.",
     "featured": true
+  },
+  {
+    "id": "glasses-prada-14ws-blk-blu",
+    "name": "Prada • Gafas de Sol 0PR 14WS Bicolor Negro y Marfil Lentes Azul Degradado",
+    "category": "glasses",
+    "description": "Elegantes gafas de sol de diseño contemporáneo Prada modelo 0PR 14WS confeccionadas en acetato negro brillante de alta densidad con llamativas varillas bicolores de interior marfil/blanco y firma dorada PRADA MILANO. Silueta geométrica suavemente biselada equipada con refinadas lentes azul degradado (Blu Grd) de protección UV completa.",
+    "price": 200.0,
+    "image": "/images/prada-14ws-blk-blu.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Modelo: Prada 0PR 14WS 09Q5S0 52/20 (Ref. Blk Blu / Blu Grd)",
+      "PVP Oficial en etiqueta: 290,00 € (PVP Especial Katty Privé: 200,00 €)",
+      "Color Montura: Negro pulido brillante con varillas interiores bicolor marfil/crema",
+      "Diseño & Silueta: Rectangular mariposa contemporánea con biselado geométrico superior",
+      "Varillas: Varilla ancha en acetato con contraste interior y logotipo oficial PRADA MILANO en oro pulido",
+      "Lentes: Azul degradado (Blu Grd) de alta definición óptica con filtro solar UV400 Cat. 2/3",
+      "Medidas: 52 mm (calibre lente) - 20 mm (puente nasal) - 140 mm (longitud varilla)",
+      "Fabricación: Made in Italy, Luxottica / Prada Eyewear con etiquetas y packaging oficial"
+    ],
+    "history": "El modelo 0PR 14WS encarna el minimalismo arquitectónico y la elegancia cromática de Prada: el contraste sutil entre el negro exterior y el marfil interior crea un juego visual sofisticado que eleva cualquier estilismo con distinción atemporal."
+  },
+  {
+    "id": "glasses-prada-19ws-symbole",
+    "name": "Prada • Gafas de Sol Symbole PR 19WS Rectangulares Esculturales Negro",
+    "category": "glasses",
+    "description": "Las icónicas gafas de sol Prada modelo PR 19WS de la célebre colección Prada Symbole destacan por su rotunda silueta rectangular en acetato negro brillante de alta gama. Varillas facetadas tridimensionales de marcado diseño arquitectónico con la emblemática placa triangular metálica PRADA MILANO y lentes solares tintadas gris oscuro con protección 100% UV400.",
+    "price": 200.0,
+    "image": "/images/prada-19ws-sunglasses.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Modelo: Prada Symbole PR 19WS / 0PR 19WS 52□21 145 (Ref. # R019)",
+      "PVP Oficial boutique: 390,00 € (PVP Especial Katty Privé: 200,00 €)",
+      "Color Montura: Black Shiny (Negro brillante de alta densidad)",
+      "Diseño & Silueta: Rectangular gruesa de corte geométrico facetado y ángulos biselados de alta costura",
+      "Varillas: Perfil escultórico facetado con el icónico emblema triangular PRADA MILANO en relieve metálico",
+      "Lentes: Gris humo oscuro de máxima nitidez óptica con protección total 100% UVA/UVB Cat. 3N",
+      "Medidas: 52 mm (calibre lente) - 21 mm (puente nasal) - 145 mm (longitud varilla)",
+      "Fabricación: Made in Italy, Prada Eyewear oficial con packaging, estuche rígido y accesorios"
+    ],
+    "history": "Un icono indiscutible de la colección Prada Symbole: las PR 19WS redefinen el lujo contemporáneo fusionando la pureza de las líneas geométricas con la fuerza del triángulo emblemático de la Maison milanesa."
+  },
+  {
+    "id": "glasses-dior-diortribales-b2u",
+    "name": "Dior • Gafas de Sol DiorTribales B2U Cat-Eye con Perlas y Montura Dorada",
+    "category": "glasses",
+    "description": "Elegantes gafas de sol de alta costura Christian Dior modelo DiorTribales B2U de silueta cat-eye arquitectónica con montura de metal dorado pulido ultraligero. Inspiradas en los míticos pendientes Dior Tribales, incorporan las emblemáticas perlas de resina blanca engastadas en los extremos con cuentas doradas, varillas grabadas con la firma Christian Dior y lentes grises de alta protección solar.",
+    "price": 200.0,
+    "image": "/images/dior-tribales-b2u.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Modelo: Dior DiorTribales B2U 30A0 61 (Ref. Barcode 2892341)",
+      "PVP Oficial en etiqueta: 512,00 € (PVP Especial Katty Privé: 200,00 €)",
+      "Montura: Metal dorado pulido de máxima finura, ligereza y durabilidad",
+      "Diseño & Silueta: Cat-Eye arquitectónica con barra superior continua y lentes al aire semi-rimless",
+      "Detalle Exclusivo: Perlas de resina blanca Dior Tribales engastadas en los extremos superiores con perlas doradas",
+      "Varillas: Perfil fino en metal dorado con grabado de la firma de autor 'Christian Dior' y terminales ergonómicos",
+      "Lentes: Gris oscuro de alta definición con grabado sutil 'CD' y protección 100% UVA/UVB Cat. 3",
+      "Medidas: 61 mm (calibre lente) - 11 mm (puente) - 140 mm (longitud varilla)",
+      "Fabricación: Made in Italy, Christian Dior Couture con estuche protector, funda y paño de seda"
+    ],
+    "history": "Inspiradas en los icónicos pendientes Dior Tribales que causaron furor en los desfiles de la Maison, estas gafas reinterpretan la perla clásica en clave contemporánea, uniendo la ligereza del metal dorado con la audacia de una mirada felina inolvidable."
+  },
+  {
+    "id": "glasses-gucci-interlocking-burgundy",
+    "name": "Gucci • Gafas de Sol Cuadradas Borgoña Rosso Ancora con Emblema Interlocking G Dorado",
+    "category": "glasses",
+    "description": "Rotundas y glamurosas gafas de sol Gucci de silueta cuadrada oversize confeccionadas en acetato brillante en el icónico tono burdeos borgoña profundo (Rosso Ancora). Protagonizadas por anchas varillas esculpidas con el majestuoso medallón circular calado 'Interlocking G' (Doble G entrelazada) en metal dorado pulido, y lentes degradadas con el logotipo Gucci grabado.",
+    "price": 200.0,
+    "image": "/images/gucci-interlocking-burgundy.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Modelo: Gucci Interlocking G Bold Square Rosso Ancora Edition",
+      "PVP Oficial boutique: 395,00 € (PVP Especial Katty Privé: 200,00 €)",
+      "Color Montura: Burdeos profundo brillante / Rosso Ancora (Deep Burgundy Shiny Acetate)",
+      "Diseño & Silueta: Cuadrada geométrica oversize con biselado frontal y estructura maciza retro-chic",
+      "Varillas: Varilla ancha en acetato con medallón joya calado 'Interlocking G' en metal dorado pulido",
+      "Lentes: Tintadas en degradado marrón ahumado cálido con firma 'GUCCI' grabada y filtro solar total UV400 Cat. 3",
+      "Medidas: 54 mm (calibre lente) - 20 mm (puente nasal) - 145 mm (longitud varilla)",
+      "Fabricación: Made in Italy, Gucci Eyewear oficial con estuche rígido aterciopelado y pañuelo de seda"
+    ],
+    "history": "El tono Rosso Ancora y el monograma Interlocking G representan la herencia eterna y la sensualidad de Florencia: una silueta cinematográfica con presencia magnética que redefine el lujo cotidiano."
   },
   {
     "id": "glasses-dolce-gabbana-dg-havana",
@@ -1027,6 +1138,28 @@ export const PRODUCTS_DATA: Product[] = [
       "Fabricación: Laboratoire Dermatologique La Roche-Posay, Made in France"
     ],
     "history": "Mela B3 representa el mayor avance dermatológico en la lucha contra la hiperpigmentación de los últimos 20 años: la introducción de Melasyl™, una molécula patentada que intercepta el exceso de melanina antes de que marque la piel, preservando un cutis uniforme y radiante."
+  },
+  {
+    "id": "cosmetics-maybelline-vinyl-ink-assorted",
+    "name": "Maybelline New York • Labiales Líquidos SuperStay Vinyl Ink (Varios Colores)",
+    "category": "cosmetics",
+    "description": "Labiales líquidos de larga duración efecto vinilo con acabado brillante inalterable hasta 16 horas. Fórmula vegana con tecnología Color Lock resistente a transferencias y manchas. Colección disponible en una extensa variedad de varios colores (nudes empolvados, rosas románticos, malvas, ciruelas, rojos intensos y borgoñas).",
+    "price": 10.0,
+    "image": "/images/maybelline-vinyl-ink-assorted.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "PVP Especial Katty Privé: 10,00 € / unidad",
+      "Gama Cromática: Varios colores disponibles en stock (amplia paleta de tonos nude, rosas, malvas, rojos, burdeos, ciruelas y terracotas)",
+      "Efecto & Acabado: Acabado vinilo brillante espejo de fijación instantánea y textura ligera ultra-confortable",
+      "Duración: Hasta 16 horas de cobertura impecable sin transferencias gracias a la innovadora fórmula Color Lock",
+      "Modo de Aplicación: Agitar el envase firmemente durante 5 segundos antes de usar y aplicar sobre los labios secos para activar el polímero vinílico",
+      "Selección de Tono: Indique su tono o preferencia de color en las notas de la reserva o consúltenos vía WhatsApp / Consejería para asesoramiento personalizado",
+      "Ingredientes Clave: Fórmula enriquecida con aloe vera emoliente y vitamina E antioxidante que hidrata y previene la tirantez",
+      "Garantía: Productos 100% originales precintados oficiales Maybelline New York"
+    ],
+    "history": "El fenómeno cosmético viral que revolucionó el maquillaje labial: el primer labial de acabado vinilo de alto impacto visual que desafía el paso de las horas sin transferir, disponible en Katty Privé en una exquisita variedad de colores para sublimar cualquier look."
   },
   {
     "id": "cosmetics-01",
@@ -2436,6 +2569,151 @@ export const PRODUCTS_DATA: Product[] = [
       "Garantía de autenticidad Katty Privé Madrid"
     ],
     "history": "Esta exclusiva pieza de Victoria's Secret Very Sexy • Tanga de Encaje Floral con 'Shine Strap' forma parte de la cuidada selección de moda y prendas de autor de Katty Privé Madrid, aunando estilo atemporal y confort supremo."
+  },
+  {
+    "id": "clothing-vs-shine-strap-black-s",
+    "name": "Victoria's Secret • Tanga Shine Strap Negro con Cristales 'VICTORIA SECRET'",
+    "category": "clothing",
+    "description": "Icónico tanga de lencería fina Victoria's Secret en satén negro sedoso de alta elasticidad. Laterales enriquecidos con dobles tiras 'Shine Strap' cuajadas de cristales pavé brillantes con las letras VICTORIA y SECRET.",
+    "price": 15.0,
+    "image": "/images/vs-shine-strap-black-s.jpg",
+    "sizes": ["S"],
+    "selectedSize": "S",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Talla disponible: S (Small / CH)",
+      "PVP Especial Katty Privé: 15,00 €",
+      "Modelo: Victoria's Secret Shine Strap Logo Thong Panty",
+      "Material: Microfibra satinada elástica ultra-suave y refuerzo interior 100% algodón",
+      "Laterales: Tiras joya con cristales reflectantes 'VICTORIA' y 'SECRET'",
+      "Garantía de autenticidad oficial con etiquetado original"
+    ],
+    "history": "El diseño insignia de la pasarela de Victoria's Secret: sofisticación deslumbrante y confort sedoso para ocasiones exclusivas."
+  },
+  {
+    "id": "clothing-vs-lace-crystal-assorted-xs",
+    "name": "Victoria's Secret Very Sexy • Tanga de Encaje Floral y Cristales Shine Strap",
+    "category": "clothing",
+    "description": "Sensual tanga de autor Victoria's Secret Very Sexy en primoroso encaje floral semitransparente con ribetes festoneados y deslumbrantes tiras laterales 'Shine Strap' engastadas en cristales resplandecientes.",
+    "price": 15.0,
+    "image": "/images/vs-lace-crystal-xs.jpg",
+    "sizes": ["XS"],
+    "selectedSize": "XS",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Talla disponible: XS (Extra Small / XCH)",
+      "PVP Especial Katty Privé: 15,00 €",
+      "Línea: Victoria's Secret Very Sexy Collection",
+      "Material: Encaje floral delicado con forro de algodón puro transpirable",
+      "Laterales: Tiras joya 'Shine Strap' de brillo infinito con logotipo en pedrería",
+      "Garantía de autenticidad oficial con etiquetado original"
+    ],
+    "history": "La línea Very Sexy sublima la feminidad combinando el romanticismo del encaje floral europeo con el glamour nocturno de los cristales joya."
+  },
+  {
+    "id": "clothing-vs-pink-black-rosette-m",
+    "name": "Victoria's Secret • Tanga de Encaje Rosa y Negro con Detalle Rosette y Cristales",
+    "category": "clothing",
+    "description": "Exquisito tanga Victoria's Secret que combina microfibra y encaje floral con tiras enjoyadas de microcristales y un delicado detalle de rosa en relieve (rosette) en tono rosa empolvado.",
+    "price": 15.0,
+    "image": "/images/vs-pink-black-lace-m.jpg",
+    "sizes": ["M"],
+    "selectedSize": "M",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Talla disponible: M (Medium / Mediana)",
+      "PVP Especial Katty Privé: 15,00 €",
+      "Diseño: Encaje y satén negro con tirantes de pedrería y aplique floral rosette",
+      "Material: Tejido elástico premium de ajuste impecable con puente de algodón",
+      "Garantía de autenticidad oficial con etiquetado original"
+    ],
+    "history": "Inspirado en la lencería de inspiración parisina, este diseño mezcla sensualidad atemporal y un guiño coqueto floral."
+  },
+  {
+    "id": "clothing-vs-hearts-strappy-m",
+    "name": "Victoria's Secret • Tanga Cheeky Tiras 'Strappy' Negro con Bordado de Corazones Fucsia",
+    "category": "clothing",
+    "description": "Atrevida y sofisticada braguita 'Strappy Cheeky' de Victoria's Secret en tul calado negro con múltiples tiras cruzadas decoradas con una cascada de corazones bordados en fucsia intenso y lazo central satinado.",
+    "price": 15.0,
+    "image": "/images/vs-hearts-strappy-m.jpg",
+    "sizes": ["M"],
+    "selectedSize": "M",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Talla disponible: M (Medium / Mediana)",
+      "PVP Especial Katty Privé: 15,00 €",
+      "Modelo: Victoria's Secret Strappy Embroidered Hearts Cheeky Panty",
+      "Diseño: Estructura de jaula 'cage' multi-tiras con corazones bordados en contraste fucsia",
+      "Acabados: Ribetes picot elásticos y lazo de satén con etiqueta oficial",
+      "Garantía de autenticidad oficial con etiquetado original"
+    ],
+    "history": "Un diseño icónico de la colección de San Valentín de Victoria's Secret: audaz, seductor y de impecable confección artesanal."
+  },
+  {
+    "id": "clothing-vs-sequin-animalier-s",
+    "name": "Victoria's Secret Very Sexy • Tanga Lentejuelas 'Sequin & Lace' Animalier y Zafiro",
+    "category": "clothing",
+    "description": "Glamuroso tanga de alta lencería Victoria's Secret Very Sexy en tul transparente adornado con ricos motivos animalier o florales bordados y micro-lentejuelas brillantes en contraste con forro de satén.",
+    "price": 15.0,
+    "image": "/images/vs-sequin-leopard-s.jpg",
+    "sizes": ["S"],
+    "selectedSize": "S",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Talla disponible: S (Small / CH)",
+      "PVP Especial Katty Privé: 15,00 €",
+      "Línea: Victoria's Secret Very Sexy Sequin Edition",
+      "Detalles: Lentejuelas resplandecientes bordadas a mano sobre tul fino y herrajes dorados",
+      "Garantía de autenticidad oficial con etiquetado original"
+    ],
+    "history": "La fantasía y el poder de las pasarelas internacionales materializados en una prenda de lencería joya llena de carácter y magnetismo."
+  },
+  {
+    "id": "clothing-vs-blue-highleg-brazilian-m",
+    "name": "Victoria's Secret Very Sexy • Braguita 'High-Leg Brazilian' Azul Zafiro en Encaje Floral Bordado",
+    "category": "clothing",
+    "description": "Sublime braguita brasileña de tiro alto 'High-Leg Brazilian' de la línea Very Sexy en tul y encaje floral azul zafiro / bígaro bordado en relieve, con puente de satén azul y anillas doradas con el monograma grabado de VS.",
+    "price": 15.0,
+    "image": "/images/vs-blue-brazilian-m.jpg",
+    "sizes": ["M"],
+    "selectedSize": "M",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Talla disponible: M (Medium / Mediana)",
+      "PVP Especial Katty Privé: 15,00 €",
+      "Modelo: Victoria's Secret Very Sexy High-Leg Brazilian Panty",
+      "Color: Azul Zafiro / Periwinkle Blue con bordado floral tridimensional",
+      "Herrajes: Anillas y botones de ajuste bañados en oro con sello grabado VS",
+      "Garantía de autenticidad oficial con etiquetado original"
+    ],
+    "history": "Corte de pierna alta que estiliza la silueta con elegancia suprema, confeccionado en los tonos azules más cotizados de la casa neoyorquina."
+  },
+  {
+    "id": "clothing-vs-black-lace-shine-l",
+    "name": "Victoria's Secret • Tanga 'Shine Strap & Lace' Negro con Cristales y Encaje",
+    "category": "clothing",
+    "description": "Elegante tanga de lencería en microfibra y encaje floral negro de Victoria's Secret en talla L. Equipado con tiras dobles con el icónico aplique 'Shine Strap' de microcristales pavé reflectantes y apliques de satén ultra-cómodos.",
+    "price": 15.0,
+    "image": "/images/vs-black-lace-shine-l.jpg",
+    "sizes": ["L"],
+    "selectedSize": "L",
+    "isAvailable": true,
+    "availability": "available",
+    "details": [
+      "Talla disponible: L (Large / Grande)",
+      "PVP Especial Katty Privé: 15,00 €",
+      "Modelo: Victoria's Secret Shine Strap & Lace Thong Panty",
+      "Material: Encaje elástico suave, microfibra satinada negra y forro 100% algodón",
+      "Laterales: Tiras enjoyadas con cristales reflectantes y apliques dorados",
+      "Garantía de autenticidad oficial con etiquetado original"
+    ],
+    "history": "La combinación perfecta entre la comodidad diaria de un corte amplio y la sensualidad resplandeciente de los cristales icónicos de Victoria's Secret."
   },
   {
     "id": "bags-miu-miu-arcadie-nappa",

@@ -825,6 +825,28 @@
     "featured": true
   },
   {
+    "id": "glasses-prada-14ws-blk-blu",
+    "name": "Prada • Gafas de Sol 0PR 14WS Bicolor Negro y Marfil Lentes Azul Degradado",
+    "category": "glasses",
+    "description": "Elegantes gafas de sol de diseño contemporáneo Prada modelo 0PR 14WS confeccionadas en acetato negro brillante de alta densidad con llamativas varillas bicolores de interior marfil/blanco y firma dorada PRADA MILANO. Silueta geométrica suavemente biselada equipada con refinadas lentes azul degradado (Blu Grd) de protección UV completa.",
+    "price": 200.0,
+    "image": "/images/prada-14ws-blk-blu.jpg",
+    "isAvailable": true,
+    "availability": "available",
+    "featured": true,
+    "details": [
+      "Modelo: Prada 0PR 14WS 09Q5S0 52/20 (Ref. Blk Blu / Blu Grd)",
+      "PVP Oficial en etiqueta: 290,00 € (PVP Especial Katty Privé: 200,00 €)",
+      "Color Montura: Negro pulido brillante con varillas interiores bicolor marfil/crema",
+      "Diseño & Silueta: Rectangular mariposa contemporánea con biselado geométrico superior",
+      "Varillas: Varilla ancha en acetato con contraste interior y logotipo oficial PRADA MILANO en oro pulido",
+      "Lentes: Azul degradado (Blu Grd) de alta definición óptica con filtro solar UV400 Cat. 2/3",
+      "Medidas: 52 mm (calibre lente) - 20 mm (puente nasal) - 140 mm (longitud varilla)",
+      "Fabricación: Made in Italy, Luxottica / Prada Eyewear con etiquetas y packaging oficial"
+    ],
+    "history": "El modelo 0PR 14WS encarna el minimalismo arquitectónico y la elegancia cromática de Prada: el contraste sutil entre el negro exterior y el marfil interior crea un juego visual sofisticado que eleva cualquier estilismo con distinción atemporal."
+  },
+  {
     "id": "glasses-dolce-gabbana-dg-havana",
     "name": "Dolce & Gabbana Gafas de Sol Rectangulares Carey Havana con Logotipo DG Dorado",
     "category": "glasses",

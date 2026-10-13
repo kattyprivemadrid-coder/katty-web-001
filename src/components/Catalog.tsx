@@ -557,7 +557,9 @@ export default function Catalog({
 
                     {product.category === "clothing" && (
                       <div className="flex items-center gap-1 text-[9px] font-mono text-stone-500 pt-0.5">
-                        <span className="text-stone-400">Tallas:</span>
+                        <span className="text-stone-400">
+                          {(product.id.includes("shoe") || product.id.includes("slip-ins") || product.id.includes("mcqueen") || (product.sizes && product.sizes.some(s => /^\d+$/.test(s)))) ? "Tallas EU:" : "Tallas:"}
+                        </span>
                         <span className="font-semibold text-[#8c1d27]">
                           {(product.sizes && product.sizes.length > 0) ? product.sizes.join(" · ") : "XS · S · M · L · XL · XXL"}
                         </span>
@@ -837,7 +839,9 @@ export default function Catalog({
                         <div className="flex items-center justify-between">
                           <span className="text-xs font-medium text-[#120002] uppercase tracking-widest flex items-center gap-2">
                             <Tag size={14} className="text-[#8c1d27]" />
-                            Elección de Talla (Ropa)
+                            {(currentQuickViewProduct.id.includes("shoe") || currentQuickViewProduct.id.includes("slip-ins") || currentQuickViewProduct.id.includes("mcqueen") || currentQuickViewProduct.id.includes("zapatilla") || (currentQuickViewProduct.sizes && currentQuickViewProduct.sizes.some(s => /^\d+$/.test(s))))
+                              ? "Elección de Talla de Calzado (EU)"
+                              : "Elección de Talla (Ropa)"}
                           </span>
                           <span className="text-[11px] font-mono text-[#8c1d27] font-semibold bg-[#8c1d27]/10 px-2 py-0.5 rounded-xs">
                             Talla seleccionada: {selectedClothingSize}
@@ -872,7 +876,11 @@ export default function Catalog({
                         </div>
 
                         <div className="flex items-center justify-between text-[10px] text-[#121212]/60 font-mono pt-1 border-t border-[#c5a880]/15">
-                          <span>Confección europea de alta costura</span>
+                          <span>
+                            {(currentQuickViewProduct.id.includes("shoe") || currentQuickViewProduct.id.includes("slip-ins") || currentQuickViewProduct.id.includes("mcqueen") || currentQuickViewProduct.id.includes("zapatilla") || (currentQuickViewProduct.sizes && currentQuickViewProduct.sizes.some(s => /^\d+$/.test(s))))
+                              ? "Tallaje de calzado estándar europeo (EU)"
+                              : "Confección europea de alta costura"}
+                          </span>
                           {onUpdateProduct && (
                             <button
                               type="button"

@@ -109,6 +109,14 @@ export default function App() {
             itemCopy.price = defaultProd.price;
             itemCopy.details = defaultProd.details;
             itemCopy.history = defaultProd.history;
+          } else if (defaultProd.id.includes("shoe") || defaultProd.id.includes("slip-ins") || defaultProd.id.includes("joma") || defaultProd.id.includes("skechers") || defaultProd.id.includes("mcqueen")) {
+            itemCopy.image = defaultProd.image;
+            itemCopy.name = defaultProd.name;
+            itemCopy.description = defaultProd.description;
+            itemCopy.price = defaultProd.price;
+            itemCopy.details = defaultProd.details;
+            itemCopy.history = defaultProd.history;
+            itemCopy.sizes = defaultProd.sizes;
           }
           cleaned[id] = itemCopy;
         } else {

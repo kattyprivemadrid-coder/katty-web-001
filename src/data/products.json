@@ -763,6 +763,193 @@
     "history": "La emoción de la noche en una dosis de adrenalina floral, dulce y radicalmente seductora."
   },
   {
+    "id": "glasses-dior-cd-diamond-s5i-black",
+    "name": "Dior • Gafas de Sol CD Diamond S5I Acetato Negro Escultural & Bisagra Joya Rombo Dorada",
+    "category": "glasses",
+    "description": "Majestuosas gafas de sol de la línea Dior Eyewear con una atrevida silueta rectangular de bordes biselados confeccionada en acetato negro brillante de alta densidad. Destacan sus imponentes varillas anchas con la bisagra joya en metal dorado que reproduce el icónico motivo geométrico CD Diamond de la Maison, con lentes solares en gris ahumado oscuro y protección UV400.",
+    "price": 150.0,
+    "image": "/images/dior-cd-diamond-s5i-black.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Dior Eyewear CD Diamond S5I (Ref. CD40092U / 01A)",
+      "PVP Escaparate Privé: 150,00 € (PVP boutique oficial referencia: 530,00 €)",
+      "Montura: Acetato de celulosa de alta densidad en negro brillante profundo pulido a mano",
+      "Bisagra y Varillas: Exclusiva bisagra articulada joya en metal dorado con el motivo geométrico calado 'CD Diamond' y grabado interior 'CHRISTIAN DIOR'",
+      "Lentes: Lentes solares orgánicas en gris ahumado oscuro con tratamiento antirreflejante interior y 100% protección UVA/UVB Cat. 3",
+      "Confección: Hecho en Italia (Made in Italy)",
+      "Incluye: Estuche rígido de lujo con textura Cannage de Christian Dior, funda protectora y paño de limpieza oficial"
+    ],
+    "history": "Inspirado en el legendario gráfico concebido por Marc Bohan para Dior en 1974, el motivo 'CD Diamond' reinterpreta las iniciales de Christian Dior en un rombo arquitectónico que simboliza la elegancia vanguardista y la alta costura de la Maison."
+  },
+  {
+    "id": "glasses-rayban-square-metal-silver",
+    "name": "Ray-Ban • Gafas de Sol Square Metal Geométricas Montura Plata Gunmetal & Lentes Clásicas Oscuras",
+    "category": "glasses",
+    "description": "Elegantes gafas de sol geométricas de Ray-Ban en fina montura metálica de aleación ligera en tono plata pulida gunmetal. Presentan una silueta cuadrada contemporánea con perfil biselado, puente único arqueado, lentes minerales de cristal en tono verde-gris clásico G-15 de alta protección y terminales en acetato carey Havana.",
+    "price": 50.0,
+    "image": "/images/rayban-square-metal-silver.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Ray-Ban Square Metal Geometric Edition (Ref. RB 1971 / Frank Heritage Collection)",
+      "PVP Escaparate Privé: 50,00 €",
+      "Montura: Metal pulido gunmetal en plata brillante de líneas limpias y perfil biselado",
+      "Lentes: Cristal mineral templado G-15 en gris verdoso con tratamiento antirreflectante y protección 100% UV400 Cat. 3",
+      "Puente: Puente central único curvado y plaquetas nasales de silicona transparente ajustables",
+      "Terminales: Puntas de varilla en acetato carey Havana de alta ergonomía",
+      "Logotipo: Firma oficial Ray-Ban en blanco serigrafiada en la lente derecha y logotipo grabado al láser",
+      "Incluye: Estuche original Ray-Ban de cuero granulado, paño de limpieza oficial y folleto de autenticidad"
+    ],
+    "history": "Un diseño que fusiona la estética estructurada de los años setenta con la ingeniería óptica contemporánea de Ray-Ban, aportando un look versátil y atemporal tanto para estilismos formales como casuales de alta gama."
+  },
+  {
+    "id": "glasses-hugo-boss-geometric-gold",
+    "name": "Hugo Boss • Gafas de Sol Geométricas Hexagonales Montura Oro Claro & Lentes Degradadas",
+    "category": "glasses",
+    "description": "Sofisticadas gafas de sol de la firma alemana Hugo Boss con silueta geométrica hexagonal esculpida en metal ultra ligero en acabado oro claro brillante. Sus lentes degradadas en tono gris ahumado con matices ciruela aportan un estilo cosmopolita, refinado y de máxima distinción con protección total UV400.",
+    "price": 50.0,
+    "image": "/images/boss-geometric-gold-sunglasses.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Hugo Boss Eyewear Geometric Hexagonal Light Gold Edition",
+      "PVP Escaparate Privé: 50,00 €",
+      "Montura: Metal de precisión ultra fino en oro claro pulido con puente arqueado de alta ligereza",
+      "Lentes: Lentes solares orgánicas degradadas gris-ciruela con filtro antirreflejante y protección 100% UVA/UVB Cat. 3",
+      "Varillas: Varillas estilizadas con logotipo grabado BOSS y terminales de acetato negro con detalle insignia",
+      "Plaquetas: Almohadillas nasales de silicona transparente ajustables para máxima comodidad ergonómica",
+      "Incluye: Estuche rígido oficial Hugo Boss, funda protectora y paño de limpieza de microfibra"
+    ],
+    "history": "El diseño de sastrería y precisión geométrica de Hugo Boss se traslada a su línea de óptica de autor, concibiendo gafas que armonizan las facciones con un aire minimalista contemporáneo y distinguido."
+  },
+  {
+    "id": "glasses-rayban-justin-rb4165-blue-mirror",
+    "name": "Ray-Ban • Gafas de Sol Justin RB 4165 Negro Mate Rubber & Lentes Espejadas Azul Flash",
+    "category": "glasses",
+    "description": "Insignia del estilo urbano contemporáneo de Ray-Ban, las Justin RB 4165 reinterpretan la clásica silueta Wayfarer con un acabado engomado 'Rubber Black' de tacto sedoso y lentes espejadas azul eléctrico de alto impacto visual con protección solar completa UV400.",
+    "price": 50.0,
+    "image": "/images/rayban-justin-blue-mirror.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Ray-Ban Justin Classic (Ref. RB 4165 622/55 54/16)",
+      "PVP Escaparate Privé: 50,00 €",
+      "Montura: Nailon de alta durabilidad con acabado engomado 'Rubber Black' negro mate suave al tacto",
+      "Lentes: Lentes espejadas azul eléctrico flash con tratamiento multicapa antirreflejos y 100% protección UV400 Cat. 3",
+      "Silueta: Rectangular ligeramente sobredimensionada con puente envolvente ergonómico",
+      "Logotipo: Firma oficial Ray-Ban serigrafiada en blanco en la varilla y en la lente derecha",
+      "Incluye: Funda protectora original de piel texturizada Ray-Ban, paño de limpieza oficial y folleto de autenticidad"
+    ],
+    "history": "Inspiradas en la inmortal silueta Wayfarer, las Justin introdujeron el acabado engomado y las lentes flash de colores vibrantes, consolidándose como uno de los diseños más frescos y audaces de la casa Ray-Ban."
+  },
+  {
+    "id": "glasses-oakley-sutro-lite-sweep",
+    "name": "Oakley • Gafas de Sol Sutro Lite Sweep 'Vented' Matte Black & Lente Prizm",
+    "category": "glasses",
+    "description": "Gafas deportivas y urbanas Oakley Sutro Lite Sweep con diseño de pantalla envolvente y orificios de ventilación 'vented' en la parte superior inspirados en las legendarias Eyeshade. Montura en material ligero O-Matter negro mate con lentes de alta definición Prizm y puente con almohadillas de Unobtainium antideslizante.",
+    "price": 50.0,
+    "image": "/images/oakley-sutro-sweep.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Oakley Sutro Lite Sweep Vented (Matte Black / Prizm Black)",
+      "PVP Escaparate Privé: 50,00 €",
+      "Montura: Material O-Matter de máxima ligereza y resistencia en acabado negro mate",
+      "Lente: Pantalla protectora envolvente Prizm con perforaciones de ventilación superiores que optimizan el flujo de aire y evitan el vaho",
+      "Ajuste: Plaquetas nasales de Unobtainium que incrementan la adherencia con la humedad",
+      "Logotipo: Clásico emblema alargado Oakley en relieve blanco sobre varillas ergonómicas",
+      "Incluye: Funda suave de microfibra electrostática oficial Oakley y estuche rígido"
+    ],
+    "history": "La silueta Sweep rinde tributo al diseño histórico creado por Oakley en 1984, fusionando la ventilación superior clásica con la pantalla contemporánea Sutro, convirtiéndose en el accesorio fetiche tanto en el deporte de élite como en el streetwear de alta gama."
+  },
+  {
+    "id": "glasses-rayban-square-reverse-gld",
+    "name": "Ray-Ban • Gafas de Sol 'Square Reverse' RBR 0104S Oro Rosa Brillante & Lentes Cóncavas Azuladas",
+    "category": "glasses",
+    "description": "Innovadoras gafas de sol Ray-Ban pertenecientes a la revolucionaria colección Reverse. Presentan la primera lente cóncava invertida de la historia óptica sobre una montura cuadrada geométrica de metal en oro rosa brillante pulido, varillas ultra estilizadas y lentes azuladas antirreflejantes de máxima protección UV.",
+    "price": 50.0,
+    "image": "/images/rayban-square-reverse-gold.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Ray-Ban Square Reverse (Ref. 0RBR0104S 92023A 54/19 - GLD SHN BLU)",
+      "PVP Escaparate Privé: 50,00 € (PVP oficial etiqueta: 184,00 €)",
+      "Montura: Metal ligero en acabado oro rosa pulido brillante de silueta geométrica cuadrada",
+      "Lentes: Lentes cóncavas invertidas bio-basadas en tono azul ahumado con tratamiento antirreflejos de alto rendimiento y 100% protección UV400",
+      "Puente y Plaquetas: Puente ergonómico curvado con plaquetas nasales de silicona hipoalergénica ajustables",
+      "Grabado: Logotipo oficial Ray-Ban en blanco en lente y firma 'Reverse' grabada al láser",
+      "Incluye: Estuche original Ray-Ban, paño de microfibra y certificado de autenticidad"
+    ],
+    "history": "La colección Reverse de Ray-Ban supuso un hito en la óptica internacional al invertir la curvatura tradicional de las lentes hacia el interior, siguiendo con precisión los pómulos y logrando una reducción del 70% en reflejos molestos."
+  },
+  {
+    "id": "glasses-versace-ve4409-medusa",
+    "name": "Versace • Gafas de Sol VE4409 'Medusa Biggie' Rectangulares Acetato Negro & Emblema Dorado",
+    "category": "glasses",
+    "description": "Icónicas gafas de sol Versace con montura rectangular baja en acetato negro pulido brillante. Destacan sus imponentes varillas anchas con medallón joya dorado de la Medusa tridimensional y motivo greca barroca, aportando distinción y magnetismo inconfundible.",
+    "price": 125.0,
+    "image": "/images/versace-ve4409-sunglasses.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Versace VE4409 / Medusa Biggie Heritage Edition",
+      "Montura: Acetato de celulosa premium italiano en negro brillante de alta densidad",
+      "Varillas: Varillas anchas con medallón escultórico en oro pulido con el emblema de la Medusa y Greca",
+      "Lentes: Lentes solares gris oscuro con protección 100% UVA/UVB Cat. 3 y máxima nitidez óptica",
+      "Confección: Hecho en Italia (Made in Italy)",
+      "Incluye: Estuche rígido de lujo Versace, funda protectora suave y paño de limpieza oficial"
+    ],
+    "history": "Inspiradas en el diseño legendario de los 90 adoptado por iconos del rap y la alta costura internacional, el emblema de la Medusa dorada encarna el poder, la audacia y la seducción sin límites de la casa milanesa."
+  },
+  {
+    "id": "glasses-dolce-gabbana-dg-dna-black",
+    "name": "Dolce & Gabbana • Gafas de Sol DG Logo Acetato Negro Escultural & Placa Joya Dorada",
+    "category": "glasses",
+    "description": "Elegantes gafas de sol Dolce & Gabbana de silueta rectangular cat-eye en acetato negro intenso pulido a mano. Presentan las varillas con el logotipo cruzado 'DG' en metal dorado pulido en relieve tridimensional, ofreciendo una estética contemporánea y de pura alta costura italiana.",
+    "price": 160.0,
+    "image": "/images/dolce-gabbana-dg-dna-sunglasses.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Dolce & Gabbana DG Logo Plaque Square / Modern Cat-Eye",
+      "Montura: Acetato biselado de alta densidad en negro brillante profundo",
+      "Varillas: Patillas de diseño ergonómico con placa metálica DG en relieve oro brillante",
+      "Lentes: Lentes degradadas gris ahumado con filtro UV400 y tratamiento antirreflejo interior",
+      "Confección: Hecho en Italia (Made in Italy)",
+      "Incluye: Estuche acolchado Dolce & Gabbana, funda aterciopelada y paño de microfibra"
+    ],
+    "history": "Un diseño que celebra el ADN siciliano y la sofisticación cosmopolita de Dolce & Gabbana, equilibrando formas contundentes con la orfebrería de su logotipo insignia."
+  },
+  {
+    "id": "glasses-miumiu-mu09ws-runway-havana",
+    "name": "Miu Miu • Gafas de Sol Runway MU 09WS Ovaladas Acetato Carey Havana & Logotipo Vertical Dorado",
+    "category": "glasses",
+    "description": "Pieza insignia de pasarela de Miu Miu con montura ovalada gruesa en deslumbrante acetato carey Havana con tonalidades ambarinas. Sus varillas ultra anchas exhiben las icónicas letras doradas 'MIU MIU' en orientación vertical tridimensional con lentes solares degradadas en tono miel y bronce.",
+    "price": 180.0,
+    "image": "/images/miu-miu-runway-mu09ws-sunglasses.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Miu Miu Runway MU 09WS Girasol Oval",
+      "Montura: Acetato carey Havana cálido de perfil grueso y tacto sedoso artesanal",
+      "Varillas: Varillas maximalistas con logotipo joya MIU MIU dorado vertical en relieve tridimensional",
+      "Lentes: Lentes solares degradadas en tono tabaco y bronce cálido con protección total UV400",
+      "Confección: Hecho en Italia (Made in Italy)",
+      "Incluye: Estuche de terciopelo rosa empolvado característico de Miu Miu, guardapolvo de satén y gamuza de seda"
+    ],
+    "history": "Presentadas en los desfiles de París, estas gafas redefinieron la vanguardia 'geek-chic' y el glamour femenino contemporáneo, convirtiéndose en el accesorio fetiche de editoras de moda e influencers internacionales."
+  },
+  {
     "id": "glasses-chanel-twotone-cc",
     "name": "Chanel Gafas de Sol Bicolor 'Two-Tone CC' Signature Polarizadas",
     "category": "glasses",
@@ -1937,6 +2124,58 @@
       "Presentación: Incluye estuche rígido oficial en tono azafrán con tirador azul y sobre/tarjeta oficial 'Louis Vuitton'"
     ],
     "history": "Un tributo a la legendaria herencia de los baúles de Louis Vuitton, donde la estética artesanal de la herrería histórica se transforma en una joya moderna con carácter imperecedero."
+  },
+  {
+    "id": "clothing-liujo-maxi-wonder-sneakers-beige",
+    "name": "Liu Jo • Zapatillas 'Maxi Wonder' Piel Beige Arena & Talón Dorado (2 pares - Talla 37)",
+    "category": "clothing",
+    "description": "Exclusivas zapatillas de plataforma Maxi Wonder de Liu Jo confeccionadas en piel suave de vacuno color beige arena. Destacan por su inserción metalizada dorada en el talón con la firma de la firma italiana, ojales dorados y una suela ergonómica ultraligera de 4,5 cm que estiliza la silueta con máximo confort.",
+    "price": 70.0,
+    "image": "/images/liujo-maxi-wonder-sneakers-beige.jpg",
+    "sizes": [
+      "37"
+    ],
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Liu Jo Milano Maxi Wonder Platform Sneaker",
+      "PVP Escaparate Privé: 70,00 €",
+      "Stock disponible: Solo 2 pares exclusivos en boutique",
+      "Talla disponible: EU 37 (Calzado europeo)",
+      "Material: Piel grabada de vacuno en tono beige arena con refuerzo en piel dorada espejo en el talón",
+      "Suela: Suela plataforma ergonómica ultraligera de 4,5 cm con hendiduras de agarre y logotipo lateral",
+      "Cierre: Cordones planos al tono con ojales metálicos en oro brillante y logotipo LIU•JO en la lengüeta",
+      "Plantilla: Plantilla acolchada extraíble de máximo confort para el día a día",
+      "Incluye: Caja original Liu Jo Milano y papel protector de seda"
+    ],
+    "history": "Liu Jo Milano es el referente italiano de la feminidad contemporánea y el lujo accesible, aunando diseño deportivo con detalles de orfebrería y acabados metalizados para el día a día."
+  },
+  {
+    "id": "clothing-liujo-sandalias-mules-nude",
+    "name": "Liu Jo • Sandalias Mules Planas Piel Nude Beige & Emblema Joya Dorado (2 pares - Talla 37)",
+    "category": "clothing",
+    "description": "Elegantes sandalias planas estilo mule de Liu Jo elaboradas en piel suave de textura sedosa en tono nude beige. Cuentan con una pala ancha decorada con una exquisita hebilla joya metálica ovalada en oro pulido con el monograma entrelazado de Liu Jo y plantilla acolchada para un paso ligero y distinguido.",
+    "price": 45.0,
+    "image": "/images/liujo-sandalias-mules-nude.jpg",
+    "sizes": [
+      "37"
+    ],
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Modelo: Liu Jo Flat Slide Mule Sandals with Gold Monogram",
+      "PVP Escaparate Privé: 45,00 €",
+      "Stock disponible: Solo 2 pares exclusivos en boutique",
+      "Talla disponible: EU 37 (Calzado europeo)",
+      "Pala: Piel lisa vacuna en tono nude beige cálido con ribetes pespunteados al tono",
+      "Detalle joya: Emblema ovalado escultórico de metal dorado pulido con el monograma Liu Jo en relieve",
+      "Plantilla: Piel suave con acolchado confort y grabado de la firma Liu Jo en letras doradas",
+      "Suela: Suela plana antideslizante con mini tacón ergonómico de 1 cm",
+      "Incluye: Caja original de la Maison Liu Jo con envoltorios protectores"
+    ],
+    "history": "Un calzado de verano y entretiempo que encarna la sofisticación 'effortless' italiana de Liu Jo: comodidad absoluta unida al brillo sutil de sus herrajes joya dorados."
   },
   {
     "id": "clothing-alexander-mcqueen-oversized-holographic",

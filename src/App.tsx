@@ -71,7 +71,7 @@ export default function App() {
         if (id === "bags-04" && (item.name?.includes("Yves") || item.name?.includes("Cassandre") || item.name?.includes("Carson"))) {
           continue;
         }
-        if (id.startsWith("glasses-0") || id.startsWith("glasses-1")) {
+        if (id.startsWith("glasses-")) {
           continue;
         }
         if (id.startsWith("perfume-0") || id.startsWith("perfume-1")) {
@@ -109,7 +109,7 @@ export default function App() {
             itemCopy.price = defaultProd.price;
             itemCopy.details = defaultProd.details;
             itemCopy.history = defaultProd.history;
-          } else if (defaultProd.id.includes("shoe") || defaultProd.id.includes("slip-ins") || defaultProd.id.includes("joma") || defaultProd.id.includes("skechers") || defaultProd.id.includes("mcqueen")) {
+          } else if (defaultProd.id.includes("shoe") || defaultProd.id.includes("slip-ins") || defaultProd.id.includes("joma") || defaultProd.id.includes("skechers") || defaultProd.id.includes("mcqueen") || defaultProd.id.includes("liu") || defaultProd.id.includes("sandalia") || defaultProd.id.includes("zapatilla")) {
             itemCopy.image = defaultProd.image;
             itemCopy.name = defaultProd.name;
             itemCopy.description = defaultProd.description;

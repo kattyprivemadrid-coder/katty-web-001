@@ -54,6 +54,111 @@ export const CATEGORIES_CONFIG: CategoryInfo[] = [
 
 export const PRODUCTS_DATA: Product[] = [
   {
+    "id": "perfume-ysl-y-edp-intense-100ml",
+    "name": "Yves Saint Laurent • Y Eau de Parfum Intense (100 ml)",
+    "category": "perfumes",
+    "description": "Fragancia masculina profunda y magnética de Yves Saint Laurent que intensifica la firma fougère amaderada de Y. Combina la frescura azulada de bayas de enebro con un corazón de lavanda diva de Provenza y geranio, sobre un fondo sensual de pachulí de Bali y madera de cedro.",
+    "price": 65.0,
+    "image": "/images/ysl-y-edp-intense.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Familia Olfativa: Fougère Amaderada Especiada Profunda",
+      "Notas de Salida: Bayas de enebro, jengibre fresco y bergamota de Calabria",
+      "Notas de Corazón: Lavanda Diva de Provenza, geranio y salvia esclarea",
+      "Notas de Fondo: Pachulí de Bali, madera de cedro y vetiver oscuro",
+      "Formato: 100 ml / 3.3 fl. oz. Vaporisateur - Spray",
+      "Frasco: Vidrio degradado azul noche con el icónico emblema metálico 'Y' en plata pulida",
+      "PVP Escaparate Privé: 65,00 €"
+    ],
+    "history": "Creado para hombres que no temen desafiar los límites, Y Eau de Parfum Intense captura el instante culminante donde la pasión se convierte en logro indiscutible."
+  },
+  {
+    "id": "perfume-terre-dhermes-intense-refill-200ml",
+    "name": "Terre d'Hermès • Eau de Parfum Intense Recarga / Refill (200 ml)",
+    "category": "perfumes",
+    "description": "Gran formato recarga de 200 ml de Terre d'Hermès Eau de Parfum Intense. Una composición terrosa, mineral y amaderada que narra la relación del hombre con la tierra, uniendo la vivacidad del pomelo y la pimienta con la fuerza vegetal del vetiver y la calidez del benjuí.",
+    "price": 80.0,
+    "image": "/images/terre-dhermes-intense-refill.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Familia Olfativa: Amaderada Mineral Especiada de Autor",
+      "Formato Generoso: Recarga / Refill de 200 ml (6.7 fl. oz.)",
+      "Notas de Salida: Naranja amarga, pomelo y chispa mineral de pedernal",
+      "Notas de Corazón: Pimienta rosa, bayas de pimienta, geranio y hojas de pachulí",
+      "Notas de Fondo: Vetiver intenso, madera de cedro del Atlas, benjuí y musgo de roble",
+      "PVP Escaparate Privé: 80,00 €",
+      "Presentación: Envase hermético de recarga oficial Hermès Paris con dosificador antigoteo"
+    ],
+    "history": "Concebida como una oda a la alquimia de los elementos de la naturaleza, Terre d'Hermès une el cielo, el agua y la tierra condensados en una fragancia legendaria de la Maison parisina."
+  },
+  {
+    "id": "perfume-lancome-idole-le-parfum-100ml",
+    "name": "Lancôme • Idôle L'Eau de Parfum Recargable (100 ml)",
+    "category": "perfumes",
+    "description": "Idôle L'Eau de Parfum de Lancôme en su frasco joya ultra plano de 100 ml. Una fragancia chipre floral limpia creada por tres maestras perfumistas, con una sobredosis de rosa radical sustentable, jazmín inmaculado y un acorde puro de chipre blanco que irradia luz y seguridad.",
+    "price": 60.0,
+    "image": "/images/lancome-idole-edp.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Familia Olfativa: Chipre Floral Limpio Luminoso",
+      "Notas de Salida: Pera jugosa, bergamota de Calabria y pimienta rosa",
+      "Notas de Corazón: Rosa de Isparta sustentable, rosa centifolia y jazmín grandiflorum",
+      "Notas de Fondo: Almizcle blanco, vainilla de Madagascar, cedro y pachulí claro",
+      "Formato: 100 ml (3.4 fl. oz.) Vaporisateur - Spray Recargable",
+      "Frasco: Diseño arquitectónico de 15 mm de grosor con marco en oro rosa pulido",
+      "PVP Escaparate Privé: 60,00 €"
+    ],
+    "history": "Idôle fue concebida como un amuleto para las mujeres que lideran su propio destino, redefiniendo el clásico chipre con una pureza luminosa que deja una estela imborrable."
+  },
+  {
+    "id": "perfume-chanel-coco-mademoiselle-primer-100ml",
+    "name": "Chanel • Coco Mademoiselle Fragrance Primer (100 ml)",
+    "category": "perfumes",
+    "description": "Exclusivo Fragrance Primer de Coco Mademoiselle Chanel en formato de 100 ml. Una fórmula sensorial sublime que prepara, hidrata e intensifica la estela olfativa en la piel con las chispeantes notas de naranja viva, rosa de mayo, jazmín de Grasse y la elegancia refinada del pachulí puro.",
+    "price": 90.0,
+    "image": "/images/chanel-coco-primer.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Familia Olfativa: Oriental Fresca Sublime de Alta Costura",
+      "Función: Fragrance Primer de fijación e intensificación prolongada del aroma",
+      "Notas Principales: Naranja viva de Sicilia, pétalos de rosa fresca, jazmín y pachulí de Java",
+      "Formato: 100 ml / 3.4 fl. oz.",
+      "Frasco: Vidrio satinado esmerilado con tapón joya dorado con el sello de Gabrielle Chanel",
+      "PVP Escaparate Privé: 90,00 €",
+      "Incluye: Estuche original Chanel Paris con ribetes dorados"
+    ],
+    "history": "El ritual de Coco Mademoiselle se eleva con este paso de excepción que fusiona el cuidado de la piel y la alta perfumería para fijar la estela más seductora durante todo el día."
+  },
+  {
+    "id": "perfume-miss-dior-essence-de-parfum",
+    "name": "Dior • Miss Dior Essence de Parfum (100 ml)",
+    "category": "perfumes",
+    "description": "La versión más concentrada, aterciopelada e intensa de Miss Dior. Una sinfonía floral voluptuosa con jazmín estelar silvestre, mandarina luminosa, maderas ambarinas cálidas y el icónico lazo 'poignard' de alta costura tejido a mano sobre un frasco con grabado pata de gallo.",
+    "price": 85.0,
+    "image": "/images/miss-dior-essence-parfum.jpg",
+    "availability": "available",
+    "isAvailable": true,
+    "featured": true,
+    "details": [
+      "Familia Olfativa: Chipre Floral Ambarina Gourmand",
+      "Notas de Salida: Mandarina confitada, fresa silvestre y chispas cítricas",
+      "Notas de Corazón: Jazmín estrellado recolectado al amanecer y rosa de Grasse",
+      "Notas de Fondo: Pachulí luminoso, ámbar mineral, madera de cedro y musgo",
+      "Formato: 100 ml / 3.4 fl. oz.",
+      "Detalle Couture: Lazo de jacquard tejido con hilos multicolores en telar tradicional francés",
+      "PVP Escaparate Privé: 85,00 €"
+    ],
+    "history": "Nacida en 1947 junto al New Look de Christian Dior para vestir a las mujeres con un aura de elegancia floral y renacimiento, Miss Dior encarna la alegría del amor absoluto."
+  },
+  {
     "id": "perfume-chanel-allure-homme-sport-150ml",
     "name": "Chanel • Allure Homme Sport Eau de Toilette (150 ml)",
     "category": "perfumes",
@@ -498,7 +603,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Lancôme Idôle Le Parfum Eau de Parfum",
     "category": "perfumes",
     "description": "El perfume de las mujeres que se atreven a soñar a lo grande. Una rosa limpia y radiante orquestada con jazmín grandiflorum y un velo de chipre blanco impecable.",
-    "price": 60,
+    "price": 60.0,
     "image": "/images/lancome-idole-edp.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -593,7 +698,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Chanel Coco Mademoiselle L'Eau Privée Eau Pour la Nuit",
     "category": "perfumes",
     "description": "La fragancia nocturna más íntima y delicada de Chanel. Un velo de almizcle suave con jazmín y pétalos de rosa para vaporizar en la piel y el cabello antes de dormir.",
-    "price": 90,
+    "price": 90.0,
     "image": "/images/chanel-coco-mademoiselle-privee.jpg",
     "availability": "available",
     "isAvailable": true,
@@ -669,7 +774,7 @@ export const PRODUCTS_DATA: Product[] = [
     "name": "Christian Dior Miss Dior Eau de Parfum",
     "category": "perfumes",
     "description": "Un bouquet floral embriagador que celebra el amor. Rosa centifolia de mil mieles, lirio de los valles fresco, peonía noble y notas de madera cremosa de sándalo de Papúa.",
-    "price": 85,
+    "price": 85.0,
     "image": "/images/miss-dior-eau-de-parfum.jpg",
     "availability": "available",
     "isAvailable": true,

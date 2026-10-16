@@ -74,7 +74,7 @@ export default function App() {
         if (id.startsWith("glasses-")) {
           continue;
         }
-        if (id.startsWith("perfume-0") || id.startsWith("perfume-1")) {
+        if (id.startsWith("perfume-")) {
           continue;
         }
         if (id.startsWith("bags-") && (
@@ -150,7 +150,7 @@ export default function App() {
           if (id.startsWith("glasses-")) {
             continue;
           }
-          if (id.startsWith("perfume-0") || id.startsWith("perfume-1")) {
+          if (id.startsWith("perfume-")) {
             continue;
           }
           if (id.startsWith("bags-") && (
